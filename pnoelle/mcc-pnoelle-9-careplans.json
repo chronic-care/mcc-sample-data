@@ -1,0 +1,237 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "request": {
+        "method": "PUT",
+        "url": "CarePlan/mcc-careplan-pnoelle-ckd"
+      },
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "mcc-careplan-pnoelle-ckd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/CarePlan"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patricia Noelle's CKD care plan</div>"
+        },
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle"
+        },
+        "status": "active",
+        "intent": "plan",
+        "period": {
+          "start": "2020-10-07"
+        },
+        "author": {
+          "reference": "Practitioner/mcc-prac-jones-vince",
+          "display": "Dr. Vince Jones, MD"
+        },
+        "title": "CKD Care Plan",
+        "description": "Care plan to slow progression of CKD and Type 2 Diabetes.",
+        "addresses": [
+          {
+            "reference": "Condition/mcc-cond-pnoelle-ckd"
+          }
+        ],
+        "goal": [
+          {
+            "reference": "Goal/mcc-goal-pnoelle-bp-systolic"
+          },
+          {
+            "reference": "Goal/mcc-goal-pnoelle-lab-phos"
+          },
+          {
+            "reference": "Goal/mcc-goal-pnoelle-a1c"
+          }
+        ],
+        "careTeam": [
+          {
+            "reference": "CareTeam/mcc-team-pnoelle"
+          }
+        ],
+        "activity": [
+          {
+            "reference": {
+              "reference": "ServiceRequest/mcc-service-pnoelle-edu-ckd"
+            }
+          },
+          {
+            "reference": {
+              "reference": "ServiceRequest/mcc-service-pnoelle-edu-diet"
+            }
+          },
+          {
+            "reference": {
+              "reference": "ServiceRequest/mcc-service-pnoelle-exercise"
+            }
+          },
+          {
+            "reference": {
+              "reference": "ServiceRequest/mcc-service-pnoelle-steps"
+            }
+          },
+          {
+            "reference": {
+              "reference": "MedicationRequest/mcc-med-pnoelle-vitamin-d"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "CarePlan/mcc-careplan-pnoelle-personal"
+      },
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "mcc-careplan-pnoelle-personal",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/CarePlan"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patricia Noelle's personal care plan</div>"
+        },
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle"
+        },
+        "status": "active",
+        "intent": "plan",
+        "period": {
+          "start": "2021-06-30",
+          "end": "2022-06-30"
+        },
+        "author": {
+          "reference": "Practitioner/mcc-prac-carlson-john",
+          "display": "Dr. John Carlson, MD"
+        },
+        "title": "Personal Care Plan",
+        "description": "Plan for Patricia Noelle's self-care at home.",
+        "addresses": [
+          {
+            "reference": "Condition/mcc-cond-pnoelle-anxiety"
+          },
+          {
+            "reference": "Condition/mcc-cond-pnoelle-transportation"
+          }
+        ],
+        "goal": [
+          {
+            "reference": "Goal/mcc-goal-pnoelle-exercise"
+          }
+        ],
+        "careTeam": [
+          {
+            "reference": "CareTeam/mcc-team-pnoelle-support"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "kind": "ServiceRequest",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "29463-7",
+                    "display": "Body weight"
+                  }
+                ]
+              },
+              "performer": [
+                {
+                  "reference": "Patient/mcc-pat-pnoelle"
+                }
+              ],
+              "description": "Record your weight each morning before breakfast.",
+              "status": "in-progress",
+              "scheduledTiming": {
+                "repeat": {
+                  "boundsPeriod": {
+                    "start": "2021-06-30",
+                    "end": "2022-06-30"
+                  },
+                  "frequency": 1,
+                  "period": 1,
+                  "periodUnit": "d"
+                }
+              }
+            }
+          },
+          {
+            "detail": {
+              "kind": "ServiceRequest",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "55284-4",
+                    "display": "Blood pressure systolic and diastolic"
+                  }
+                ]
+              },
+              "performer": [
+                {
+                  "reference": "Patient/mcc-pat-pnoelle"
+                }
+              ],
+              "description": "Record your blood pressure twice per day, morning and evening.",
+              "status": "in-progress",
+              "scheduledTiming": {
+                "repeat": {
+                  "boundsPeriod": {
+                    "start": "2021-06-30",
+                    "end": "2022-06-30"
+                  },
+                  "frequency": 2,
+                  "period": 1,
+                  "periodUnit": "d"
+                }
+              }
+            }
+          },
+          {
+            "detail": {
+              "kind": "ServiceRequest",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "2339-0",
+                    "display": "Glucose [Mass/volume] in Blood"
+                  }
+                ]
+              },
+              "performer": [
+                {
+                  "reference": "Patient/mcc-pat-pnoelle"
+                }
+              ],
+              "description": "Record your blood glucose twice per day, after breakfast and dinner.",
+              "status": "in-progress",
+              "scheduledTiming": {
+                "repeat": {
+                  "boundsPeriod": {
+                    "start": "2021-06-30",
+                    "end": "2022-06-30"
+                  },
+                  "frequency": 2,
+                  "period": 1,
+                  "periodUnit": "d"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

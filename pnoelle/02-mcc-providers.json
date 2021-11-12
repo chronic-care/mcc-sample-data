@@ -1,0 +1,228 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/mcc-prac-smith-julie"
+      },
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "mcc-prac-smith-julie",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/Practitioner"
+          ]
+        },
+        "active": true,
+        "name": [
+          {
+            "text": "Julie Smith, RN",
+            "family": "Smith",
+            "given": [
+              "Julie"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "julie.smith@woohoo.com"
+          }
+        ],
+        "gender": "female"
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/mcc-prac-carlson-john"
+      },
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "mcc-prac-carlson-john",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/Practitioner"
+          ]
+        },
+        "active": true,
+        "name": [
+          {
+            "text": "Dr. John Carlson, MD",
+            "family": "Carlson",
+            "given": [
+              "John"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "john.carlson@woohoo.com"
+          }
+        ],
+        "gender": "male"
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/mcc-prac-jones-vince"
+      },
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "mcc-prac-jones-vince",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/Practitioner"
+          ]
+        },
+        "active": true,
+        "name": [
+          {
+            "text": "Dr. Vince Jones, MD",
+            "family": "Jones",
+            "given": [
+              "Vince"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "vince.jones@woohoo.com"
+          }
+        ],
+        "gender": "male"
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/mcc-prac-gonzalez-maria"
+      },
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "mcc-prac-gonzalez-maria",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/Practitioner"
+          ]
+        },
+        "active": true,
+        "name": [
+          {
+            "text": "Maria Gonzalez, RD",
+            "family": "Gonzalez",
+            "given": [
+              "Maria"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "maria.gonzalez@woohoo.com"
+          }
+        ],
+        "gender": "female"
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/mcc-prac-johnson-sam"
+      },
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "mcc-prac-johnson-sam",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/Practitioner"
+          ]
+        },
+        "active": true,
+        "name": [
+          {
+            "text": "Sam Johnson",
+            "family": "Johnson",
+            "given": [
+              "Sam"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "sam.johnson@woohoo.com"
+          }
+        ],
+        "gender": "female"
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/mcc-prac-walkowski-ellen"
+      },
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "mcc-prac-walkowski-ellen",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/Practitioner"
+          ]
+        },
+        "active": true,
+        "name": [
+          {
+            "text": "Ellen Walkowski",
+            "family": "Walkowski",
+            "given": [
+              "Ellen"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "777-555-1212",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "ellen.walkowski@woohoo.com"
+          }
+        ],
+        "gender": "female"
+      }
+    }
+  ]
+}

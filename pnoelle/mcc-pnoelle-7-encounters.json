@@ -1,0 +1,40 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Encounter/mcc-encounter-pnoelle-1"
+      },
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "mcc-encounter-pnoelle-1",
+        "status": "finished",
+        "class": {
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185349003",
+                "display": "Encounter for check up (procedure)"
+              }
+            ],
+            "text": "Encounter for check up (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle",
+          "display": "Patricia Noelle"
+        },
+        "period": {
+          "start": "2021-09-30T22:19:37-04:00",
+          "end": "2021-09-11T22:34:37-04:00"
+        }
+      }
+    }
+  ]
+}
