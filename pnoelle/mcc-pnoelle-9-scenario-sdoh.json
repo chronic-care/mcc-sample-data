@@ -309,7 +309,17 @@
             "reference": "Patient/mcc-pat-pnoelle",
             "display": "Patricia Noelle"
           },
-          "recordedDate" : "2016-11-15T17:15:07-08:00"
+          "recordedDate" : "2016-11-15T17:15:07-08:00",
+          "evidence": [
+            {
+              "detail": [
+                {
+                  "reference": "Observation/mcc-obs-pnoelle-sdoh-hunger",
+                  "display": "Within the past 12 months we worried whether our food would run out before we got money to buy more [U.S. FSS]"
+                }
+              ]
+            }
+          ]
         }
       },
       {
