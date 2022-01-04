@@ -357,11 +357,6 @@
             "reference": "Patient/mcc-pat-pnoelle",
             "display": "Patricia Noelle"
           },
-          "target" : [
-            {
-              "dueDate" : "2022-02-01"
-            }
-          ],
           "expressedBy": {
             "reference": "Practitioner/mcc-prac-carlson-john",
             "display": "Dr. John Carlson, MD"
