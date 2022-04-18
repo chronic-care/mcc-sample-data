@@ -1,0 +1,5 @@
+echo "POST TOO : $1";
+for FILE in `ls ./fhir/ | sort -gr`;
+  do  echo $FILE
+  curl --location --request POST 'https://api.logicahealth.org/TestSynthea1/open'    --header 'Content-Type: application/json'   --data "@./fhir/$FILE"
+done
