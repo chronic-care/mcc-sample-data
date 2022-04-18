@@ -40,7 +40,7 @@
         ],
         "goal": [
           {
-            "reference": "Goal/mcc-goal-pnoelle-bp-systolic"
+            "reference": "Goal/mcc-goal-pnoelle-bp"
           },
           {
             "reference": "Goal/mcc-goal-pnoelle-lab-phos"

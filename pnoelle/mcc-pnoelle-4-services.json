@@ -29,7 +29,7 @@
         "subject": {
           "reference": "Patient/mcc-pat-pnoelle"
         },
-        "authoredOn": "2020-02-20",
+        "authoredOn": "2022-04-18",
         "requester": {
           "reference": "Practitioner/mcc-prac-jones-vince",
           "display": "Dr. Vince Jones, MD"
@@ -130,8 +130,8 @@
         "occurrenceTiming": {
           "repeat": {
             "boundsPeriod": {
-              "start": "2021-09-30",
-              "end": "2022-03-31"
+              "start": "2022-02-01",
+              "end": "2022-06-30"
             },
             "frequency": 1,
             "period": 1,
@@ -197,8 +197,8 @@
         "occurrenceTiming": {
           "repeat": {
             "boundsPeriod": {
-              "start": "2021-09-30",
-              "end": "2022-03-31"
+              "start": "2022-02-01",
+              "end": "2022-06-30"
             },
             "frequency": 1,
             "period": 1,

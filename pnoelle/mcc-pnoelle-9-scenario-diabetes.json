@@ -1,0 +1,90 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+      {
+        "request": {
+          "method": "PUT",
+          "url": "Goal/mcc-goal-pnoelle-a1c"
+        },
+        "resource": {
+          "resourceType": "Goal",
+          "id": "mcc-goal-pnoelle-a1c",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/Goal"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Stabilize Hemoglobin A1c</div>"
+          },
+          "achievementStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+                "code": "in-progress",
+                "display": "In Progress"
+              }
+            ],
+            "text": "In Progress"
+          },
+          "lifecycleStatus": "active",
+          "priority": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/goal-priority",
+                "code": "high-priority",
+                "display": "High Priority"
+              }
+            ],
+            "text": "high"
+          },
+          "description": {
+            "text": "Stabilize Hemoglobin A1c"
+          },
+          "subject": {
+            "reference": "Patient/mcc-pat-pnoelle"
+          },
+          "startDate": "2022-03-30",
+          "target": [
+            {
+              "measure": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "4548-4",
+                    "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                  }
+                ],
+                "text": "Hemoglobin A1c total in Blood"
+              },
+              "detailQuantity": {
+                "value": 7,
+                "comparator": "<",
+                "unit": "%",
+                "system": "http://unitsofmeasure.org/",
+                "code": "%"
+              }
+            }
+          ],
+          "expressedBy": {
+            "reference": "Practitioner/mcc-prac-carlson-john",
+            "display": "Dr. John Carlson, MD"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/mcc-cond-pnoelle-diabetes",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ],
+          "note": [
+            {
+              "text": "Regularly monitor A1C levels toward overall goal of 6.0."
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

@@ -88,11 +88,11 @@
     {
       "request": {
         "method": "PUT",
-        "url": "Goal/mcc-goal-pnoelle-bp-systolic"
+        "url": "Goal/mcc-goal-pnoelle-bp"
       },
       "resource": {
         "resourceType": "Goal",
-        "id": "mcc-goal-pnoelle-bp-systolic",
+        "id": "mcc-goal-pnoelle-bp",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/StructureDefinition/Goal"
@@ -100,7 +100,7 @@
         },
         "text": {
           "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Systolic BP below 140</div>"
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure below 140/80</div>"
         },
         "achievementStatus": {
           "coding": [
@@ -124,12 +124,12 @@
           "text": "medium"
         },
         "description": {
-          "text": "Systolic blood pressure"
+          "text": "Blood pressure below 140/80"
         },
         "subject": {
           "reference": "Patient/mcc-pat-pnoelle"
         },
-        "startDate": "2021-06-30",
+        "startDate": "2021-08-15",
         "target": [
           {
             "measure": {
@@ -148,57 +148,9 @@
               "unit": "mmHg",
               "system": "http://unitsofmeasure.org",
               "code": "mm[Hg]"
-            }
-          }
-        ],
-        "expressedBy": {
-          "reference": "Practitioner/mcc-prac-carlson-john",
-          "display": "Dr. John Carlson, MD"
-        },
-        "addresses": [
-          {
-            "reference": "Condition/mcc-cond-pnoelle-ckd",
-            "display": "Chronic kidney disease"
-          }
-        ]
-      }
-    },
-    {
-      "request": {
-        "method": "PUT",
-        "url": "Goal/mcc-goal-pnoelle-bp-diastolic"
-      },
-      "resource": {
-        "resourceType": "Goal",
-        "id": "mcc-goal-pnoelle-bp-diastolic",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/StructureDefinition/Goal"
-          ]
-        },
-        "text": {
-          "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diastolic BP below 80</div>"
-        },
-        "achievementStatus": {
-          "coding": [
-            {
-              "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
-              "code": "in-progress",
-              "display": "In Progress"
-            }
-          ],
-          "text": "In Progress"
-        },
-        "lifecycleStatus": "active",
-        "description": {
-          "text": "Diastolic blood pressure"
-        },
-        "subject": {
-          "reference": "Patient/mcc-pat-pnoelle"
-        },
-        "startDate": "2021-06-30",
-        "target": [
+            },
+            "dueDate": "2022-03-01"
+          },
           {
             "measure": {
               "coding": [

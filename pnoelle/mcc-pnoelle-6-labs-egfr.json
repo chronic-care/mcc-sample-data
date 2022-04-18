@@ -320,7 +320,7 @@
           "coding": [
             {
               "system": "http://loinc.org",
-              "code": "69405-9",
+              "code": "48642-3",
               "display": "Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood"
             }
           ],
@@ -341,7 +341,17 @@
           "unit": "mL/min/1.73m2",
           "system": "http://unitsofmeasure.org/",
           "code": "mL/min/{1.73_m2}"
-        }
+        },
+        "note": [
+            {
+                "text": "The eGFR is estimated by the IDMS -traceable CKD-EPI equation for ages 18-97 years. Not validated in pregnancy, acute illness, or for people with unique diets or abnormal muscle mass."
+            }
+        ],
+        "referenceRange": [
+            {
+                "text": ">=60"
+            }
+        ]
       }
     }
   ]
