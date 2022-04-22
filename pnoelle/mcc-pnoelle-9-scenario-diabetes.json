@@ -5,6 +5,214 @@
       {
         "request": {
           "method": "PUT",
+          "url": "Goal/mcc-goal-pnoelle-carb-diet"
+        },
+        "resource": {
+          "resourceType": "Goal",
+          "id": "mcc-goal-pnoelle-carb-diet",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/Goal"
+            ]
+          },
+          "achievementStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+                "code": "in-progress",
+                "display": "In Progress"
+              }
+            ],
+            "text": "In Progress"
+          },
+          "lifecycleStatus": "active",
+          "description": {
+            "text": "Keep a carb consistent diet consuming 45-60 gms of carbohydrates per meal."
+          },
+          "subject": {
+            "reference": "Patient/mcc-pat-pnoelle"
+          },
+          "startDate": "2022-04-22",
+          "target": [
+            {
+              "measure": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "75296-4",
+                    "display": "Carbohydrate intake 24h Est"
+                  }
+                ],
+                "text": "Carbohydrate intake 24h Est"
+              },
+              "detailRange": {
+                "low": {
+                  "value": 45,
+                  "unit": "g/(24.h)",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "g/(24.h)"
+                },
+                "high": {
+                  "value": 60,
+                  "unit": "g/(24.h)",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "g/(24.h)"
+                }
+              }
+            }
+          ],
+          "expressedBy": {
+            "reference": "Practitioner/mcc-prac-carlson-john",
+            "display": "Dr. John Carlson, MD"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/mcc-cond-pnoelle-diabetes",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ],
+          "note": [
+            {
+              "text": "Patricia has been keeping a food diary logging what she eats at each meal. Generally for breakfast and dinner the carb count is within the desired limits. But the carb count at lunch is consistently above the desired limits.  Patricia likes to go out to lunch with her friends and does so 5-6 days a week. Patricia has a very limited income and has started attending events at the Senior Center many afternoons and finds there are snacks and treats often part of the afternoon activities. She is using these activities to access food she can eat as one of her meals for the day."
+            }
+          ]
+        }
+      },
+      {
+        "request": {
+          "method": "PUT",
+          "url": "Goal/mcc-goal-pnoelle-weight"
+        },
+        "resource": {
+          "resourceType": "Goal",
+          "id": "mcc-goal-pnoelle-weight",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/Goal"
+            ]
+          },
+          "achievementStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+                "code": "in-progress",
+                "display": "In Progress"
+              }
+            ],
+            "text": "In Progress"
+          },
+          "lifecycleStatus": "active",
+          "description": {
+            "text": "Lose 5lbs in the next month."
+          },
+          "subject": {
+            "reference": "Patient/mcc-pat-pnoelle"
+          },
+          "startDate": "2022-04-22",
+          "target": [
+            {
+              "measure": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "29463-7",
+                    "display": "Body weight"
+                  }
+                ]
+              },
+              "detailQuantity": {
+                "value": 163,
+                "comparator": "<",
+                "unit": "lb",
+                "system": "http://unitsofmeasure.org",
+                "code": "[lb_av]"
+              }
+            }
+          ],
+          "expressedBy": {
+            "reference": "Practitioner/mcc-prac-carlson-john",
+            "display": "Dr. John Carlson, MD"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/mcc-cond-pnoelle-diabetes",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ]
+        }
+      },
+      {
+        "request": {
+          "method": "PUT",
+          "url": "Goal/mcc-goal-pnoelle-blood-sugar"
+        },
+        "resource": {
+          "resourceType": "Goal",
+          "id": "mcc-goal-pnoelle-blood-sugar",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/Goal"
+            ]
+          },
+          "achievementStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+                "code": "in-progress",
+                "display": "In Progress"
+              }
+            ],
+            "text": "In Progress"
+          },
+          "lifecycleStatus": "active",
+          "description": {
+            "text": "Control blood sugars within 1-2 hours after eating to <180 mg/dl"
+          },
+          "subject": {
+            "reference": "Patient/mcc-pat-pnoelle"
+          },
+          "startDate": "2022-04-22",
+          "target": [
+            {
+              "measure": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "2339-0",
+                    "display": "Glucose [Mass/volume] in Blood"
+                  }
+                ],
+                "text": "Glucose [Mass/volume] in Blood"
+              },
+              "detailQuantity": {
+                "value": 180,
+                "comparator": "<",
+                "unit": "mg/dL",
+                "system": "http://unitsofmeasure.org/",
+                "code": "mg/dL"
+              }
+            }
+          ],
+          "expressedBy": {
+            "reference": "Practitioner/mcc-prac-carlson-john",
+            "display": "Dr. John Carlson, MD"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/mcc-cond-pnoelle-diabetes",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ],
+          "note": [
+            {
+              "text": "Patricia's blood sugar logs show her blood sugar is well controlled after breakfast, but after lunch and dinner the values are inconsistent, and often high. And Patricia has begun experiencing low blood sugar events during the night."
+            }
+          ]
+        }
+      },
+      {
+        "request": {
+          "method": "PUT",
           "url": "Goal/mcc-goal-pnoelle-a1c"
         },
         "resource": {
@@ -14,10 +222,6 @@
             "profile": [
               "http://hl7.org/fhir/StructureDefinition/Goal"
             ]
-          },
-          "text": {
-            "status": "generated",
-            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Stabilize Hemoglobin A1c</div>"
           },
           "achievementStatus": {
             "coding": [
@@ -41,12 +245,12 @@
             "text": "high"
           },
           "description": {
-            "text": "Stabilize Hemoglobin A1c"
+            "text": "HgbA1c <7.5 by next encounter in 3 months"
           },
           "subject": {
             "reference": "Patient/mcc-pat-pnoelle"
           },
-          "startDate": "2022-03-30",
+          "startDate": "2022-03-15",
           "target": [
             {
               "measure": {
@@ -60,7 +264,7 @@
                 "text": "Hemoglobin A1c total in Blood"
               },
               "detailQuantity": {
-                "value": 7,
+                "value": 7.5,
                 "comparator": "<",
                 "unit": "%",
                 "system": "http://unitsofmeasure.org/",

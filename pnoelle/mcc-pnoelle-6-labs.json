@@ -377,7 +377,7 @@
         "subject": {
           "reference": "Patient/mcc-pat-pnoelle"
         },
-        "effectiveDateTime": "2020-10-06",
+        "effectiveDateTime": "2022-03-16",
         "performer": [
           {
             "reference": "Practitioner/mcc-prac-carlson-john",
@@ -385,7 +385,7 @@
           }
         ],
         "valueQuantity": {
-          "value": 115,
+          "value": 195,
           "unit": "mg/dL",
           "system": "http://unitsofmeasure.org/",
           "code": "mg/dL"
