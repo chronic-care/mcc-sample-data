@@ -285,6 +285,15 @@
           },
           "category" : [
             {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/us/core/CodeSystem/condition-category",
+                  "code": "health-concern"
+                }
+              ],
+              "text": "Health Concern"
+            },
+            {
               "coding" : [
                 {
                   "system" : "http://loinc.org",
@@ -309,7 +318,11 @@
             "reference": "Patient/mcc-pat-pnoelle",
             "display": "Patricia Noelle"
           },
-          "recordedDate" : "2022-04-15T17:15:07-08:00",
+          "asserter": {
+            "reference": "Practitioner/mcc-prac-johnson-sam",
+            "display": "Sam Johnson"
+          },
+          "recordedDate" : "2022-08-15T17:15:07-08:00",
           "evidence": [
             {
               "detail": [
@@ -350,7 +363,7 @@
             ],
             "text": "In Progress"
           },
-          "startDate": "2022-04-15",
+          "startDate": "2022-08-22",
           "description" : {
             "text" : "Home delivery of prepared food 3 times per week."
           },
@@ -359,8 +372,8 @@
             "display": "Patricia Noelle"
           },
           "expressedBy": {
-            "reference": "Practitioner/mcc-prac-carlson-john",
-            "display": "Dr. John Carlson, MD"
+            "reference": "Practitioner/mcc-prac-johnson-sam",
+            "display": "Sam Johnson"
           },
           "addresses": [
             {
