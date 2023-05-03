@@ -1,0 +1,291 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Immunization/mcc-immun-pnoelle-tdap"
+            },
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "mcc-immun-pnoelle-tdap",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "115"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/ndc",
+                            "code": "58160-842-43"
+                        }
+                    ],
+                    "text": "Tdap"
+                },
+                "patient": {
+                    "reference": "Patient/mcc-pat-pnoelle",
+                    "display": "Patricia Noelle"
+                },
+                "occurrenceDateTime": "2020-06-23T22:01:00Z",
+                "primarySource": true,
+                "manufacturer": {
+                    "display": "GlaxoSmithKline"
+                },
+                "lotNumber": "374LB",
+                "expirationDate": "2022-06-28",
+                "site": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.246.2.7.10.768076.4040",
+                            "code": "3",
+                            "display": "Left lower quad. abdomen"
+                        }
+                    ],
+                    "text": "Left lower quad. abdomen"
+                },
+                "route": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.246.2.7.10.768076.4030",
+                            "code": "2",
+                            "display": "Intramuscular"
+                        }
+                    ],
+                    "text": "Intramuscular"
+                },
+                "doseQuantity": {
+                    "value": 0.5,
+                    "unit": "mL",
+                    "system": "urn:oid:1.2.840.114350.1.13.246.2.7.10.768076.4019",
+                    "code": "1"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "AP",
+                                    "display": "Administering Provider"
+                                }
+                            ],
+                            "text": "Administering Provider"
+                        },
+                        "actor": {
+                            "display": "Breanna Nurse, MA"
+                        }
+                    },
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "OP",
+                                    "display": "Ordering Provider"
+                                }
+                            ],
+                            "text": "Ordering Provider"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/mcc-prac-carlson-john",
+                            "type": "Practitioner",
+                            "display": "Dr. John Carlson, MD"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Immunization/mcc-immun-pnoelle-covid1"
+            },
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "mcc-immun-pnoelle-covid1",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "207"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/ndc",
+                            "code": "80777-273-10"
+                        }
+                    ],
+                    "text": "MODERNA, 100 MCG, SARS-COV2 (COVID-19) VACCINE"
+                },
+                "patient": {
+                    "reference": "Patient/mcc-pat-pnoelle",
+                    "display": "Patricia Noelle"
+                },
+                "occurrenceDateTime": "2021-03-09T21:33:00Z",
+                "primarySource": true,
+                "manufacturer": {
+                    "display": "Moderna US, Inc."
+                },
+                "lotNumber": "036A21A",
+                "expirationDate": "2021-08-26",
+                "site": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.246.2.7.10.768076.4040",
+                            "code": "7",
+                            "display": "Left deltoid"
+                        }
+                    ],
+                    "text": "Left deltoid"
+                },
+                "route": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.246.2.7.10.768076.4030",
+                            "code": "2",
+                            "display": "Intramuscular"
+                        }
+                    ],
+                    "text": "Intramuscular"
+                },
+                "doseQuantity": {
+                    "value": 0.5,
+                    "unit": "mL",
+                    "system": "urn:oid:1.2.840.114350.1.13.246.2.7.10.768076.4019",
+                    "code": "1"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "AP",
+                                    "display": "Administering Provider"
+                                }
+                            ],
+                            "text": "Administering Provider"
+                        },
+                        "actor": {
+                            "display": "Breanna Nurse, MA"
+                        }
+                    },
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "OP",
+                                    "display": "Ordering Provider"
+                                }
+                            ],
+                            "text": "Ordering Provider"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/mcc-prac-carlson-john",
+                            "type": "Practitioner",
+                            "display": "Dr. John Carlson, MD"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Immunization/mcc-immun-pnoelle-covid2"
+            },
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "mcc-immun-pnoelle-covid2",
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "207"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/ndc",
+                            "code": "80777-273-10"
+                        }
+                    ],
+                    "text": "MODERNA, 100 MCG, SARS-COV2 (COVID-19) VACCINE"
+                },
+                "patient": {
+                    "reference": "Patient/mcc-pat-pnoelle",
+                    "display": "Patricia Noelle"
+                },
+                "occurrenceDateTime": "2021-04-06T20:27:00Z",
+                "primarySource": true,
+                "manufacturer": {
+                    "display": "Moderna US, Inc."
+                },
+                "lotNumber": "041B21A",
+                "expirationDate": "2021-10-04",
+                "site": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.246.2.7.10.768076.4040",
+                            "code": "7",
+                            "display": "Left deltoid"
+                        }
+                    ],
+                    "text": "Left deltoid"
+                },
+                "route": {
+                    "coding": [
+                        {
+                            "system": "urn:oid:1.2.840.114350.1.13.246.2.7.10.768076.4030",
+                            "code": "2",
+                            "display": "Intramuscular"
+                        }
+                    ],
+                    "text": "Intramuscular"
+                },
+                "doseQuantity": {
+                    "value": 0.5,
+                    "unit": "mL",
+                    "system": "urn:oid:1.2.840.114350.1.13.246.2.7.10.768076.4019",
+                    "code": "1"
+                },
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "AP",
+                                    "display": "Administering Provider"
+                                }
+                            ],
+                            "text": "Administering Provider"
+                        },
+                        "actor": {
+                            "display": "Breanna Nurse, MA"
+                        }
+                    },
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                                    "code": "OP",
+                                    "display": "Ordering Provider"
+                                }
+                            ],
+                            "text": "Ordering Provider"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/mcc-prac-carlson-john",
+                            "type": "Practitioner",
+                            "display": "Dr. John Carlson, MD"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

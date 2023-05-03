@@ -367,11 +367,11 @@
           "coding": [
             {
               "system": "http://snomed.info/sct",
-              "code": "73211009",
-              "display": "Diabetes mellitus (disorder)"
+              "code": "44054006",
+              "display": "Diabetes mellitus type 2 (disorder)"
             }
           ],
-          "text": "Diabetes mellitus"
+          "text": "Diabetes mellitus type 2"
         },
         "subject": {
           "reference": "Patient/mcc-pat-pnoelle",
