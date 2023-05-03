@@ -277,12 +277,7 @@
           {
             "reference": "Patient/mcc-pat-pnoelle"
           }
-        ],
-        "reasonReference": [
-          {
-            "reference": "Condition/mcc-cond-pnoelle-depression"
-          }
-        ]
+        ] 
       }
     },
     {
