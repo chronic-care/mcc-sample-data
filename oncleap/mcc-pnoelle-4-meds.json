@@ -1,0 +1,172 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/mcc-med-pnoelle-lisinopril"
+      },
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "mcc-med-pnoelle-lisinopril",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/3.0/us/core/StructureDefinition/us-core-medicationrequest"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Lisinopril 40 MG Oral Tablet</div>"
+        },
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "197884",
+              "display": "Lisinopril 40 MG Oral Tablet"
+            }
+          ],
+          "text": "Lisinopril 40 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle",
+          "display": "Patricia Noelle"
+        },
+        "authoredOn": "2023-08-01",
+        "requester": {
+          "reference": "Practitioner/mcc-prac-carlson-john",
+          "display": "Dr. John Carlson, MD"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Take Lisinopril 40mg tablet once a day for high blood pressure.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-08-01",
+                  "end": "2023-12-31"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ],
+              "text": "Oral route"
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                },
+                "doseQuantity": {
+                  "value": 40,
+                  "unit": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/mcc-med-pnoelle-simvastatin"
+      },
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "mcc-med-pnoelle-simvastatin",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/3.0/us/core/StructureDefinition/us-core-medicationrequest"
+          ]
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Simvastatin 40 MG Oral Tablet</div>"
+        },
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "198211",
+              "display": "Simvastatin 40 MG Oral Tablet"
+            }
+          ],
+          "text": "Simvastatin 40 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle",
+          "display": "Patricia Noelle"
+        },
+        "authoredOn": "2023-09-01",
+        "requester": {
+          "reference": "Practitioner/mcc-prac-carlson-john",
+          "display": "Dr. John Carlson, MD"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Take Simvastatin 40mg tablet once a day for high cholesterol.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2023-09-01",
+                  "end": "2023-11-30"
+                },
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ],
+              "text": "Oral route"
+            },
+            "doseAndRate": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+                      "code": "ordered",
+                      "display": "Ordered"
+                    }
+                  ]
+                },
+                "doseQuantity": {
+                  "value": 40,
+                  "unit": "mg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/mcc-servicerequest-pnoelle-housing"
+      },
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "mcc-servicerequest-pnoelle-housing",
+        "meta": {
+          "versionId": "2008836135127130",
+          "lastUpdated": "2023-08-28T10:05:54.243-05:00",
+          "profile": [
+            "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-servicerequest-profile"
+          ],
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+              "code": "N",
+              "display": "Normal"
+            },
+            {
+              "system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/Location/31913-40508-11599",
+              "code": "1474241420950700"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+              "code": "New",
+              "display": "New"
+            },
+            {
+              "system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+              "code": "Pen",
+              "display": "Pen"
+            },
+            {
+              "system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+              "code": "NewPen",
+              "display": "New Pen"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+              "code": "SUBSETTED",
+              "display": "Resource encoded in summary mode"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U",
+                  "display": "Unspecified Identifier"
+                }
+              ],
+              "text": "Unspecified Identifier"
+            },
+            "system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/namingsystem/ORDERNUM/31913-40508-11599",
+            "value": "1449798-3"
+          }
+        ],
+        "status": "active",
+        "_status": {
+          "extension": [
+            {
+              "url": "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-originalCode",
+              "valueCoding": {
+                "system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/servicerequeststatus",
+                "code": "S",
+                "display": "In process"
+              }
+            }
+          ]
+        },
+        "intent": "order",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/ordercategory",
+                "code": "referrals",
+                "display": "Referrals"
+              }
+            ],
+            "text": "Referrals"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "ZZZZZ"
+            }
+          ],
+          "text": "ZZZ DO NOT USE Social Services Referral"
+        },
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle",
+          "display": "Patricia Noelle"
+        },
+        "occurrenceDateTime": "2023-08-10T00:00:00-05:00",
+        "requester": {
+          "reference": "Practitioner/mcc-prac-carlson-john",
+          "display": "Dr. John Carlson, MD"
+        },
+        "performer": [
+          {
+            "reference": "Practitioner/2000474746178510"
+          }
+        ],
+        "supportingInfo": [
+          {
+            "reference": "Condition/2008835545038660"
+          }
+        ],
+        "note": [
+          {
+            "text": "test #3\r\nComments and instructions will show up here\n.."
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Task/mcc-task-pnoelle-housing"
+      },
+      "resource": {
+        {
+          "resourceType": "Task",
+          "id": "mcc-task-pnoelle-housing",
+          "meta": {
+            "profile": [
+              "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-TaskForReferralManagement"
+            ]
+          },
+          "status": "accepted",
+          "businessStatus": {
+            "text": "Engaged"
+          },
+          "intent": "order",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/CodeSystem/task-code",
+                "code": "fulfill",
+                "display": "Fulfill the focal request"
+              }
+            ]
+          },
+          "focus": {
+            "reference": "ServiceRequest/mcc-servicerequest-pnoelle-housing"
+          },
+          "for": {
+            "reference": "Patient/mcc-pat-pnoelle",
+            "display": "Patricia Noelle"
+          },
+          "authoredOn": "2023-09-01T21:56:54.671Z",
+          "requester": {
+            "reference": "Practitioner/mcc-prac-carlson-john",
+            "display": "Dr. John Carlson, MD"
+          },
+          "owner": {
+            "reference": "Practitioner/mcc-prac-gonzalez-maria",
+            "display": "Maria Gonzalez"
+          }
+        }
+      }
+    }
+  ]
+}

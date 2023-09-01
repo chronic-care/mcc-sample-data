@@ -1,0 +1,43 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Organization/mcc-org-chicago-house"
+      },
+      "resource": {
+        "resourceType": "Organization",
+        "id": "mcc-org-chicago-house",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Chicago House</div>"
+        },
+        "name": "Chicago House",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(+1) 773-248-5200"
+          },
+          {
+            "system": "fax",
+            "value": "(+1) 888-555-1212"
+          },
+          {
+            "system": "email",
+            "value": "info@chicagohouse.org"
+          }
+        ],
+        "address": [
+          {
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60616",
+            "country": "USA"
+          }
+        ]
+      }
+    }
+  ]
+}
