@@ -98,7 +98,7 @@
               "code": "ZZZZZ"
             }
           ],
-          "text": "ZZZ DO NOT USE Social Services Referral"
+          "text": "Social Services Referral"
         },
         "subject": {
           "reference": "Patient/mcc-pat-pnoelle",
