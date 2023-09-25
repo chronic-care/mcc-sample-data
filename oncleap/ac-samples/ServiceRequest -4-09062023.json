@@ -1,0 +1,527 @@
+{
+	"resourceType": "Bundle",
+	"id": "1.2.840.1.113883.3.564.3510481561595260403.10.1694023106606.39",
+	"meta": {
+		"lastUpdated": "2023-09-06T12:58:26.606-05:00",
+		"tag": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+				"code": "SUBSETTED",
+				"display": "Resource encoded in summary mode"
+			}
+		]
+	},
+	"type": "searchset",
+	"total": 4,
+	"link": [
+		{
+			"relation": "self",
+			"url": "https://aphh.emrconnect.org:9443/hhAPIServer/fhir/r4/ServiceRequest?_count=100&_format=json&_summary=data&category=referrals&code=ZZZZZ%2CZZZZZ-2&patient=2001157662078660"
+		}
+	],
+	"entry": [
+		{
+			"fullUrl": "https://aphh.emrconnect.org:9443/hhAPIServer/fhir/r4/ServiceRequest/2009624124426130",
+			"resource": {
+				"resourceType": "ServiceRequest",
+				"id": "2009624124426130",
+				"meta": {
+					"versionId": "2009624124426130",
+					"lastUpdated": "2023-09-06T12:56:27.380-05:00",
+					"profile": [
+						"https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-servicerequest-profile"
+					],
+					"security": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+							"code": "N",
+							"display": "Normal"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/Location/31913-40508-11599",
+							"code": "1474241420950700"
+						}
+					],
+					"tag": [
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "New",
+							"display": "New"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "Pen",
+							"display": "Pen"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "NewPen",
+							"display": "New Pen"
+						},
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+							"code": "SUBSETTED",
+							"display": "Resource encoded in summary mode"
+						}
+					]
+				},
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+									"code": "U",
+									"display": "Unspecified Identifier"
+								}
+							],
+							"text": "Unspecified Identifier"
+						},
+						"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/namingsystem/ORDERNUM/31913-40508-11599",
+						"value": "1453205-1"
+					}
+				],
+				"status": "active",
+				"_status": {
+					"extension": [
+						{
+							"url": "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-originalCode",
+							"valueCoding": {
+								"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/servicerequeststatus",
+								"code": "S",
+								"display": "In process"
+							}
+						}
+					]
+				},
+				"intent": "order",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/ordercategory",
+								"code": "referrals",
+								"display": "Referrals"
+							}
+						],
+						"text": "Referrals"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"code": "ZZZZZ-2"
+						}
+					],
+					"text": "ZZZ #2 Social Servfices Referral"
+				},
+				"subject": {
+					"reference": "Patient/2001157662078660"
+				},
+				"encounter": {
+					"reference": "Encounter/2009109373922330"
+				},
+				"occurrenceDateTime": "2023-08-31T00:00:00-05:00",
+				"requester": {
+					"reference": "Practitioner/1973272341589880"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/2000474746178510"
+					}
+				],
+				"supportingInfo": [
+					{
+						"reference": "Condition/2009624068424250"
+					}
+				],
+				"note": [
+					{
+						"text": "#2  additional provider instructions here\nReferral Tracking Status:\r\n* Order Created Date - hh.alliance @ [09/06/2023 12:55 PM]\r\nEnd of Referral Tracking\r\n"
+					}
+				]
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "https://aphh.emrconnect.org:9443/hhAPIServer/fhir/r4/ServiceRequest/2008836135127130",
+			"resource": {
+				"resourceType": "ServiceRequest",
+				"id": "2008836135127130",
+				"meta": {
+					"versionId": "2008836135127130",
+					"lastUpdated": "2023-08-28T10:05:54.243-05:00",
+					"profile": [
+						"https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-servicerequest-profile"
+					],
+					"security": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+							"code": "N",
+							"display": "Normal"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/Location/31913-40508-11599",
+							"code": "1474241420950700"
+						}
+					],
+					"tag": [
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "New",
+							"display": "New"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "Pen",
+							"display": "Pen"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "NewPen",
+							"display": "New Pen"
+						},
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+							"code": "SUBSETTED",
+							"display": "Resource encoded in summary mode"
+						}
+					]
+				},
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+									"code": "U",
+									"display": "Unspecified Identifier"
+								}
+							],
+							"text": "Unspecified Identifier"
+						},
+						"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/namingsystem/ORDERNUM/31913-40508-11599",
+						"value": "1449798-3"
+					}
+				],
+				"status": "active",
+				"_status": {
+					"extension": [
+						{
+							"url": "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-originalCode",
+							"valueCoding": {
+								"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/servicerequeststatus",
+								"code": "S",
+								"display": "In process"
+							}
+						}
+					]
+				},
+				"intent": "order",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/ordercategory",
+								"code": "referrals",
+								"display": "Referrals"
+							}
+						],
+						"text": "Referrals"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"code": "ZZZZZ"
+						}
+					],
+					"text": "ZZZ DO NOT USE Social Services Referral"
+				},
+				"subject": {
+					"reference": "Patient/2001157662078660"
+				},
+				"encounter": {
+					"reference": "Encounter/2007291721197910"
+				},
+				"occurrenceDateTime": "2023-08-10T00:00:00-05:00",
+				"requester": {
+					"reference": "Practitioner/1973272341589880"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/2000474746178510"
+					}
+				],
+				"supportingInfo": [
+					{
+						"reference": "Condition/2008835545038660"
+					}
+				],
+				"note": [
+					{
+						"text": "test #3\r\nComments and instructions will show up here\n.."
+					}
+				]
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "https://aphh.emrconnect.org:9443/hhAPIServer/fhir/r4/ServiceRequest/2008835545038710",
+			"resource": {
+				"resourceType": "ServiceRequest",
+				"id": "2008835545038710",
+				"meta": {
+					"versionId": "2008835545038710",
+					"lastUpdated": "2023-08-28T10:05:54.190-05:00",
+					"profile": [
+						"https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-servicerequest-profile"
+					],
+					"security": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+							"code": "N",
+							"display": "Normal"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/Location/31913-40508-11599",
+							"code": "1474241420950700"
+						}
+					],
+					"tag": [
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "New",
+							"display": "New"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "Pen",
+							"display": "Pen"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "NewPen",
+							"display": "New Pen"
+						},
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+							"code": "SUBSETTED",
+							"display": "Resource encoded in summary mode"
+						}
+					]
+				},
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+									"code": "U",
+									"display": "Unspecified Identifier"
+								}
+							],
+							"text": "Unspecified Identifier"
+						},
+						"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/namingsystem/ORDERNUM/31913-40508-11599",
+						"value": "1449798-2"
+					}
+				],
+				"status": "active",
+				"_status": {
+					"extension": [
+						{
+							"url": "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-originalCode",
+							"valueCoding": {
+								"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/servicerequeststatus",
+								"code": "S",
+								"display": "In process"
+							}
+						}
+					]
+				},
+				"intent": "order",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/ordercategory",
+								"code": "referrals",
+								"display": "Referrals"
+							}
+						],
+						"text": "Referrals"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"code": "ZZZZZ"
+						}
+					],
+					"text": "ZZZ DO NOT USE Social Services Referral"
+				},
+				"subject": {
+					"reference": "Patient/2001157662078660"
+				},
+				"encounter": {
+					"reference": "Encounter/2007291721197910"
+				},
+				"occurrenceDateTime": "2023-08-10T00:00:00-05:00",
+				"requester": {
+					"reference": "Practitioner/1973272341589880"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/2000474746178510"
+					}
+				],
+				"supportingInfo": [
+					{
+						"reference": "Condition/2008835545038660"
+					},
+					{
+						"reference": "Condition/2007292556287420"
+					}
+				],
+				"note": [
+					{
+						"text": "TG Services\n."
+					}
+				]
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "https://aphh.emrconnect.org:9443/hhAPIServer/fhir/r4/ServiceRequest/2007292556287300",
+			"resource": {
+				"resourceType": "ServiceRequest",
+				"id": "2007292556287300",
+				"meta": {
+					"versionId": "2007292623291650",
+					"lastUpdated": "2023-08-28T10:06:34.440-05:00",
+					"profile": [
+						"https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-servicerequest-profile"
+					],
+					"security": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+							"code": "N",
+							"display": "Normal"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/Location/31913-40508-11599",
+							"code": "1474241420950700"
+						}
+					],
+					"tag": [
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "New",
+							"display": "New"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "Pen",
+							"display": "Pen"
+						},
+						{
+							"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+							"code": "NewPen",
+							"display": "New Pen"
+						},
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+							"code": "SUBSETTED",
+							"display": "Resource encoded in summary mode"
+						}
+					]
+				},
+				"identifier": [
+					{
+						"type": {
+							"coding": [
+								{
+									"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+									"code": "U",
+									"display": "Unspecified Identifier"
+								}
+							],
+							"text": "Unspecified Identifier"
+						},
+						"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/namingsystem/ORDERNUM/31913-40508-11599",
+						"value": "1449798-1"
+					}
+				],
+				"status": "active",
+				"_status": {
+					"extension": [
+						{
+							"url": "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-originalCode",
+							"valueCoding": {
+								"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/servicerequeststatus",
+								"code": "S",
+								"display": "In process"
+							}
+						}
+					]
+				},
+				"intent": "order",
+				"category": [
+					{
+						"coding": [
+							{
+								"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/ordercategory",
+								"code": "referrals",
+								"display": "Referrals"
+							}
+						],
+						"text": "Referrals"
+					}
+				],
+				"code": {
+					"coding": [
+						{
+							"code": "ZZZZZ"
+						}
+					],
+					"text": "ZZZ DO NOT USE Social Services Referral"
+				},
+				"subject": {
+					"reference": "Patient/2001157662078660"
+				},
+				"encounter": {
+					"reference": "Encounter/2007291721197910"
+				},
+				"occurrenceDateTime": "2023-08-10T00:00:00-05:00",
+				"requester": {
+					"reference": "Practitioner/1973272341589880"
+				},
+				"performer": [
+					{
+						"reference": "Practitioner/2000474746178510"
+					}
+				],
+				"supportingInfo": [
+					{
+						"reference": "Condition/2007292556287420"
+					}
+				],
+				"note": [
+					{
+						"text": "\nTesting AC Team"
+					}
+				]
+			},
+			"search": {
+				"mode": "match"
+			}
+		}
+	]
+}

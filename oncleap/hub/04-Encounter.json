@@ -1,0 +1,142 @@
+{
+	"resourceType": "Encounter",
+	"id": "ac-2007291721197910",
+	"meta": {
+		"lastUpdated": "2023-08-10T13:02:02.000-05:00",
+		"profile": [
+			"http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter",
+			"https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-encounter-profile"
+		],
+		"security": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+				"code": "N",
+				"display": "Normal"
+			}
+		],
+		"tag": [
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+				"code": "New",
+				"display": "New"
+			},
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+				"code": "Pen",
+				"display": "Pen"
+			},
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+				"code": "NewPen",
+				"display": "New Pen"
+			}
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table width=\"100%\"><caption><a href=\"Patient/2001157662078660\">Patient/2001157662078660</a></caption><tbody><tr><td width=\"25%\"><span class=\"text-muted\"/></td><td width=\"8%\"><span class=\"text-muted\">2023/08/10</span></td><td width=\"25%\"> -- <a href=\"Practitioner/1576078785000010\">Practitioner/1576078785000010</a><span> 2023/08/10</span></td></tr></tbody></table></div>"
+	},
+	"extension": [
+		{
+			"url": "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-encounter-extension-SUMMARY",
+			"valueString": "Testing EMI Leap Referrals"
+		},
+		{
+			"url": "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-encounter-extension-DESCRIPTION",
+			"valueString": "Chart Maintenance"
+		},
+		{
+			"url": "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-encounter-extension-AUTHENTICATOR",
+			"valueReference": {
+				"reference": "Practitioner/1576078785000010"
+			}
+		}
+	],
+	"status": "finished",
+	"_status": {
+		"extension": [
+			{
+				"url": "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-originalCode",
+				"valueCoding": {
+					"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/encounterstatus",
+					"code": "S",
+					"display": "Signed"
+				}
+			}
+		]
+	},
+	"class": {
+		"system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+		"code": "AMB",
+		"display": "ambulatory"
+	},
+	"type": [
+		{
+			"coding": [
+				{
+					"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/DOCUMENTTYPE",
+					"code": "Chrt-Maint",
+					"display": "Chart Maintenance"
+				}
+			]
+		}
+	],
+	"priority": {
+		"coding": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+				"code": "UR",
+				"display": "urgent"
+			}
+		],
+		"text": "urgent"
+	},
+	"subject": {
+		"reference": "Patient/ac-2001157662078660"
+	},
+	"participant": [
+		{
+			"type": [
+				{
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+							"code": "PPRF",
+							"display": "primary performer"
+						}
+					],
+					"text": "primary performer"
+				}
+			],
+			"period": {
+				"start": "2023-08-10T13:02:01-05:00",
+				"end": "2023-08-28T10:05:55-05:00"
+			},
+			"individual": {
+				"reference": "Practitioner/ac-1576078785000010"
+			}
+		}
+	],
+	"period": {
+		"start": "2023-08-10T13:02:01-05:00",
+		"end": "2023-08-28T10:05:55-05:00"
+	},
+	"hospitalization": {
+		"dischargeDisposition": {
+			"extension": [
+				{
+					"url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+					"valueCode": "not-applicable"
+				}
+			],
+			"text": "not-applicable"
+		}
+	},
+	"location": [
+		{
+			"location": {
+				"reference": "Location/ac-1469372471000830"
+			}
+		}
+	]
+}

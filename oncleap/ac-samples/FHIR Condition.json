@@ -1,0 +1,107 @@
+{
+	"resourceType": "Condition",
+	"id": "2009624068424250",
+	"meta": {
+		"versionId": "2009624068424250",
+		"lastUpdated": "2023-09-06T12:57:07.946-05:00",
+		"profile": [
+			"http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition",
+			"https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-condition-profile"
+		],
+		"security": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+				"code": "N",
+				"display": "Normal"
+			}
+		],
+		"tag": [
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+				"code": "New",
+				"display": "New"
+			},
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+				"code": "Pen",
+				"display": "Pen"
+			},
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+				"code": "NewPen",
+				"display": "New Pen"
+			}
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table width=\"100%\"><caption><a href=\"Patient/2001157662078660\">Patient/2001157662078660</a></caption><tbody><tr><td width=\"25%\"><span class=\"text-muted\">HIV infection (86406008 SNOMED CT)</span></td><td width=\"8%\"><span class=\"text-muted\">2023/08/28 - </span></td><td width=\"25%\"> -- <a href=\"Practitioner/1576078785000010\">Practitioner/1576078785000010</a><span> 2023/09/06</span></td></tr></tbody></table></div>"
+	},
+	"clinicalStatus": {
+		"coding": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+				"code": "active",
+				"display": "Active"
+			}
+		],
+		"text": "Active"
+	},
+	"verificationStatus": {
+		"coding": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+				"code": "confirmed",
+				"display": "Confirmed"
+			}
+		],
+		"text": "Confirmed"
+	},
+	"category": [
+		{
+			"coding": [
+				{
+					"system": "http://terminology.hl7.org/CodeSystem/condition-category",
+					"code": "problem-list-item",
+					"display": "Problem List Item"
+				}
+			],
+			"text": "Problem List Item"
+		}
+	],
+	"code": {
+		"coding": [
+			{
+				"system": "http://snomed.info/sct",
+				"code": "86406008"
+			},
+			{
+				"system": "http://hl7.org/fhir/sid/icd-10-cm",
+				"code": "B20"
+			},
+			{
+				"system": "http://hl7.org/fhir/sid/icd-9-cm",
+				"code": "042"
+			},
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codes/MEL",
+				"code": "ICD-042"
+			}
+		],
+		"text": "HIV infection"
+	},
+	"subject": {
+		"reference": "Patient/2001157662078660"
+	},
+	"encounter": {
+		"reference": "Encounter/2009109373922330"
+	},
+	"onsetDateTime": "2023-08-28T00:00:00-05:00",
+	"recordedDate": "2023-09-06T12:55:21-05:00",
+	"recorder": {
+		"reference": "Practitioner/1576078785000010"
+	},
+	"asserter": {
+		"reference": "Practitioner/1576078785000010"
+	}
+}

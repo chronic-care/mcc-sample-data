@@ -1,0 +1,66 @@
+{
+	"resourceType": "Location",
+	"id": "ac-1469372471000830",
+	"meta": {
+		"versionId": "1469372471000830",
+		"lastUpdated": "2008-12-12T08:46:35.000-06:00",
+		"profile": [
+			"http://hl7.org/fhir/us/core/StructureDefinition/us-core-location",
+			"https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-location-profile"
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table width=\"100%\"><tbody><tr><td width=\"25%\"><span class=\"text-muted\">HHO</span></td><td width=\"25%\"> -- <a href=\"Organization/DF-2\">Organization/DF-2</a><span> 2008/12/12</span></td></tr></tbody></table></div>"
+	},
+	"identifier": [
+		{
+			"type": {
+				"coding": [
+					{
+						"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+						"code": "U",
+						"display": "Unspecified Identifier"
+					}
+				],
+				"text": "Unspecified Identifier"
+			},
+			"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/namingsystem/LocationId/31913-40508-11599",
+			"value": "1469372471000830"
+		}
+	],
+	"status": "active",
+	"_status": {
+		"extension": [
+			{
+				"url": "https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-originalCode",
+				"valueCoding": {
+					"system": "https://docs.mydata.athenahealth.com/fhir-r4/athenaFlex/codesystem/locstatus",
+					"code": "A",
+					"display": "Active"
+				}
+			}
+		]
+	},
+	"name": "HHO",
+	"description": "Heartland Health Outreach",
+	"telecom": [
+		{
+			"system": "phone",
+			"value": "7732752586",
+			"use": "work"
+		},
+		{
+			"system": "fax",
+			"value": "7732753689"
+		}
+	],
+	"address": {
+		"line": [
+			"1015 W. Lawrence"
+		],
+		"city": "Chicago",
+		"state": "IL",
+		"postalCode": "60640"
+	}
+}

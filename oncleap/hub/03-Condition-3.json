@@ -1,0 +1,107 @@
+{
+	"resourceType": "Condition",
+	"id": "ac-2007292556287420",
+	"meta": {
+		"versionId": "2007292556287420",
+		"lastUpdated": "2023-08-28T10:05:54.390-05:00",
+		"profile": [
+			"http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition",
+			"https://docs.mydata.athenahealth.com/fhir-r4/StructureDefinition/athena-condition-profile"
+		],
+		"security": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+				"code": "N",
+				"display": "Normal"
+			}
+		],
+		"tag": [
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+				"code": "New",
+				"display": "New"
+			},
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+				"code": "Pen",
+				"display": "Pen"
+			},
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codesystem/athenaFlex/EditTags",
+				"code": "NewPen",
+				"display": "New Pen"
+			}
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table width=\"100%\"><caption><a href=\"Patient/2001157662078660\">Patient/2001157662078660</a></caption><tbody><tr><td width=\"25%\"><span class=\"text-muted\">Homeless person (32911000 SNOMED CT)</span></td><td width=\"8%\"><span class=\"text-muted\">2023/08/10 - </span></td><td width=\"25%\"> -- <a href=\"Practitioner/1576078785000010\">Practitioner/1576078785000010</a><span> 2023/08/28</span></td></tr></tbody></table></div>"
+	},
+	"clinicalStatus": {
+		"coding": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+				"code": "active",
+				"display": "Active"
+			}
+		],
+		"text": "Active"
+	},
+	"verificationStatus": {
+		"coding": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+				"code": "confirmed",
+				"display": "Confirmed"
+			}
+		],
+		"text": "Confirmed"
+	},
+	"category": [
+		{
+			"coding": [
+				{
+					"system": "http://terminology.hl7.org/CodeSystem/condition-category",
+					"code": "problem-list-item",
+					"display": "Problem List Item"
+				}
+			],
+			"text": "Problem List Item"
+		}
+	],
+	"code": {
+		"coding": [
+			{
+				"system": "http://snomed.info/sct",
+				"code": "32911000"
+			},
+			{
+				"system": "http://hl7.org/fhir/sid/icd-10-cm",
+				"code": "Z59.00"
+			},
+			{
+				"system": "http://hl7.org/fhir/sid/icd-9-cm",
+				"code": "V60.0"
+			},
+			{
+				"system": "https://docs.mydata.athenahealth.com/fhir-r4/codes/MEL",
+				"code": "ICD-V60.0"
+			}
+		],
+		"text": "Homeless person"
+	},
+	"subject": {
+		"reference": "Patient/ac-2001157662078660"
+	},
+	"encounter": {
+		"reference": "Encounter/ac-2007291721197910"
+	},
+	"onsetDateTime": "2023-08-10T00:00:00-05:00",
+	"recordedDate": "2023-08-10T13:17:03-05:00",
+	"recorder": {
+		"reference": "Practitioner/ac-1576078785000010"
+	},
+	"asserter": {
+		"reference": "Practitioner/ac-1576078785000010"
+	}
+}
