@@ -1,0 +1,194 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Task/ac-2009624124426130-task"
+            },
+            "resource": {
+                "resourceType": "Task",
+                "id": "ac-2009624124426130-task",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-TaskForReferralManagement"
+                    ]
+                },
+                "status": "in-progress",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/CodeSystem/task-code",
+                            "code": "fulfill",
+                            "display": "Fulfill the focal request"
+                        }
+                    ]
+                },
+                "businessStatus": {
+                    "text": "Assigned"
+                },
+                "focus": {
+                    "reference": "ServiceRequest/ac-2009624124426130"
+                },
+                "for": {
+                    "reference": "Patient/ac-2001157662078660"
+                },
+                "authoredOn": "2023-09-06T12:56:27.380-05:00",
+                "requester": {
+                    "reference": "Practitioner/ac-1973272341589880",
+                    "display": "Pooja Agarwal, MD"
+                },
+                "owner": {
+                    "reference": "PractitionerRole/ch-practitioner-role-garcia",
+                    "display": "Armando Garcia"
+                },
+				"note": [
+					{
+                        "authorReference": {
+                            "reference" : "Practitioner/ch-practitioner-garcia",
+                            "display" : "Armando Garcia"
+                        },
+                        "time": "2023-10-31T15:43:27.380-05:00",
+						"text": "Attempted to contact client via phone number on 10/31 and left a voicemail."
+					}
+				]
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Task/ac-2008836135127130-task"
+            },
+            "resource": {
+                "resourceType": "Task",
+                "id": "ac-2008836135127130-task",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-TaskForReferralManagement"
+                    ]
+                },
+                "status": "in-progress",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/CodeSystem/task-code",
+                            "code": "fulfill",
+                            "display": "Fulfill the focal request"
+                        }
+                    ]
+                },
+                "businessStatus": {
+                    "text": "Assigned"
+                },
+                "focus": {
+                    "reference": "ServiceRequest/ac-2008836135127130"
+                },
+                "for": {
+                    "reference": "Patient/ac-2001157662078660"
+                },
+                "authoredOn": "2023-08-28T10:05:54.243-05:00",
+                "requester": {
+                    "reference": "Practitioner/ac-1973272341589880",
+                    "display": "Pooja Agarwal, MD"
+                },
+                "owner": {
+                    "reference": "PractitionerRole/ch-practitioner-role-goodlow",
+                    "display" : "Khalina Goodlow"
+                },
+				"note": [
+					{
+                        "authorReference": {
+                            "reference" : "Practitioner/ch-practitioner-goodlow",
+                            "display" : "Khalina Goodlow"
+                        },
+                        "time": "2023-09-04T11:22:27.380-05:00",
+						"text": "Arranged a meeting with client to discuss housing options."
+					}
+				]
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Task/ac-2008835545038710-task"
+            },
+            "resource": {
+                "resourceType": "Task",
+                "id": "ac-2008835545038710-task",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-TaskForReferralManagement"
+                    ]
+                },
+                "status": "requested",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/CodeSystem/task-code",
+                            "code": "fulfill",
+                            "display": "Fulfill the focal request"
+                        }
+                    ]
+                },
+                "businessStatus": {
+                    "text": "Received"
+                },
+                "focus": {
+                    "reference": "ServiceRequest/ac-2008835545038710"
+                },
+                "for": {
+                    "reference": "Patient/ac-2001157662078660"
+                },
+                "authoredOn": "2023-08-28T10:05:54.190-05:00",
+                "requester": {
+                    "reference": "Practitioner/ac-1973272341589880",
+                    "display": "Pooja Agarwal, MD"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Task/ac-2007292556287300-task"
+            },
+            "resource": {
+                "resourceType": "Task",
+                "id": "ac-2007292556287300-task",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-TaskForReferralManagement"
+                    ]
+                },
+                "status": "requested",
+                "intent": "order",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/CodeSystem/task-code",
+                            "code": "fulfill",
+                            "display": "Fulfill the focal request"
+                        }
+                    ]
+                },
+                "businessStatus": {
+                    "text": "Received"
+                },
+                "focus": {
+                    "reference": "ServiceRequest/ac-2007292556287300"
+                },
+                "for": {
+                    "reference": "Patient/ac-2001157662078660"
+                },
+                "authoredOn": "2023-08-28T10:06:34.440-05:00",
+                "requester": {
+                    "reference": "Practitioner/ac-1973272341589880",
+                    "display": "Pooja Agarwal, MD"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/ch-practitioner-pleasant"
+            },
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "ch-practitioner-pleasant",
+                "active": true,
+                "name": [
+                    {
+                        "family": "Pleasant",
+                        "given": [
+                            "Kevin"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/ch-practitioner-garcia"
+            },
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "ch-practitioner-garcia",
+                "active": true,
+                "name": [
+                    {
+                        "family": "Garcia",
+                        "given": [
+                            "Armando"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/ch-practitioner-davis"
+            },
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "ch-practitioner-davis",
+                "active": true,
+                "name": [
+                    {
+                        "family": "Davis",
+                        "given": [
+                            "Owen"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/ch-practitioner-goodlow"
+            },
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "ch-practitioner-goodlow",
+                "active": true,
+                "name": [
+                    {
+                        "family": "Goodlow",
+                        "given": [
+                            "Khalina"
+                        ]
+                    }
+                ]
+            }
+        },
+
+        {
+            "request": {
+                "method": "PUT",
+                "url": "PractitionerRole/ch-practitioner-role-pleasant"
+            },
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "ch-practitioner-role-pleasant",
+                "active": true,
+                "practitioner" : {
+                  "reference" : "Practitioner/ch-practitioner-pleasant",
+                  "display" : "Kevin Pleasant"
+                },
+                "organization" : {
+                  "reference" : "Organization/mcc-org-chicago-house",
+                  "display" : "Chicago House"
+                },
+                "code" : [
+                  {
+                    "coding" : [
+                      {
+                        "system" : "http://nucc.org/provider-taxonomy",
+                        "code" : "171M00000X",
+                        "display" : "Case Manager"
+                      }
+                    ]
+                  }
+                ]
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "PractitionerRole/ch-practitioner-role-garcia"
+            },
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "ch-practitioner-role-garcia",
+                "active": true,
+                "practitioner" : {
+                  "reference" : "Practitioner/ch-practitioner-garcia",
+                  "display" : "Armando Garcia"
+                },
+                "organization" : {
+                  "reference" : "Organization/mcc-org-chicago-house",
+                  "display" : "Chicago House"
+                },
+                "code" : [
+                  {
+                    "coding" : [
+                      {
+                        "system" : "http://nucc.org/provider-taxonomy",
+                        "code" : "171M00000X",
+                        "display" : "Case Manager"
+                      }
+                    ]
+                  }
+                ]
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "PractitionerRole/ch-practitioner-role-davis"
+            },
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "ch-practitioner-role-davis",
+                "active": true,
+                "practitioner" : {
+                  "reference" : "Practitioner/ch-practitioner-davis",
+                  "display" : "Owen Davis"
+                },
+                "organization" : {
+                  "reference" : "Organization/mcc-org-chicago-house",
+                  "display" : "Chicago House"
+                },
+                "code" : [
+                  {
+                    "coding" : [
+                      {
+                        "system" : "http://nucc.org/provider-taxonomy",
+                        "code" : "171M00000X",
+                        "display" : "Case Manager"
+                      }
+                    ]
+                  }
+                ]
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "PractitionerRole/ch-practitioner-role-goodlow"
+            },
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "ch-practitioner-role-goodlow",
+                "active": true,
+                "practitioner" : {
+                  "reference" : "Practitioner/ch-practitioner-goodlow",
+                  "display" : "Khalina Goodlow"
+                },
+                "organization" : {
+                  "reference" : "Organization/mcc-org-chicago-house",
+                  "display" : "Chicago House"
+                },
+                "code" : [
+                  {
+                    "coding" : [
+                      {
+                        "system" : "http://nucc.org/provider-taxonomy",
+                        "code" : "171M00000X",
+                        "display" : "Case Manager"
+                      }
+                    ]
+                  }
+                ]
+            }
+        }
+    ]
+}
