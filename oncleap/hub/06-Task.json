@@ -106,6 +106,14 @@
                         },
                         "time": "2023-09-04T11:22:27.380-05:00",
 						"text": "Arranged a meeting with client to discuss housing options."
+					},
+					{
+                        "authorReference": {
+                            "reference" : "Practitioner/ch-practitioner-garcia",
+                            "display" : "Armando Garcia"
+                        },
+                        "time": "2023-09-01T14:55:27.380-05:00",
+						"text": "Reviewed this patient's unique needs with our team."
 					}
 				]
             }
