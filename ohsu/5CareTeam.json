@@ -1,0 +1,868 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [ {
+    "fullUrl": "CareTeam/5a44b70c-7781-49e6-8453-3176cf210e7d",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "5a44b70c-7781-49e6-8453-3176cf210e7d",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410534003",
+            "display": "Not indicated"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Not indicated"
+        } ],
+        "member": {
+          "reference": "Practitioner/bb8a27b2-229c-4a48-901d-104ceab32f7b",
+          "type": "Practitioner",
+          "display": "Timothy Joslin, MD"
+        },
+        "period": {
+          "start": "2021-11-29"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/5a44b70c-7781-49e6-8453-3176cf210e7d"
+    }
+  }, {
+    "fullUrl": "CareTeam/abd2929f-7cc7-4ad5-b635-5cafd7bd597e",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "abd2929f-7cc7-4ad5-b635-5cafd7bd597e",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "161",
+            "display": "Case Management"
+          } ],
+          "text": "Case Management"
+        } ],
+        "member": {
+          "reference": "Practitioner/f8193173-98de-49b3-803e-0fadf15b5f5c",
+          "type": "Practitioner",
+          "display": "Rn Nurse Care Manager Ohsu, RN"
+        },
+        "period": {
+          "start": "2022-11-15"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "51",
+            "display": "Medical Oncology"
+          } ],
+          "text": "Medical Oncology"
+        } ],
+        "member": {
+          "reference": "Practitioner/ac71f558-8863-4caf-80d9-bf1ac12c5389",
+          "type": "Practitioner",
+          "display": "Christopher Ryan, MD"
+        },
+        "period": {
+          "start": "2021-12-29"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "20",
+            "display": "Neurological Surgery"
+          } ],
+          "text": "Neurological Surgery"
+        } ],
+        "member": {
+          "reference": "Practitioner/f90aa1b7-16d6-4ddc-a979-e7d8b97e0227",
+          "type": "Practitioner",
+          "display": "Aclan Dogan, MD"
+        },
+        "period": {
+          "start": "2021-12-29"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "17",
+            "display": "Internal Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Internal Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/62abb964-a54b-49e4-b02d-c220a0790fab",
+          "type": "Practitioner",
+          "display": "Christopher Terndrup, MD"
+        },
+        "period": {
+          "start": "2022-05-11"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "121",
+            "display": "Physician Assistant"
+          } ],
+          "text": "Physician Assistant"
+        } ],
+        "member": {
+          "reference": "Practitioner/c522af06-d59b-4498-85a2-db0c636ea7eb",
+          "type": "Practitioner",
+          "display": "Ashley M Labar, PA"
+        },
+        "period": {
+          "start": "2021-12-29"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "17",
+            "display": "Internal Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Internal Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/56c92e56-73b9-4729-8497-06a1b0c300a0",
+          "type": "Practitioner",
+          "display": "David Dorr, MD"
+        },
+        "onBehalfOf": {
+          "display": "OHSU-TST"
+        },
+        "period": {
+          "start": "2021-11-29"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410534003",
+            "display": "Not indicated"
+          } ],
+          "text": "Not indicated"
+        } ],
+        "member": {
+          "reference": "Practitioner/42280a01-e63e-4c3f-9df3-c791e67241b4",
+          "type": "Practitioner",
+          "display": "Lishiana S Shaffer, MD"
+        },
+        "onBehalfOf": {
+          "display": "OHSU - POC"
+        },
+        "period": {
+          "start": "2021-05-21"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "161",
+            "display": "Case Management"
+          } ],
+          "text": "Case Management"
+        } ],
+        "member": {
+          "reference": "Practitioner/91664691-82e9-4477-a560-cf093666d1fa",
+          "type": "Practitioner",
+          "display": "Rn Nurse Care Manager Ohsu, RN"
+        },
+        "onBehalfOf": {
+          "display": "OHSU - POC"
+        },
+        "period": {
+          "start": "2022-11-15"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/abd2929f-7cc7-4ad5-b635-5cafd7bd597e"
+    }
+  }, {
+    "fullUrl": "CareTeam/bcf0de05-0497-43a2-8bfe-077648bc43c3",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "bcf0de05-0497-43a2-8bfe-077648bc43c3",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410534003",
+            "display": "Not indicated"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Not indicated"
+        } ],
+        "member": {
+          "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+          "type": "Practitioner",
+          "display": "David Dorr, MD"
+        },
+        "period": {
+          "start": "2021-11-29"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/bcf0de05-0497-43a2-8bfe-077648bc43c3"
+    }
+  }, {
+    "fullUrl": "CareTeam/2f4885af-6ad7-4398-9fbf-ca80cd27475c",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "2f4885af-6ad7-4398-9fbf-ca80cd27475c",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410534003",
+            "display": "Not indicated"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Not indicated"
+        } ],
+        "member": {
+          "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+          "type": "Practitioner",
+          "display": "David Dorr, MD"
+        },
+        "period": {
+          "start": "2021-11-29"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/2f4885af-6ad7-4398-9fbf-ca80cd27475c"
+    }
+  }, {
+    "fullUrl": "CareTeam/52d594fa-e5bd-4109-9768-b0ef54fb7c8a",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "52d594fa-e5bd-4109-9768-b0ef54fb7c8a",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "121",
+            "display": "Physician Assistant"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Physician Assistant"
+        } ],
+        "member": {
+          "reference": "Practitioner/94ffb3bf-6e2a-424b-90cf-4047760fcb1f",
+          "type": "Practitioner",
+          "display": "Adam B King, PA-C"
+        },
+        "period": {
+          "start": "2022-05-17"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410534003",
+            "display": "Not indicated"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Not indicated"
+        } ],
+        "member": {
+          "reference": "Practitioner/e38cdcf1-5e72-4551-9e2d-12b76171e14c",
+          "type": "Practitioner",
+          "display": "No Pcp Per Patient"
+        },
+        "onBehalfOf": {
+          "display": "OHSU - POC"
+        },
+        "period": {
+          "start": "2021-05-19"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/52d594fa-e5bd-4109-9768-b0ef54fb7c8a"
+    }
+  }, {
+    "fullUrl": "CareTeam/60e5b481-1b7e-4cdb-acda-92a3544ad8a3",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "60e5b481-1b7e-4cdb-acda-92a3544ad8a3",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410534003",
+            "display": "Not indicated"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Not indicated"
+        } ],
+        "member": {
+          "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+          "type": "Practitioner",
+          "display": "David Dorr, MD"
+        },
+        "period": {
+          "start": "2021-11-29"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/60e5b481-1b7e-4cdb-acda-92a3544ad8a3"
+    }
+  }, {
+    "fullUrl": "CareTeam/a7f42beb-a3fd-4bc8-94a3-d75bfcf138a6",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "a7f42beb-a3fd-4bc8-94a3-d75bfcf138a6",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410534003",
+            "display": "Not indicated"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Not indicated"
+        } ],
+        "member": {
+          "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+          "type": "Practitioner",
+          "display": "David Dorr, MD"
+        },
+        "period": {
+          "start": "2021-11-29"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410534003",
+            "display": "Not indicated"
+          } ],
+          "text": "Not indicated"
+        } ],
+        "member": {
+          "reference": "Practitioner/61ceba5e-dda1-4988-a24c-7457272e5864",
+          "type": "Practitioner",
+          "display": "David Sibell, MD"
+        },
+        "onBehalfOf": {
+          "display": "OHSU - POC"
+        },
+        "period": {
+          "start": "2021-09-24"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/a7f42beb-a3fd-4bc8-94a3-d75bfcf138a6"
+    }
+  }, {
+    "fullUrl": "CareTeam/4d6a04f6-6905-47ad-90d0-aed3af6def2f",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "4d6a04f6-6905-47ad-90d0-aed3af6def2f",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410534003",
+            "display": "Not indicated"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Not indicated"
+        } ],
+        "member": {
+          "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+          "type": "Practitioner",
+          "display": "David Dorr, MD"
+        },
+        "period": {
+          "start": "2021-11-29"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/4d6a04f6-6905-47ad-90d0-aed3af6def2f"
+    }
+  }, {
+    "fullUrl": "CareTeam/be13e255-e146-45eb-a040-e912400a2427",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "be13e255-e146-45eb-a040-e912400a2427",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "9",
+            "display": "Family Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Family Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/bc94d034-b5d2-4b1d-bd88-1deba48659f9",
+          "type": "Practitioner",
+          "display": "Daisuke Yamashita, MD"
+        },
+        "period": {
+          "start": "2022-08-19"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "410534003",
+            "display": "Not indicated"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Not indicated"
+        } ],
+        "member": {
+          "reference": "Practitioner/7d2cc6e5-83dc-40f5-9513-e5d860b3b0e1",
+          "type": "Practitioner",
+          "display": "Steven Kassakian, MD"
+        },
+        "onBehalfOf": {
+          "display": "OHSU - POC"
+        },
+        "period": {
+          "start": "2021-05-21"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "17",
+            "display": "Internal Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Internal Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/13b67dc0-0136-410f-9bda-a550f52efb1e",
+          "type": "Practitioner",
+          "display": "Steven Kassakian, MD"
+        },
+        "onBehalfOf": {
+          "display": "OHSU-TST"
+        },
+        "period": {
+          "start": "2021-11-29"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "17",
+            "display": "Internal Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Internal Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/887faa3c-be3c-419a-b0ca-7618689e3f9f",
+          "type": "Practitioner",
+          "display": "Steven Kassakian, MD"
+        },
+        "onBehalfOf": {
+          "display": "OHSU-TST"
+        },
+        "period": {
+          "start": "2021-11-29"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/be13e255-e146-45eb-a040-e912400a2427"
+    }
+  }, {
+    "fullUrl": "CareTeam/36a46b7b-1562-40e2-b4df-63d32caf6268",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "36a46b7b-1562-40e2-b4df-63d32caf6268",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "17",
+            "display": "Internal Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Internal Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/3dd6b1e9-dcb3-40a1-ac59-ff62ebbb4f94",
+          "type": "Practitioner",
+          "display": "Mustaquim F Chowdhury, MD"
+        },
+        "period": {
+          "start": "2022-05-18"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/36a46b7b-1562-40e2-b4df-63d32caf6268"
+    }
+  }, {
+    "fullUrl": "CareTeam/90c01529-fd89-4cc7-8e38-a699d36dc3ef",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "90c01529-fd89-4cc7-8e38-a699d36dc3ef",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "17",
+            "display": "Internal Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Internal Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/af9ac452-d86b-4df8-8e06-d3cd893c8fdb",
+          "type": "Practitioner",
+          "display": "Reem Hasan, MD"
+        },
+        "period": {
+          "start": "2022-05-18"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/90c01529-fd89-4cc7-8e38-a699d36dc3ef"
+    }
+  }, {
+    "fullUrl": "CareTeam/ad7da815-5fd8-46f4-b272-e88858f43f47",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "ad7da815-5fd8-46f4-b272-e88858f43f47",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "17",
+            "display": "Internal Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Internal Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+          "type": "Practitioner",
+          "display": "David Dorr, MD"
+        },
+        "period": {
+          "start": "2022-09-02"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/ad7da815-5fd8-46f4-b272-e88858f43f47"
+    }
+  }, {
+    "fullUrl": "CareTeam/347403d0-24db-435d-b386-ee489aca4243",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "347403d0-24db-435d-b386-ee489aca4243",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "17",
+            "display": "Internal Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Internal Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+          "type": "Practitioner",
+          "display": "David Dorr, MD"
+        },
+        "period": {
+          "start": "2022-09-02"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/347403d0-24db-435d-b386-ee489aca4243"
+    }
+  }, {
+    "fullUrl": "CareTeam/7f6b9a18-d9c7-43bf-9df3-7d5299b45136",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "7f6b9a18-d9c7-43bf-9df3-7d5299b45136",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "17",
+            "display": "Internal Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Internal Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+          "type": "Practitioner",
+          "display": "David Dorr, MD"
+        },
+        "period": {
+          "start": "2022-09-02"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/7f6b9a18-d9c7-43bf-9df3-7d5299b45136"
+    }
+  }, {
+    "fullUrl": "CareTeam/e243f320-ed9e-4e8e-b694-0f5b178bff71",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "e243f320-ed9e-4e8e-b694-0f5b178bff71",
+      "status": "active",
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA28865-6",
+          "display": "Longitudinal care-coordination focused care team"
+        } ],
+        "text": "Longitudinal care-coordination focused care team"
+      } ],
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.1050",
+            "code": "9",
+            "display": "Family Medicine"
+          }, {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.698084.5655",
+            "code": "1",
+            "display": "General"
+          } ],
+          "text": "Family Medicine"
+        } ],
+        "member": {
+          "reference": "Practitioner/eca33a59-e7ef-47eb-87cd-8d1ab4c63fdd",
+          "type": "Practitioner",
+          "display": "Timothy L Herrick, MD"
+        },
+        "period": {
+          "start": "2022-11-21"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CareTeam/e243f320-ed9e-4e8e-b694-0f5b178bff71"
+    }
+  } ]
+}

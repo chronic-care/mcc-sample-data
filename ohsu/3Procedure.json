@@ -1,0 +1,457 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [ {
+    "fullUrl": "Procedure/3b9b8daf-4986-403d-81da-8d84c4644c97",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "3b9b8daf-4986-403d-81da-8d84c4644c97",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000315257"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2022-04-26T17:27:20Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Encounter for breast cancer screening using non-mammogram modality"
+        } ],
+        "text": "Encounter for breast cancer screening using non-mammogram modality"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/3b9b8daf-4986-403d-81da-8d84c4644c97"
+    }
+  }, {
+    "fullUrl": "Procedure/653dad98-372a-4a6f-8f8a-2a08a968b3ed",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "653dad98-372a-4a6f-8f8a-2a08a968b3ed",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000376857"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2022-11-22T21:23:47Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Encounter for breast cancer screening using non-mammogram modality"
+        } ],
+        "text": "Encounter for breast cancer screening using non-mammogram modality"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/653dad98-372a-4a6f-8f8a-2a08a968b3ed"
+    }
+  }, {
+    "fullUrl": "Procedure/00739b95-2cb8-440a-a0ee-3e3dbe9f7c9b",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "00739b95-2cb8-440a-a0ee-3e3dbe9f7c9b",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000456652"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2023-04-14T15:59:56Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Encounter for breast cancer screening using non-mammogram modality"
+        } ],
+        "text": "Encounter for breast cancer screening using non-mammogram modality"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/00739b95-2cb8-440a-a0ee-3e3dbe9f7c9b"
+    }
+  }, {
+    "fullUrl": "Procedure/8e8b944f-8e61-4042-93e1-4716cf8c6a90",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "8e8b944f-8e61-4042-93e1-4716cf8c6a90",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000293453"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "278665"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2021-12-29T17:51:15Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Screening for substance abuse"
+        } ],
+        "text": "Screening for substance abuse"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/8e8b944f-8e61-4042-93e1-4716cf8c6a90"
+    }
+  }, {
+    "fullUrl": "Procedure/10b6f95c-5f9f-4c8c-a62a-bf82967fceff",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "10b6f95c-5f9f-4c8c-a62a-bf82967fceff",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000351282"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2022-09-06T16:03:15Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Encounter for breast cancer screening using non-mammogram modality"
+        } ],
+        "text": "Encounter for breast cancer screening using non-mammogram modality"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/10b6f95c-5f9f-4c8c-a62a-bf82967fceff"
+    }
+  }, {
+    "fullUrl": "Procedure/1bd4092e-87f5-4603-b3e6-f87e1480f066",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "1bd4092e-87f5-4603-b3e6-f87e1480f066",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000355099"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2022-09-15T19:41:08Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Encounter for breast cancer screening using non-mammogram modality"
+        } ],
+        "text": "Encounter for breast cancer screening using non-mammogram modality"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/1bd4092e-87f5-4603-b3e6-f87e1480f066"
+    }
+  }, {
+    "fullUrl": "Procedure/f2f88bd3-71e5-4446-a859-cc7ebb04e2fd",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "f2f88bd3-71e5-4446-a859-cc7ebb04e2fd",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000376861"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2022-11-22T21:31:56Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Encounter for breast cancer screening using non-mammogram modality"
+        } ],
+        "text": "Encounter for breast cancer screening using non-mammogram modality"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/f2f88bd3-71e5-4446-a859-cc7ebb04e2fd"
+    }
+  }, {
+    "fullUrl": "Procedure/fd1e3e6a-c920-4394-8f83-e5d26b97a38b",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "fd1e3e6a-c920-4394-8f83-e5d26b97a38b",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000487329"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "703295"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2023-06-06",
+      "report": [ {
+        "reference": "DiagnosticReport/ebMZDV6hTPM2ownNe6aFwWQCk0sBbnnfosibOMfpuAJ83",
+        "type": "DiagnosticReport",
+        "display": "ONCOLOGY PATHWAYS TREATMENT DECISION"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/fd1e3e6a-c920-4394-8f83-e5d26b97a38b"
+    }
+  }, {
+    "fullUrl": "Procedure/b8639526-270a-40fc-9511-22222b6c339f",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "b8639526-270a-40fc-9511-22222b6c339f",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000315237"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2022-04-26T16:54:48Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "281694009",
+          "display": "Other specified personal risk factors, not elsewhere classified"
+        } ],
+        "text": "Other specified personal risk factors, not elsewhere classified"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/b8639526-270a-40fc-9511-22222b6c339f"
+    }
+  }, {
+    "fullUrl": "Procedure/c0234498-a869-43b1-b0fe-915408531021",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "c0234498-a869-43b1-b0fe-915408531021",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000315241"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2022-04-26T17:04:18Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Encounter for breast cancer screening using non-mammogram modality"
+        } ],
+        "text": "Encounter for breast cancer screening using non-mammogram modality"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/c0234498-a869-43b1-b0fe-915408531021"
+    }
+  }, {
+    "fullUrl": "Procedure/b589b17d-3e63-4ea2-a079-5a191a847442",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "b589b17d-3e63-4ea2-a079-5a191a847442",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000349235"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2022-08-30T17:27:45Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Encounter for breast cancer screening using non-mammogram modality"
+        } ],
+        "text": "Encounter for breast cancer screening using non-mammogram modality"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/b589b17d-3e63-4ea2-a079-5a191a847442"
+    }
+  }, {
+    "fullUrl": "Procedure/159de2ff-3dfb-4e80-ab27-425b129a40ff",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "159de2ff-3dfb-4e80-ab27-425b129a40ff",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000376860"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2022-11-22T21:28:07Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Encounter for breast cancer screening using non-mammogram modality"
+        } ],
+        "text": "Encounter for breast cancer screening using non-mammogram modality"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/159de2ff-3dfb-4e80-ab27-425b129a40ff"
+    }
+  }, {
+    "fullUrl": "Procedure/34e74ea8-85f5-4f47-8c82-1b033bf05166",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "34e74ea8-85f5-4f47-8c82-1b033bf05166",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "ORD"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.798268",
+        "value": "16000376392"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EAP"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.696580",
+        "value": "296955"
+      } ],
+      "status": "completed",
+      "performedDateTime": "2022-11-22T00:12:05Z",
+      "reasonCode": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "305058001",
+          "display": "Encounter for breast cancer screening using non-mammogram modality"
+        } ],
+        "text": "Encounter for breast cancer screening using non-mammogram modality"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Procedure/34e74ea8-85f5-4f47-8c82-1b033bf05166"
+    }
+  } ]
+}

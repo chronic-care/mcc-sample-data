@@ -1,0 +1,1091 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [ {
+    "fullUrl": "CarePlan/543d95aa-49dc-46e4-a148-c3eff5185f16",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "543d95aa-49dc-46e4-a148-c3eff5185f16",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "display": "Acute bilateral low back pain without sciatica"
+      }, {
+        "display": "Automobile accident"
+      }, {
+        "display": "Cough"
+      }, {
+        "display": "Dry skin"
+      }, {
+        "display": "Irritation of eye"
+      }, {
+        "display": "Type 2 diabetes mellitus with retinopathy of both eyes (HCC)"
+      }, {
+        "display": "History of radiation therapy"
+      }, {
+        "display": "At increased risk of breast cancer"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/543d95aa-49dc-46e4-a148-c3eff5185f16"
+    }
+  }, {
+    "fullUrl": "CarePlan/585e3064-3b23-4bc7-818f-b942e3e0844e",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "585e3064-3b23-4bc7-818f-b942e3e0844e",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "reference": "Condition/2111945f-fd27-4d57-b47b-0142e7507183",
+        "display": "Anxiety"
+      }, {
+        "reference": "Condition/61c45f0d-4d94-4654-9b8e-c80bbb1af819",
+        "display": "Depression"
+      }, {
+        "reference": "Condition/cae5aacb-6c03-4945-890d-d942e313f6ec",
+        "display": "Hypertension"
+      }, {
+        "reference": "Condition/5254a15b-c403-4c2c-b0e6-4263f46882e8",
+        "display": "Iron deficiency anemia"
+      }, {
+        "reference": "Condition/31365df2-abdd-46e4-aceb-3b5153351e54",
+        "display": "Malignant neoplasm of upper-inner quadrant of breast in female, estrogen receptor positive (HCC)"
+      }, {
+        "reference": "Condition/48780d1b-cbca-4cdc-bfa1-191770aba015",
+        "display": "Personal history of radiation therapy"
+      }, {
+        "reference": "Condition/5b6c5a3b-48e8-44e3-800b-2813131011cd",
+        "display": "Family history of ovarian cancer"
+      }, {
+        "reference": "Condition/56f71655-3879-4fd0-9d93-10db33824a39",
+        "display": "Brain fog"
+      }, {
+        "reference": "Condition/32463a0c-d349-461e-8148-a51a422d597d",
+        "display": "Lumbar stenosis with neurogenic claudication"
+      }, {
+        "reference": "Condition/f042ab63-4c1a-48c2-ba80-5ffda1151ba7",
+        "display": "Personal history of radiation exposure"
+      }, {
+        "reference": "Condition/07d77d84-2137-4159-823a-a376d4c40ec1",
+        "display": "Family history of breast cancer"
+      }, {
+        "reference": "Condition/8cbac315-c1fb-446c-93ad-eef18523517f",
+        "display": "Breast pain"
+      }, {
+        "reference": "Condition/44e42d32-16a3-4bff-9786-6defea121601",
+        "display": "BRCA positive"
+      }, {
+        "reference": "Condition/83daeda6-ee73-4a44-9892-46b5fa963072",
+        "display": "At increased risk of breast cancer"
+      }, {
+        "reference": "Condition/665dd0d5-0139-43d3-a290-25973df63d77",
+        "display": "Attention deficit hyperactivity disorder (ADHD), predominantly inattentive type"
+      }, {
+        "reference": "Condition/3a67438d-c2fe-4de9-a0a8-7b0f79e36e28",
+        "display": "Mixed obsessional thoughts and acts"
+      }, {
+        "reference": "Condition/c95c5208-e358-44e9-b1b3-551297e376ec",
+        "display": "Adult acne"
+      }, {
+        "reference": "Condition/cea5cf92-416c-416e-b959-62994dc8c5be",
+        "display": "Irritable bowel syndrome with constipation"
+      }, {
+        "reference": "Condition/be018db9-e95c-4bda-8687-d3ac971f8f3c",
+        "display": "Carpal tunnel syndrome of right wrist"
+      }, {
+        "reference": "Condition/17862541-9fdf-4caa-9dfc-f5350711dacc",
+        "display": "Sunburn due to tanning bed radiation"
+      }, {
+        "reference": "Condition/0f4ff26d-f4b2-472a-8d12-1dc46ea6633d",
+        "display": "Acute myeloid leukemia not having achieved remission (HCC)"
+      } ],
+      "goal": [ {
+        "reference": "Goal/e5861e4d-5258-44a8-a6ce-a8d8202e65c5",
+        "display": "Diet - Limit salt"
+      }, {
+        "reference": "Goal/44e5a914-e571-4fa8-bd8e-a5b2e1228dc2",
+        "display": "Exercise - 30 minutes, 5 times per week"
+      }, {
+        "reference": "Goal/15128fc7-e417-4daa-86fb-8add1acc01d7",
+        "display": "Patient will identify 4+ coping skills"
+      }, {
+        "reference": "Goal/a714d144-689c-4fa9-8188-bf1842988736",
+        "display": "Client will be able to identify emotional and physiological signs of anxiety"
+      }, {
+        "reference": "Goal/10dcbe4c-bb8f-4f2a-afa1-cec2c8429ad5",
+        "display": "Dena's goal"
+      } ],
+      "activity": [ {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "MA DIGITAL MAMMO SCREEN BILAT WITH CAD"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "COAGULOPATHY PANEL (INR,APTT,FIBRINOGEN)"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CTA CORONARY ANGIOGRAM AND CALCIUM SCORE W CONTRAST"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "OCCULT BLOOD, FECAL BY IMMUNOASSAY"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CBC ONLY"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "EEG 1-6 HR DAYTIME, ADULT"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "EEG SLEEP DEPRIVED, ADULT"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "EMG/NERVE CONDUCTION STUDIES,ADULT - NEUROLOGY"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "BASIC METABOLIC SET (NA, K, CL, TCO2, BUN, CR, GLU, CA)"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CT HEAD WWO CONTRAST"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "BASIC METABOLIC SET (NA, K, CL, TCO2, BUN, CR, GLU, CA)"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "URIC ACID, PLASMA"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "PHOSPHORUS, PLASMA"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "COAGULOPATHY PANEL (INR,APTT,FIBRINOGEN)"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CBC ONLY"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "D-DIMER, (PE OR DIC)"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "RBC MORPHOLOGY"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CBC (HEMOGRAM) ONLY"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CBC (HEMOGRAM) ONLY"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CBC (HEMOGRAM) ONLY"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CBC (HEMOGRAM) ONLY"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CBC (HEMOGRAM) ONLY"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CBC (HEMOGRAM) ONLY"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CBC (HEMOGRAM) ONLY"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      } ],
+      "note": [ {
+        "authorReference": {
+          "reference": "Practitioner/1190fb59-f197-4559-a329-0070b0a50a78",
+          "type": "Practitioner",
+          "display": "Dena Iadanza"
+        },
+        "time": "2021-12-30T02:15:22Z",
+        "text": "Care coordination is very important"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/585e3064-3b23-4bc7-818f-b942e3e0844e"
+    }
+  }, {
+    "fullUrl": "CarePlan/c33b0a54-184a-4bd0-a00b-c98a37947b69",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "c33b0a54-184a-4bd0-a00b-c98a37947b69",
+      "status": "active",
+      "intent": "proposal",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "734163000",
+          "display": "Encounter Level"
+        } ],
+        "text": "Encounter Level"
+      } ],
+      "note": [ {
+        "text": "Patient Instructions: \r\nPatient Instructions  \r\nGeneral Information \r\nSeek support early and often. Symptoms come and go and can take months to get better, so it is important to ask for help from loved ones. Be honest with your support network and tell them you will need lots of support.  \r\nThink about joining a support group. There are many online support groups for people suffering from the long term effects of COVID. Some people find it helpful to talk to others with the same issues.  \r\nEat and sleep well. Stay active. It is important to eat a healthy diet, get plenty of sleep and stay as active as possible (for example, walking at least 2,000 steps per day).  \r\nWhen you start to feel better, you can slowly start to exercise more. Before increasing your exercise, be sure to talk to your primary care provider to make sure you are ready.  \r\nWhat can I do for exercise? \r\nContinue to move as much as you comfortably can. Movement is not only important for physical health, but it can help your mental health, too.  Exercise can help you deal with stress and even improve symptoms of depression and anxiety. \r\nThere many online resources with guided workouts. Some examples include: \r\nYoga Works offers many high quality, free classes each day, including different yoga styles, Pilates, toning classes and classes for children: www.yogaworks.com?Yoga with Adriene? provides free online yoga for all abilities and body types: www.youtube.com/yogawithadriene https:/www.youtube.com/user/yogawithadriene \r\nPlanet Fitness streams strength and cardio classes : www.facebook.com/planetfitness   \r\nAsk your doctor if a physical therapist should be part of your treatment team.  \r\n \r\nExercise and Pacing \r\nExercise:  \r\nInitially, you will want to start with simple exercises you can do lying down in bed to help conserve energy for your daily activities. As you get stronger you should begin to go on short walks where you are exerting a minimal effort, and should still able to have a conversation with someone. At first, it will be easier to do short walks of a minute or two, rest, then try to walk for another short interval. This will allow your body time to recover and avoid over-exertion. Each week, try to make the intervals a little longer. A good goal is working up to 30 minutes of exercise per day, over weeks to months. A physical therapist may be able to help guide you along the way to determine what types of exercise you should be doing at this point in your recovery.   \r\nEnergy Conservation:  \r\nAs you are recovering from this illness, it is common to be tired and have less energy to do even simple tasks, like getting dressed in the morning. It is important to learn to conserve your energy as you complete your daily activities. You may need to pace yourself, taking breaks when you are tired and then starting again after you have rested. It is also helpful to plan your day to spread out activities that may require more energy to avoid over-doing it. Another way to conserve energy is to prioritize your activities into things you need to do today, and things that can wait for another day. A physical or occupational therapist may be able to help you figure out other ways to conserve your energy if you are having difficulty. \r\nWhat does pacing mean?  \r\n-       To do something at a slow and controlled rate or speed in order to avoid overexerting one-self too quickly. \r\n-       To balance demanding mental and physical tasks with easier ones. \r\n-       Planning and prioritizing tasks on an item-by-item, daily and weekly basis. \r\nWhat is the importance of pacing? \r\n-       During illness and recovery, tasks require more energy than they did before.  Your energy reserves may be limited, both for mental and physical tasks. You may get tired more easily and recover more slowly. \r\n-       Keeping up your activity and exercise is important for healing and pacing helps to keep up your tolerance for activity and prevent fatigue. \r\n-       Pacing and allowing yourself time to integrate more activity will allow you to work more efficiently and accomplish more in the long run. \r\n-       Note that physical fatigue can impact cognitive functioning. Mental fatigue impacts physical functioning as well. \r\n   \r\nWhat are some pacing strategies?  \r\n-       Plan ahead whenever possible and as far ahead of time as possible. You can always change plans if needed. \r\n-       Stop and take a break before you notice fatigue - even if you are enjoying what you are doing. \r\n-       Allow extra time to complete any task. Don't pressure yourself to meet a deadline. \r\n-       Know your limits and respect them. \r\n-       Use time management systems in all situations - at home, at work, even on vacation. \r\n-       Alternate work, rest and leisure activities. \r\n-       Take responsibility for pacing - for the most part, others will not be able to understand and assist you with these strategies. It's up to you. \r\n-       Remember that a lot of little tasks strung together can be just as fatiguing as one big task. \r\n \r\nInsomnia \r\nGood sleep is very important to your recovery. Sleep also helps with general physical, emotional, and cognitive (thinking) health. People who don?t get enough sleep can have more anxiety, depression, pain, sickness, and difficulty thinking.   \r\nThe best way to treat long-term sleep problems is with Cognitive Behavioral Therapy for Insomnia (CBT-I). Talk to your primary care provider if you are having trouble sleeping. For more information about CBT-I, visit freecbti.com.  \r\nFor information about how sleep works, tips to sleep better, visit the national sleep foundation website: www.sleepfoundation.org . W. Chris Winter?s book, The Sleep Solution, also has useful information.  \r\nWe have also included tips on better sleep below. Anxiety and Depression \r\nAnxiety, depression and even panic attacks are common for patients recovering from COVID-19. Make sure to talk to your doctor about these problems. Medications may help. \r\nIf you are having a mental health emergency, there are many numbers you can call for immediate help:  \r\nMental Health Crisis Line:  \r\nWashington County Crisis Line: 503-291-9111, Hearing Impaired: 1-800-735-2900 \r\nMultnomah County Crisis Line: 503-988-4888 \r\nClackamas County Crisis Line: 503-655-8585 \r\nCall to Safety (Portland Women?s Crisis Line): 1-888-235-5333 \r\nDomestic Violence Resource Center (Washington County) 503-469-8620, Toll Free 1-866-469-8600 \r\n \r\nLines for Life (for suicide and substance abuse): 1-800-273-8255 \r\nMilitary Helpline: 1-800-273-8255 or text MIL1 to 839863 \r\nYouthline: Peer-to-peer crisis line for teens about bullying, substance abuse, depression, self-harm, dating violence and other issues.  \r\n1-877 YOUTH 911 (877-968-8491) or text teen2teen to 839863 \r\nOnline chat: oregonyouthline.org   \r\nTo talk to someone in person: \r\nHawthorn Walk-in Center: Mental Health and Addictions Care \r\n9 am - 8:30 pm \r\n5240 NE Elam Young Parkway, Suite 100 \r\nHillsboro, OR 97124 \r\n503-846-4555 \r\n \r\nMindfulness and Meditation apps: \r\nSome patients find meditation can help reduce stress, calm anxiety, improve  physical and emotional health and help with sleep.   \r\nSome apps to try on your smartphone or iPad are: \r\nCalm: Seven day free trial. A meditation, sleep, and relaxation app that also provides resources specifically for coping with COVID-19 anxiety.  \r\nHeadspace: Two-week free trial. \r\nStop, Breathe and Think: Always free, and includes recordings for children. \r\nInsight Timer: Always free. This a  library where you can search for different types of meditations. \r\n10% Happier: Free and paid options available. \r\nPets may also support your mood! If you don?t have one, consider adopting! \r\nSome people also find that cold showers are helpful. Start by taking a warm shower, and then switch to cold water for 15-60 seconds at the end.  \r\nBrain Fog \r\nBrain fog, or trouble thinking, after serious COVID-19 infection is common. Be patient and slowly return to school or work while your brain recovers. Take as many breaks as you need.  \r\nWe do not recommend specific supplements to help with brain fog.  \r\nTo help with trouble thinking: \r\nGoal  Recommendations  \r\nImprove stress management  Practice meditation, mindfulness and yoga.  As much as possible, avoid situations that increase stress.   \r\nImprove physical health  Try light physical activity for at least 30 minutes, 5 days per week.  \r\nKeep your brain healthy  Try activities for your brain such as reading, puzzles and brain games. Talk with a friend or family member at least twice per week.  \r\nEat healthy  Consider a Mediterranean diet full of vegetables, fruits, nuts, seeds, legumes, potatoes, whole grains, breads, herbs, spices, fish, seafood and extra virgin olive oil. \r\n \r\nEat up to 3 days a week: poultry, eggs, cheese and yogurt. \r\n \r\nEat only rarely: red meat \r\n \r\nTry to avoid: sugar-sweetened drinks, added sugars, processed meat, refined grains (like white bread, crackers, and white pasta), refined oils and other highly processed foods.   \r\nImprove sleep  Try to go to bed and get out of bed at the same time every day (for example, go to bed at 10pm and get out of bed at 7am every day).  \r\n \r\nDon?t go to bed until you feel sleepy and do not stay in bed if you are awake more than 20 minutes. If you are in bed for awake for more than 20 minutes, get up and do a relaxing activity like reading a book or listening to music, then go back to bed again when you feel sleepy.  \r\n \r\nMake time to relax before bedtime. As much as possible, avoid screens right before going to bed.  \r\nMake sure your bedroom is dark and cool.  \r\n \r\nHeadache \r\nHeadache is one of the most common long-term symptoms after COVID-19 infection.  \r\nContinue healthy habits such as healthy eating, regular light exercise, getting enough sleep, and managing stress.\r\nKeep taking the medications and continue the treatment plan that you and your doctor created. \r\nDo not take over-the-counter analgesics (Tylenol, Ibuprofen, and Excedrin) more than 10-15 days per month.  \r\nKeep a diary to keep track of what causes your headaches, how often you get them and how painful they are.  \r\nLet your health care provider know if your symptoms do not start to get better after 4-6 weeks.  \r\n \r\nDysautonomia \r\nDysautonomia, an imbalance in your nervous system, can cause heart racing, dizziness, fatigue and anxiety. Drinking plenty of fluids is important. Your provider might recommend vestibular therapy, a type of physical therapy, or certain medications.   \r\nDiarrhea, Nausea and Abdominal Pain \r\nDiarrhea, Nausea and Abdominal Pain are common effects of Long COVID-19. May patients improve symptoms with gluten- and dairy-free diets. Incorporating pro-biotic foods (like yogurt, kombucha, or kefir) can also be helpful. Your doctor may also recommend specific medications.  \r\nDizziness \r\nDizziness is a common long-term symptom after COVID-19 infection.  \r\nYou might feel unbalanced, lightheaded, or like the room is spinning. Symptoms can be get worse with when you sit or stand up, or if you are looking at complex or moving patterns or images. Persistent dizziness can worsen anxiety.  \r\nPhysical, vestibular and cognitive behavioral therapy have all be shown to help manage dizziness.  \r\nSome patients have found electrolyte drinks helpful. \r\nYou may also consider joining a vestibular disorder support group called VEDA which has a branch in Portland: www.vestibular.org.  Cough \r\nCough is a common long-term symptom after COVID-19 infection. \r\nYour cough might come and go. The best way to manage a cough is to breathe slowly and deeply.. Sit upright in a chair, slow your breathing, relax your chest and shoulders and press your lips together. Breathe in through your nose and out through the mouth. Allow your belly to expand when you breathe in and go back to normal when you breathe out.  \r\nBreathe out twice as long as you breathe in.  \r\nUse this technique several times throughout the day for 5-10 minutes at a time (or longer if helpful).  \r\nPulse Oximetry  \r\nPulse Oximetry is a way to measure the oxygen in your blood.  \r\nReadings should be taken on a clean, warm finger without nail polish, after resting for 20 minutes.  \r\nThe levels may fluctuate over time; record the highest reading.  \r\nPlease call the clinic if you see readings below.  \r\nChair Rise Exercise\r\n\r\nWhat it does:  Strengthens the muscles in your thighs and buttocks.\r\n\r\nGoal:  To do this exercise without using your hands as you become stronger.\r\n\r\nHow to do it: \r\n\r\n1. Sit toward the front of a sturdy chair with your knees bent & feet flat on the floor, shoulder-width apart. \r\n\r\n2. Rest your hands lightly on the seat on either side of you, keeping your back & neck straight & chest slightly forward. \r\n\r\n3. Breathe in slowly. Lean forward & feel your weight on the front of your feet.\r\n\r\n4. Breathe out & slowly stand up, using your hands as little as possible. \r\n\r\n5. Pause for a full breath in & out.\r\n\r\n6. Breathe in as you slowly sit down. Do not let yourself collapse back down into the chair. Rather, control your lowering as much as possible. \r\n\r\n7. Breathe out. \r\n\r\nRepeat 10-15 times. If this number is too hard for you when you first start practicing this exercise, begin with fewer & work up to this number. \r\n\r\nRest for a minute & then do a final set of 10-15.\r\n"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/c33b0a54-184a-4bd0-a00b-c98a37947b69"
+    }
+  }, {
+    "fullUrl": "CarePlan/95b6fe7e-ebf8-4d59-b478-a42ead485486",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "95b6fe7e-ebf8-4d59-b478-a42ead485486",
+      "status": "active",
+      "intent": "proposal",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "734163000",
+          "display": "Encounter Level"
+        } ],
+        "text": "Encounter Level"
+      } ],
+      "note": [ {
+        "text": "Patient Instructions: Test Patient Instructions\r\n"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/95b6fe7e-ebf8-4d59-b478-a42ead485486"
+    }
+  }, {
+    "fullUrl": "CarePlan/ca64c675-1a70-4630-80ae-736ca8395842",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "ca64c675-1a70-4630-80ae-736ca8395842",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "reference": "Condition/17cbeb63-4c86-4ac4-9392-29c9b0a12fb4",
+        "display": "Hypertension"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/ca64c675-1a70-4630-80ae-736ca8395842"
+    }
+  }, {
+    "fullUrl": "CarePlan/6467fb10-c27b-42b1-a983-3132caf2335a",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "6467fb10-c27b-42b1-a983-3132caf2335a",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "reference": "Condition/2b79ef45-30f9-4edb-a077-9b9559ee2ebc",
+        "display": "Hypertension goal BP (blood pressure) < 130/80"
+      }, {
+        "reference": "Condition/f592bc08-beb6-43e3-a88e-323d5781768c",
+        "display": "Hypertension, accelerated with heart disease, without CHF"
+      }, {
+        "reference": "Condition/45bcd6d2-1bff-4a90-b6eb-45622682de21",
+        "display": "Type 1 diabetes mellitus (HCC)"
+      }, {
+        "reference": "Condition/c123ef75-e9a9-4dbb-9136-72f5294c5ff0",
+        "display": "Sunburn"
+      } ],
+      "activity": [ {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CATH LAB EP ABLATION"
+          },
+          "status": "completed",
+          "doNotPerform": false,
+          "scheduledPeriod": {
+            "start": "2022-10-19T15:00:00Z",
+            "end": "2022-10-19T19:00:00Z"
+          }
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CATH LAB EP ABLATION"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CATH LAB EP CARDIOVERSION"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CATH LAB INT SEPTAL ABLATION"
+          },
+          "status": "completed",
+          "doNotPerform": false,
+          "scheduledPeriod": {
+            "start": "2022-11-01T14:30:00Z",
+            "end": "2022-11-01T17:30:00Z"
+          }
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CATH LAB INT SEPTAL ABLATION"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/6467fb10-c27b-42b1-a983-3132caf2335a"
+    }
+  }, {
+    "fullUrl": "CarePlan/a8df24a7-82c8-4be2-aedb-54c69bdc7d57",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "a8df24a7-82c8-4be2-aedb-54c69bdc7d57",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "reference": "Condition/37ff539c-f282-4f0b-849e-ac7f0c8b2aa0",
+        "display": "Prostate cancer (HCC)"
+      }, {
+        "reference": "Condition/2633b274-5f4a-4e89-81de-ebf15b048a45",
+        "display": "Current moderate episode of major depressive disorder without prior episode (HCC)"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/a8df24a7-82c8-4be2-aedb-54c69bdc7d57"
+    }
+  }, {
+    "fullUrl": "CarePlan/b1168816-fd2e-4e17-8681-59d632029f62",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "b1168816-fd2e-4e17-8681-59d632029f62",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "reference": "Condition/92250f09-8cd6-4dc4-bb2b-b239f3b2fdbc",
+        "display": "Backache"
+      }, {
+        "reference": "Condition/7f683c64-0fb1-448c-8334-d008a1045b42",
+        "display": "CKD stage 4 secondary to hypertension (HCC)"
+      }, {
+        "reference": "Condition/860acda4-c9bc-4fb7-8933-a7d08782c7ab",
+        "display": "Cough due to ACE inhibitor"
+      }, {
+        "reference": "Condition/a87e1bee-789f-47bf-b290-84880eb596dc",
+        "display": "Hypertension"
+      }, {
+        "reference": "Condition/e4861dea-7996-437b-9504-b2ce603fb1c7",
+        "display": "Hypokalemia"
+      }, {
+        "reference": "Condition/7fec0da7-3d9b-4545-8f33-35ebd56b3a65",
+        "display": "Hyponatremia"
+      }, {
+        "reference": "Condition/7879f953-0c06-48cb-9293-a9dc3a5fd45f",
+        "display": "Idiopathic hypotension"
+      }, {
+        "reference": "Condition/d7aaaa0c-71b4-45b6-abc0-19881a5ec526",
+        "display": "Orthostatic hypotension"
+      }, {
+        "reference": "Condition/060641cf-44c1-44ea-8b03-f681a6a39b5a",
+        "display": "Type 2 diabetes mellitus with renal complication (HCC)"
+      }, {
+        "reference": "Condition/ae9fc90a-13f0-492b-bd1f-a425449923da",
+        "display": "Vertigo"
+      }, {
+        "reference": "Condition/7be94ff7-a5eb-461c-b476-08a42dda4a08",
+        "display": "At increased risk of breast cancer"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/b1168816-fd2e-4e17-8681-59d632029f62"
+    }
+  }, {
+    "fullUrl": "CarePlan/12067f1b-4c93-4493-9139-eb793c29b93c",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "12067f1b-4c93-4493-9139-eb793c29b93c",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "reference": "Condition/3c41f673-472c-4b4f-b392-c6bf92637dfe",
+        "display": "Anxiety"
+      }, {
+        "reference": "Condition/bb33f3cb-eafb-4a50-a06e-0116c2dccdc4",
+        "display": "Class 2 severe obesity due to excess calories with serious comorbidity in adult (HCC)"
+      }, {
+        "reference": "Condition/b22c4305-5f68-4491-84a9-3952d5d8ec6b",
+        "display": "Episode of recurrent major depressive disorder (HCC)"
+      }, {
+        "reference": "Condition/693d530e-0098-4d2b-8595-7f07b6e61ae5",
+        "display": "Megacolon due to infectious colitis"
+      }, {
+        "reference": "Condition/e40887ad-a82f-4e6e-a3ae-e22d50342a84",
+        "display": "Stage 3 chronic kidney disease (HCC)"
+      }, {
+        "reference": "Condition/3b9c23a0-f4e6-422f-8e17-16d9f73b5e86",
+        "display": "Supraventricular tachycardia (HCC)"
+      }, {
+        "reference": "Condition/67373093-7682-4af4-9e5d-47d2fd5c7db5",
+        "display": "Type 1 diabetes mellitus (HCC)"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/12067f1b-4c93-4493-9139-eb793c29b93c"
+    }
+  }, {
+    "fullUrl": "CarePlan/721d3b6a-567c-4147-bf75-33e279b70486",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "721d3b6a-567c-4147-bf75-33e279b70486",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/721d3b6a-567c-4147-bf75-33e279b70486"
+    }
+  }, {
+    "fullUrl": "CarePlan/2d01e21c-77c1-42aa-ad2c-c1af04238bdb",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "2d01e21c-77c1-42aa-ad2c-c1af04238bdb",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "reference": "Condition/4d65c3e8-31fa-494d-bd2b-ab627382dbcb",
+        "display": "Anxiety"
+      }, {
+        "reference": "Condition/cbf9e0f4-e549-4172-90b3-1c757e674328",
+        "display": "Acne vulgaris"
+      }, {
+        "reference": "Condition/c0adbd8c-4e75-4c77-af24-4d100c280ec6",
+        "display": "Atypical mole"
+      }, {
+        "reference": "Condition/ae2f6092-fc31-42ae-b481-5b2c7d11ac2b",
+        "display": "Hypertension"
+      }, {
+        "reference": "Condition/92846b94-d9dc-4b9d-b3de-5a9b22988539",
+        "display": "Palpitations"
+      } ],
+      "activity": [ {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "CT HEAD AND MAXFACIAL WO CONT AND 3D"
+          },
+          "status": "not-started",
+          "doNotPerform": false
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "ZIO 8-15 DAY EXTENDED CARDIAC MONITOR"
+          },
+          "status": "completed",
+          "doNotPerform": false,
+          "scheduledPeriod": {
+            "start": "2023-04-28T19:00:00Z",
+            "end": "2023-04-28T19:30:00Z"
+          }
+        }
+      }, {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "ZIO 3-7 DAY EXTENDED CARDIAC MONITOR"
+          },
+          "status": "completed",
+          "doNotPerform": false,
+          "scheduledPeriod": {
+            "start": "2023-04-28T19:00:00Z",
+            "end": "2023-04-28T19:30:00Z"
+          }
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/2d01e21c-77c1-42aa-ad2c-c1af04238bdb"
+    }
+  }, {
+    "fullUrl": "CarePlan/bcbf61ed-bade-47d0-935e-d89d8ca09e73",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "bcbf61ed-bade-47d0-935e-d89d8ca09e73",
+      "status": "active",
+      "intent": "proposal",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "734163000",
+          "display": "Encounter Level"
+        } ],
+        "text": "Encounter Level"
+      } ],
+      "note": [ {
+        "text": "Patient Instructions: \r\nOregon Health & Science University Department of Dermatology\r\n503-494-3376\r\nHome Care After Skin Biopsy\r\n\r\nGeneral Care\r\n\r\nLeave the bandage on overnight without getting it wet. The next day you may take it off and shower or bathe as you normally would.\r\n\r\nClean the wound every day with soap and water. If crusts or scabs occur, you may use a cotton swab soaked with hydrogen peroxide to gently clean away any scabs, crusts or pus. Stop using hydrogen peroxide after scabs, crusts, or pus is removed and resume using soap, water and Vaseline.\r\n\r\nSpread a thin layer of white petrolatum ointment on the wound and then cover with a fresh bandage.  Keep the area covered until it heals or until your stitches are removed. Your doctor will tell you when to return to have your stitches removed or when you may remove them yourself.\r\n\r\nBiopsy Results\r\n\r\n-You will get your biopsy results in one of the following ways:\r\n-When you return to have stitches taken out.\r\n-When your doctor gives you the results by phone if  biopsy is abnormal.\r\n-It takes 7-10 days for biopsy results.\r\n\r\nCall the Doctor if: \r\n\r\n-If the bandage becomes soaked with blood take it off.  Use a piece of gauze to press firmly on the wound for 15 minutes without peeking.  This should stop the bleeding, and then you can put on a new bandage.  If it continues to bleed, repeat the process for 15 minutes. If the wound continues to bleed call.\r\n-You are having a great deal of pain from the wound.  This is rare but possible.  You may try plain Tylenol, two tablets very four to six hours to help relieve the pain. Call if Tylenol does not relieve the pain.\r\n-Expect the area to become more red and tender during the first 48 hours after the procedure. Call if the wound becomes increasingly red, swollen and tender instead of slowly improving.\r\n-Wound develops drainage (pus).\r\n\r\nHow to Reach Us\r\nYou may reach the Dermatology Clinic at 503-494--3376 weekdays.\r\nAfter hours, call the hospital operator at 503-494-8311 and ask for the dermatology resident on call. It takes 7-10 days for biopsy results.\r\n\r\nPlease note in addition to you office visit charges, you or your insurance company will be billed:\r\n\r\nFor any additional physician fees, such as the biopsy procedure. (OHSUMG)\r\nClifton White, MD, Dermatopathology billed through OHSUMG \r\nA fee from an outside Laboratory where tissue is processed onto microscope slides.\r\n12/05\r\n\r\n\r\n \r\n  \r\n        \r\nOREGON HEALTH & SCIENCE UNIVERSITY\r\nDepartment of Dermatology\r\n3303 SW Bond Avenue, Portland, Oregon 97239-4501\r\nTel: 503 418-3376\r\n\r\n\r\nSKIN SURGERY WOUND CARE INSTRUCTIONS\r\n\r\nWound healing is most rapid if the area is kept moist with ointment and covered so that a scab is not allowed to form.  To help this occur:\r\n\r\n   *  Please remove the pressure bandage on the day following your procedure.\r\n   *  Wash gently with mild soap and water (in the shower is perfect).\r\n   *  Once moistened, a scab or debris can often be gently removed by rolling a Q-tip soaked in hydrogen peroxide over the area.\r\n   *  Apply a dab of antibiotic ointment and the re-cover with a clean bandage.\r\n\r\nIf you have stitches, they should be removed in 5-10 days.  If you do not have an appointment to remove your stitches, please contact the clinic to schedule one.\r\n\r\nAvoid bending over or heavy lifting if your stitches are on your face and scalp.  The healing skin is fragile, so it is best to avoid rigorous activity such as contact sports or running---especially if the stitches are in a place where the skin stretches with movement, like the knee.\r\n\r\nBruising can range from none to dark purple areas.  Applying pressure to the wound helps prevent bruising, which is why we use a large pressure dressing for the first 24 hours.  Although they can be unsightly, bruises will fade.\r\n\r\nCOMPLICATIONS\r\n\r\nBleeding\r\n\r\nIf bleeding occurs, apply firm pressure directly over the wound for 10 minutes.  Time yourself with a clock, as this can feel like a long time.  If it is still bleeding, continue to hold pressure and contact the clinic at the number below.  Very rarely, bleeding can occur on the inside.  This looks like a purple, egg-shaped swelling underneath the wound and is associated with severe pain.  Please contact the clinic if you think you have deep bleeding or go to your nearby emergency room.\r\n\r\nInfection\r\n\r\nExpect the area to become more red and tender during the first 48 hours after the procedure.  This will gradually improve and is part of normal wound healing.  Infection is a rare complication.  If it occurs, it begins several days after the procedure.  The area will become increasingly red, swollen and tender instead of slowly improving.  Please contact the clinic if you think you may have an infection.\r\n\r\nPain\r\n\r\nYou may experience some mild discomfort or pain from the swelling that normally occurs during the first 48 hours.  For discomfort and pain, we encourage you to take extra strength Tylenol (generically called acetaminophen) every four hours as needed.  Please avoid aspirin, as this can increase your risk of bleeding and bruising.  Ice packs (or a plastic bag of frozen vegetables like peas or corn) wrapped in a thin dish towel can help alleviate throbbing pain.  It is rare that medications stronger than Tylenol are needed.  If you experience pain that is not improved with Tylenol, please contact the office.  We can prescribe a stronger pain medication for you.\r\n\r\nIf you have any questions, please contact the clinic at 503-494-3376\r\n\r\nAfter hours, please call the page operator at 503-494-9000 and ask to speak with the dermatologist on call.\r\n"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/bcbf61ed-bade-47d0-935e-d89d8ca09e73"
+    }
+  }, {
+    "fullUrl": "CarePlan/d7dd7555-07e2-4f80-8ef9-17fa7d898258",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "d7dd7555-07e2-4f80-8ef9-17fa7d898258",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/d7dd7555-07e2-4f80-8ef9-17fa7d898258"
+    }
+  }, {
+    "fullUrl": "CarePlan/8c5983b0-82e5-4b60-a256-2c4ab0944ebc",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "8c5983b0-82e5-4b60-a256-2c4ab0944ebc",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/8c5983b0-82e5-4b60-a256-2c4ab0944ebc"
+    }
+  }, {
+    "fullUrl": "CarePlan/a262e624-b354-42d1-9232-d483c7613a32",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "a262e624-b354-42d1-9232-d483c7613a32",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "reference": "Condition/43ec5b16-eef3-4886-9f31-15780a1d242b",
+        "display": "Prediabetes"
+      }, {
+        "reference": "Condition/8b021f8b-08a4-4d92-9cf8-a6b94e603079",
+        "display": "BMI 32.0-32.9,adult"
+      }, {
+        "reference": "Condition/3826c689-c0e8-41d5-af08-ac4822a3254b",
+        "display": "Primary hypertension"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/a262e624-b354-42d1-9232-d483c7613a32"
+    }
+  }, {
+    "fullUrl": "CarePlan/86112f33-3adc-4a44-9a1f-83b206e1ac48",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "86112f33-3adc-4a44-9a1f-83b206e1ac48",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/86112f33-3adc-4a44-9a1f-83b206e1ac48"
+    }
+  }, {
+    "fullUrl": "CarePlan/dec2caf0-613c-438a-a8cc-be3ea391c676",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "dec2caf0-613c-438a-a8cc-be3ea391c676",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/dec2caf0-613c-438a-a8cc-be3ea391c676"
+    }
+  }, {
+    "fullUrl": "CarePlan/478d05bd-18cc-4214-ae2b-281d45c5233e",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "478d05bd-18cc-4214-ae2b-281d45c5233e",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "reference": "Condition/1c02d728-34cb-43a6-ba6b-185deeb95d1c",
+        "display": "Chest pain"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/478d05bd-18cc-4214-ae2b-281d45c5233e"
+    }
+  }, {
+    "fullUrl": "CarePlan/95f5c269-ba68-4184-8df9-0bf39824a176",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "95f5c269-ba68-4184-8df9-0bf39824a176",
+      "status": "active",
+      "intent": "plan",
+      "category": [ {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
+          "code": "assess-plan",
+          "display": "Assessment and Plan of Treatment"
+        } ],
+        "text": "Assessment and Plan of Treatment"
+      }, {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "38717003",
+          "display": "Longitudinal"
+        } ],
+        "text": "Longitudinal"
+      } ],
+      "addresses": [ {
+        "reference": "Condition/b51f60e2-7f97-4ff2-aa69-eb2766ee5521",
+        "display": "Cellulitis"
+      }, {
+        "reference": "Condition/c468ee75-f711-4d90-a16d-826e8cecd2fd",
+        "display": "Type 2 diabetes mellitus (HCC)"
+      }, {
+        "reference": "Condition/94855c99-0f05-4a29-83d9-4fa58f3b595f",
+        "display": "OSA (obstructive sleep apnea)"
+      }, {
+        "reference": "Condition/8807b4e6-eff2-496e-9f93-142ff32745af",
+        "display": "Hypertension"
+      }, {
+        "reference": "Condition/d1dd19c5-45f5-40a6-9dde-c6e165e7a13e",
+        "display": "Asthma"
+      }, {
+        "reference": "Condition/015afd46-2404-4559-baa9-9b55a6a829d5",
+        "display": "Depression"
+      }, {
+        "reference": "Condition/32f3b41f-e71d-4344-8265-3b04cc7904dd",
+        "display": "Osteoarthritis"
+      }, {
+        "reference": "Condition/89658071-aa82-47f5-8bd6-919e1a88ef02",
+        "display": "Sepsis (HCC)"
+      }, {
+        "reference": "Condition/e71f3007-b046-49df-8d5a-9880eaa91b95",
+        "display": "AKI (acute kidney injury) (HCC)"
+      }, {
+        "reference": "Condition/1da5b18b-2578-4d01-b001-7ff1c2826f8c",
+        "display": "ARDS (adult respiratory distress syndrome) (HCC)"
+      } ],
+      "activity": [ {
+        "detail": {
+          "kind": "ServiceRequest",
+          "code": {
+            "text": "OXYGEN TITRATION"
+          },
+          "status": "unknown",
+          "doNotPerform": false
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "CarePlan/95f5c269-ba68-4184-8df9-0bf39824a176"
+    }
+  } ]
+}

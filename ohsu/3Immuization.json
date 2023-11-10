@@ -1,0 +1,938 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [ {
+    "fullUrl": "Immunization/c14d6c68-3add-4cb5-a8f2-2e9198e6aede",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "c14d6c68-3add-4cb5-a8f2-2e9198e6aede",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28931982"
+      } ],
+      "status": "entered-in-error",
+      "occurrenceDateTime": "2021-06-09",
+      "primarySource": false,
+      "lotNumber": "12345"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/c14d6c68-3add-4cb5-a8f2-2e9198e6aede"
+    }
+  }, {
+    "fullUrl": "Immunization/c4f48aa0-bfba-4a85-8240-af1f137b0a89",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "c4f48aa0-bfba-4a85-8240-af1f137b0a89",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932037"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-09-09",
+      "primarySource": false,
+      "lotNumber": "TEST"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/c4f48aa0-bfba-4a85-8240-af1f137b0a89"
+    }
+  }, {
+    "fullUrl": "Immunization/d416171b-9d30-4d52-9dce-e9747b9b3d2e",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "d416171b-9d30-4d52-9dce-e9747b9b3d2e",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932038"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-07-07",
+      "primarySource": false
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/d416171b-9d30-4d52-9dce-e9747b9b3d2e"
+    }
+  }, {
+    "fullUrl": "Immunization/2f75e141-5f28-46a2-b946-c9e8c8077f82",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "2f75e141-5f28-46a2-b946-c9e8c8077f82",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28931983"
+      } ],
+      "status": "entered-in-error",
+      "occurrenceDateTime": "2021-05-25",
+      "primarySource": false,
+      "lotNumber": "123456"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/2f75e141-5f28-46a2-b946-c9e8c8077f82"
+    }
+  }, {
+    "fullUrl": "Immunization/e2265457-8e44-4a2d-a772-dc69c3937d81",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "e2265457-8e44-4a2d-a772-dc69c3937d81",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28931984"
+      } ],
+      "status": "entered-in-error",
+      "occurrenceDateTime": "2021-10-26",
+      "primarySource": false,
+      "lotNumber": "12345788"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/e2265457-8e44-4a2d-a772-dc69c3937d81"
+    }
+  }, {
+    "fullUrl": "Immunization/49600726-3dce-4140-b938-7df428d03a8d",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "49600726-3dce-4140-b938-7df428d03a8d",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932025"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-04-11",
+      "primarySource": false
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/49600726-3dce-4140-b938-7df428d03a8d"
+    }
+  }, {
+    "fullUrl": "Immunization/7db10718-8ec2-4daa-8662-b9214475b68d",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "7db10718-8ec2-4daa-8662-b9214475b68d",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932026"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-08-02",
+      "primarySource": false,
+      "lotNumber": "123"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/7db10718-8ec2-4daa-8662-b9214475b68d"
+    }
+  }, {
+    "fullUrl": "Immunization/5083bbf1-85e0-48a7-858a-1297008b2432",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "5083bbf1-85e0-48a7-858a-1297008b2432",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932027"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-08-02",
+      "primarySource": false,
+      "lotNumber": "123"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/5083bbf1-85e0-48a7-858a-1297008b2432"
+    }
+  }, {
+    "fullUrl": "Immunization/31e72a46-b2f4-47c1-9b29-6c091217119b",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "31e72a46-b2f4-47c1-9b29-6c091217119b",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932028"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-08-02",
+      "primarySource": false,
+      "lotNumber": "123"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/31e72a46-b2f4-47c1-9b29-6c091217119b"
+    }
+  }, {
+    "fullUrl": "Immunization/ee93b6c4-5857-4e23-b5c6-e02bdb10fb16",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "ee93b6c4-5857-4e23-b5c6-e02bdb10fb16",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28934578"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-12-29T18:15:00Z",
+      "primarySource": true,
+      "lotNumber": "12",
+      "expirationDate": "2023-12-29",
+      "performer": [ {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "AP",
+            "display": "Administering Provider"
+          } ],
+          "text": "Administering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/1190fb59-f197-4559-a329-0070b0a50a78",
+          "type": "Practitioner",
+          "display": "Dena Iadanza"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/ee93b6c4-5857-4e23-b5c6-e02bdb10fb16"
+    }
+  }, {
+    "fullUrl": "Immunization/4a2ad630-0fd0-4969-8bb1-cbe79b3ecdf6",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "4a2ad630-0fd0-4969-8bb1-cbe79b3ecdf6",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28934579"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-12-29T18:16:00Z",
+      "primarySource": true,
+      "lotNumber": "123",
+      "expirationDate": "2026-12-29",
+      "performer": [ {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "AP",
+            "display": "Administering Provider"
+          } ],
+          "text": "Administering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/1190fb59-f197-4559-a329-0070b0a50a78",
+          "type": "Practitioner",
+          "display": "Dena Iadanza"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/4a2ad630-0fd0-4969-8bb1-cbe79b3ecdf6"
+    }
+  }, {
+    "fullUrl": "Immunization/aa32bd3d-d8cd-429b-b5ba-29e35b0b5fcb",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "aa32bd3d-d8cd-429b-b5ba-29e35b0b5fcb",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28934580"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-12-29T18:16:00Z",
+      "primarySource": true,
+      "lotNumber": "1234",
+      "expirationDate": "2030-12-29",
+      "performer": [ {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "AP",
+            "display": "Administering Provider"
+          } ],
+          "text": "Administering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/1190fb59-f197-4559-a329-0070b0a50a78",
+          "type": "Practitioner",
+          "display": "Dena Iadanza"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/aa32bd3d-d8cd-429b-b5ba-29e35b0b5fcb"
+    }
+  }, {
+    "fullUrl": "Immunization/47faec4e-3942-4a32-a41d-380f83fc7e6f",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "47faec4e-3942-4a32-a41d-380f83fc7e6f",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28934581"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-12-29T18:17:00Z",
+      "primarySource": true,
+      "lotNumber": "12345",
+      "expirationDate": "2023-12-29",
+      "performer": [ {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "AP",
+            "display": "Administering Provider"
+          } ],
+          "text": "Administering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/1190fb59-f197-4559-a329-0070b0a50a78",
+          "type": "Practitioner",
+          "display": "Dena Iadanza"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/47faec4e-3942-4a32-a41d-380f83fc7e6f"
+    }
+  }, {
+    "fullUrl": "Immunization/e56a8abb-9ccc-4315-9a40-32732f78069f",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "e56a8abb-9ccc-4315-9a40-32732f78069f",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28934582"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-12-29T18:18:00Z",
+      "primarySource": true,
+      "lotNumber": "123456",
+      "expirationDate": "2023-12-29",
+      "performer": [ {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "AP",
+            "display": "Administering Provider"
+          } ],
+          "text": "Administering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/1190fb59-f197-4559-a329-0070b0a50a78",
+          "type": "Practitioner",
+          "display": "Dena Iadanza"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/e56a8abb-9ccc-4315-9a40-32732f78069f"
+    }
+  }, {
+    "fullUrl": "Immunization/201ce117-080e-44bc-84ae-503819782084",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "201ce117-080e-44bc-84ae-503819782084",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28935566"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-12-29T18:18:00Z",
+      "primarySource": true,
+      "lotNumber": "12",
+      "expirationDate": "2022-12-29",
+      "performer": [ {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "AP",
+            "display": "Administering Provider"
+          } ],
+          "text": "Administering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/1190fb59-f197-4559-a329-0070b0a50a78",
+          "type": "Practitioner",
+          "display": "Dena Iadanza"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/201ce117-080e-44bc-84ae-503819782084"
+    }
+  }, {
+    "fullUrl": "Immunization/b97d524d-a829-4c31-86a8-221708caeaa7",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "b97d524d-a829-4c31-86a8-221708caeaa7",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28935568"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-05-25",
+      "primarySource": false,
+      "lotNumber": "123456"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/b97d524d-a829-4c31-86a8-221708caeaa7"
+    }
+  }, {
+    "fullUrl": "Immunization/2b1a3d2a-54b9-4088-9349-f6e637044e64",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "2b1a3d2a-54b9-4088-9349-f6e637044e64",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28935569"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-10-26",
+      "primarySource": false,
+      "lotNumber": "12345788"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/2b1a3d2a-54b9-4088-9349-f6e637044e64"
+    }
+  }, {
+    "fullUrl": "Immunization/a73a9e69-ebb7-4a87-a25d-a089116073fa",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "a73a9e69-ebb7-4a87-a25d-a089116073fa",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28947762"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-09-22",
+      "primarySource": false
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/a73a9e69-ebb7-4a87-a25d-a089116073fa"
+    }
+  }, {
+    "fullUrl": "Immunization/4a7696f1-d9a4-43b8-a764-9b9b603a4ff8",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "4a7696f1-d9a4-43b8-a764-9b9b603a4ff8",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28947763"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2022-03-06",
+      "primarySource": false
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/4a7696f1-d9a4-43b8-a764-9b9b603a4ff8"
+    }
+  }, {
+    "fullUrl": "Immunization/b249e14a-c767-4526-aa85-de7d091a23ee",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "b249e14a-c767-4526-aa85-de7d091a23ee",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28947764"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2012-06-22",
+      "primarySource": false
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/b249e14a-c767-4526-aa85-de7d091a23ee"
+    }
+  }, {
+    "fullUrl": "Immunization/e77c1bf6-f141-4e7a-a15e-3501725cb67e",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "e77c1bf6-f141-4e7a-a15e-3501725cb67e",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28947765"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-06-22",
+      "primarySource": false
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/e77c1bf6-f141-4e7a-a15e-3501725cb67e"
+    }
+  }, {
+    "fullUrl": "Immunization/efe7e873-641f-4331-aa46-5a65c556bfbf",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "efe7e873-641f-4331-aa46-5a65c556bfbf",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28947766"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-06-22",
+      "primarySource": false
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/efe7e873-641f-4331-aa46-5a65c556bfbf"
+    }
+  }, {
+    "fullUrl": "Immunization/3db90ee3-2944-41c8-96a5-d5fa53519ae0",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "3db90ee3-2944-41c8-96a5-d5fa53519ae0",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28953304"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2022-09-16T15:16:00Z",
+      "primarySource": true,
+      "lotNumber": "123456",
+      "expirationDate": "2023-03-16",
+      "performer": [ {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "AP",
+            "display": "Administering Provider"
+          } ],
+          "text": "Administering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/83ca1d82-1aa0-4a19-aa5f-03a4a42cf82f",
+          "type": "Practitioner",
+          "display": "Megan Corso"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/3db90ee3-2944-41c8-96a5-d5fa53519ae0"
+    }
+  }, {
+    "fullUrl": "Immunization/a8fc15a9-64f5-4fa2-a66e-30812325ae85",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "a8fc15a9-64f5-4fa2-a66e-30812325ae85",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28962583"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2022-05-29",
+      "primarySource": false,
+      "note": [ {
+        "text": "Historical Admin"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/a8fc15a9-64f5-4fa2-a66e-30812325ae85"
+    }
+  }, {
+    "fullUrl": "Immunization/7eed84bc-b027-4bac-8c0d-de1d4aa86574",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "7eed84bc-b027-4bac-8c0d-de1d4aa86574",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28962584"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-12-21",
+      "primarySource": false,
+      "note": [ {
+        "text": "Historical Admin"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/7eed84bc-b027-4bac-8c0d-de1d4aa86574"
+    }
+  }, {
+    "fullUrl": "Immunization/6f09c62d-3277-484c-9768-03deffaa9bbe",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "6f09c62d-3277-484c-9768-03deffaa9bbe",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28962585"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2022-10-01",
+      "primarySource": false,
+      "note": [ {
+        "text": "Historical Admin"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/6f09c62d-3277-484c-9768-03deffaa9bbe"
+    }
+  }, {
+    "fullUrl": "Immunization/6448f70f-f144-4207-b46c-363487fb4227",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "6448f70f-f144-4207-b46c-363487fb4227",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932330"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-11-01",
+      "primarySource": false,
+      "lotNumber": "TEST"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/6448f70f-f144-4207-b46c-363487fb4227"
+    }
+  }, {
+    "fullUrl": "Immunization/590830d7-ce3a-4b69-9797-b1482bb058a1",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "590830d7-ce3a-4b69-9797-b1482bb058a1",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932348"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-02-01",
+      "primarySource": false
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/590830d7-ce3a-4b69-9797-b1482bb058a1"
+    }
+  }, {
+    "fullUrl": "Immunization/d084947a-7576-4dd0-8f85-f9539dad437d",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "d084947a-7576-4dd0-8f85-f9539dad437d",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932349"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-03-01",
+      "primarySource": false
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/d084947a-7576-4dd0-8f85-f9539dad437d"
+    }
+  }, {
+    "fullUrl": "Immunization/5be3ddb4-b3f3-4b74-9ac6-696bfdb81051",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "5be3ddb4-b3f3-4b74-9ac6-696bfdb81051",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932234"
+      } ],
+      "status": "entered-in-error",
+      "occurrenceDateTime": "2021-09-13",
+      "primarySource": false,
+      "lotNumber": "7845612"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/5be3ddb4-b3f3-4b74-9ac6-696bfdb81051"
+    }
+  }, {
+    "fullUrl": "Immunization/8a8c29ee-6873-42cc-9a8c-23e5523b78d4",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "8a8c29ee-6873-42cc-9a8c-23e5523b78d4",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932254"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-10-21",
+      "primarySource": false,
+      "lotNumber": "12345"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/8a8c29ee-6873-42cc-9a8c-23e5523b78d4"
+    }
+  }, {
+    "fullUrl": "Immunization/6552d040-4007-4cda-a623-92a96de6ebcd",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "6552d040-4007-4cda-a623-92a96de6ebcd",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28945370"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2022-05-17T20:20:00Z",
+      "primarySource": true,
+      "lotNumber": "123",
+      "expirationDate": "2025-05-17",
+      "performer": [ {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "AP",
+            "display": "Administering Provider"
+          } ],
+          "text": "Administering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/f63f7d98-1f3d-4bba-9509-f56c89bbd4f5",
+          "type": "Practitioner",
+          "display": "Student Health, RN, RN"
+        }
+      }, {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "OP",
+            "display": "Ordering Provider"
+          } ],
+          "text": "Ordering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/94ffb3bf-6e2a-424b-90cf-4047760fcb1f",
+          "type": "Practitioner",
+          "display": "Adam B King, PA-C"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/6552d040-4007-4cda-a623-92a96de6ebcd"
+    }
+  }, {
+    "fullUrl": "Immunization/c14a3a90-e955-4385-95f9-ab1bd1078ff7",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "c14a3a90-e955-4385-95f9-ab1bd1078ff7",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28945371"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2022-05-17T20:20:00Z",
+      "primarySource": true,
+      "lotNumber": "12345",
+      "expirationDate": "2028-05-17",
+      "performer": [ {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "AP",
+            "display": "Administering Provider"
+          } ],
+          "text": "Administering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/f63f7d98-1f3d-4bba-9509-f56c89bbd4f5",
+          "type": "Practitioner",
+          "display": "Student Health, RN, RN"
+        }
+      }, {
+        "function": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+            "code": "OP",
+            "display": "Ordering Provider"
+          } ],
+          "text": "Ordering Provider"
+        },
+        "actor": {
+          "reference": "Practitioner/94ffb3bf-6e2a-424b-90cf-4047760fcb1f",
+          "type": "Practitioner",
+          "display": "Adam B King, PA-C"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/c14a3a90-e955-4385-95f9-ab1bd1078ff7"
+    }
+  }, {
+    "fullUrl": "Immunization/c6326369-221d-46bd-ade4-787dc6a54494",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "c6326369-221d-46bd-ade4-787dc6a54494",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932328"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-02-10",
+      "primarySource": false,
+      "note": [ {
+        "text": "Historical Admin"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/c6326369-221d-46bd-ade4-787dc6a54494"
+    }
+  }, {
+    "fullUrl": "Immunization/5005853b-bada-4ea3-b982-16de64832cf1",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "5005853b-bada-4ea3-b982-16de64832cf1",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932329"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-03-04",
+      "primarySource": false,
+      "note": [ {
+        "text": "Historical Admin"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/5005853b-bada-4ea3-b982-16de64832cf1"
+    }
+  }, {
+    "fullUrl": "Immunization/1477fcb3-b623-4098-a62e-314cbf13ed7f",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "1477fcb3-b623-4098-a62e-314cbf13ed7f",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932297"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-09-24",
+      "primarySource": false,
+      "lotNumber": "12"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/1477fcb3-b623-4098-a62e-314cbf13ed7f"
+    }
+  }, {
+    "fullUrl": "Immunization/9c6374ba-a6c9-43d0-845e-02571bcce7dd",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "9c6374ba-a6c9-43d0-845e-02571bcce7dd",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932298"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-09-24",
+      "primarySource": false,
+      "lotNumber": "1234567"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/9c6374ba-a6c9-43d0-845e-02571bcce7dd"
+    }
+  }, {
+    "fullUrl": "Immunization/646a16f9-5d9b-4f05-9ecf-da6c38bf2f0b",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "646a16f9-5d9b-4f05-9ecf-da6c38bf2f0b",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932299"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-09-24",
+      "primarySource": false,
+      "lotNumber": "1234"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/646a16f9-5d9b-4f05-9ecf-da6c38bf2f0b"
+    }
+  }, {
+    "fullUrl": "Immunization/d91b7aba-cb12-465f-9626-e9015e037308",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "d91b7aba-cb12-465f-9626-e9015e037308",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932300"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-09-24",
+      "primarySource": false,
+      "lotNumber": "123"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/d91b7aba-cb12-465f-9626-e9015e037308"
+    }
+  }, {
+    "fullUrl": "Immunization/1e96f06d-f557-4eab-aeac-bbd397df12fe",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "1e96f06d-f557-4eab-aeac-bbd397df12fe",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.768076",
+        "value": "28932301"
+      } ],
+      "status": "completed",
+      "occurrenceDateTime": "2021-09-24",
+      "primarySource": false,
+      "lotNumber": "123456"
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Immunization/1e96f06d-f557-4eab-aeac-bbd397df12fe"
+    }
+  } ]
+}

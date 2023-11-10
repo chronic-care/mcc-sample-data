@@ -1,0 +1,3414 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [ {
+    "fullUrl": "Patient/a45b7be2-3005-405b-b712-8954d9e1d1fa",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "a45b7be2-3005-405b-b712-8954d9e1d1fa",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "detailed",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "SKIP",
+            "display": "Not a valid race"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Declined"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2186-5",
+            "display": "Not Hispanic or Latino"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Not Hispanic or Latino"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://hl7.org/fhir/gender-identity",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/patient-type",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "code": "19",
+            "display": "All Tuality Employees & Family"
+          } ],
+          "text": "All Tuality Employees & Family"
+        }
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O12G7K67CWQLXSV"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "value": "OHX8D645973FWWP"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E3764678"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4444394"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TBpvnIP3HuMXxWGD582k48MSeMjC3K23ryM89idAl3PkB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "a45b7be2-3005-405b-b712-8954d9e1d1fa"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4444394"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "HYACINTH"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03102838"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1356975"
+      }, {
+        "use": "usual",
+        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+        "value": "A123654789"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Hyacinth Fhir",
+        "family": "Fhir",
+        "given": [ "Hyacinth" ]
+      }, {
+        "use": "usual",
+        "text": "Hyacinth Fhir",
+        "family": "Fhir",
+        "given": [ "Hyacinth" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-555-4321",
+        "use": "home",
+        "rank": 1
+      }, {
+        "system": "phone",
+        "value": "503-555-4321",
+        "use": "mobile",
+        "rank": 2
+      }, {
+        "system": "email",
+        "value": "iadanza@ohsu.edu",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "1959-04-26",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "123 MAIN STREET" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97209",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "123 MAIN STREET" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97209",
+        "country": "US"
+      } ],
+      "contact": [ {
+        "relationship": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.827665.1000",
+            "code": "16",
+            "display": "Spouse"
+          } ],
+          "text": "Spouse"
+        } ],
+        "name": {
+          "use": "usual",
+          "text": "Starter FHIR"
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "503-555-9845",
+          "use": "home"
+        } ]
+      }, {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "E",
+            "display": "Employer"
+          } ]
+        } ],
+        "address": {
+          "use": "work",
+          "city": "Tigard",
+          "state": "OR"
+        },
+        "organization": {
+          "display": "City Of Tigard"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/bb8a27b2-229c-4a48-901d-104ceab32f7b",
+        "type": "Practitioner",
+        "display": "Timothy Joslin, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/a45b7be2-3005-405b-b712-8954d9e1d1fa"
+    }
+  }, {
+    "fullUrl": "Patient/e0b236fd-7db2-40a6-bd55-9efcea1f29af",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "e0b236fd-7db2-40a6-bd55-9efcea1f29af",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "1002-5",
+            "display": "American Indian or Alaska Native"
+          }
+        }, {
+          "url": "text",
+          "valueString": "American Indian/Alaska Native"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://hl7.org/fhir/gender-identity",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O123CMS1P4X6DJV"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "value": "OHXSVLK8RGB9487"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E3764677"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4444395"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TDw5Hf-X5yLps-OKfCUNxadDxocQq8tKGQlu6FB5FWhMB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "e0b236fd-7db2-40a6-bd55-9efcea1f29af"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4444395"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "ROSEFHIR"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03102837"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1356699"
+      }, {
+        "use": "usual",
+        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+        "value": "26500002"
+      }, {
+        "use": "usual",
+        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+        "value": "220046021"
+      }, {
+        "use": "usual",
+        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+        "value": "LEG10015632"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "old",
+        "text": "FHIR,ROSIE ONE",
+        "family": "Fhir",
+        "given": [ "Rosie", "One" ]
+      }, {
+        "use": "old",
+        "text": "FHIR,ROSIE",
+        "family": "Fhir",
+        "given": [ "Rosie" ]
+      }, {
+        "use": "old",
+        "text": "FHIR,LITTLE BIT",
+        "family": "Fhir",
+        "given": [ "Little", "Bit" ]
+      }, {
+        "use": "old",
+        "text": "FHIR,PINK",
+        "family": "Fhir",
+        "given": [ "Pink" ]
+      }, {
+        "use": "old",
+        "text": "FHIR,PINKIE PIE",
+        "family": "Fhir",
+        "given": [ "Pinkie", "Pie" ]
+      }, {
+        "use": "old",
+        "text": "FHIR,PINKIE",
+        "family": "Fhir",
+        "given": [ "Pinkie" ]
+      }, {
+        "use": "official",
+        "text": "Rose Pink Fhir",
+        "family": "Fhir",
+        "given": [ "Rose", "Pink" ]
+      }, {
+        "use": "usual",
+        "text": "Rosie Pink Fhir",
+        "family": "Fhir",
+        "given": [ "Rosie", "Pink" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-555-1234",
+        "use": "home",
+        "rank": 1
+      }, {
+        "system": "phone",
+        "value": "503-555-1234",
+        "use": "mobile",
+        "rank": 2
+      }, {
+        "system": "email",
+        "value": "iadanza@ohsu.edu",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "1975-01-23",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "4321 NO WAY" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97201",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "4321 NO WAY" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97201",
+        "country": "US"
+      } ],
+      "contact": [ {
+        "relationship": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.827665.1000",
+            "code": "16",
+            "display": "Spouse"
+          } ],
+          "text": "Spouse"
+        } ],
+        "name": {
+          "use": "usual",
+          "text": "Walker FHIR"
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "503-555-4912",
+          "use": "mobile"
+        } ]
+      }, {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "E",
+            "display": "Employer"
+          } ]
+        } ],
+        "organization": {
+          "display": "Lam Research"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/62abb964-a54b-49e4-b02d-c220a0790fab",
+        "type": "Practitioner",
+        "display": "Christopher Terndrup, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/e0b236fd-7db2-40a6-bd55-9efcea1f29af"
+    }
+  }, {
+    "fullUrl": "Patient/e7d2db47-d331-4044-b189-7192da6ba31d",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "e7d2db47-d331-4044-b189-7192da6ba31d",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2106-3",
+            "display": "White"
+          }
+        }, {
+          "url": "text",
+          "valueString": "White"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O12S3SS163PS5GS"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "value": "OHX3KK283KKB84R"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E3765174"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4444396"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "Th5zkvQX6QXaDosW.TFzv3fyqzhFqMlY9We0TotIgnqMB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "e7d2db47-d331-4044-b189-7192da6ba31d"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4444396"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "SALLYJO"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03103302"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1356952"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Sally Jo Fhir",
+        "family": "Fhir",
+        "given": [ "Sally", "Jo" ]
+      }, {
+        "use": "usual",
+        "text": "Sally Jo Fhir",
+        "family": "Fhir",
+        "given": [ "Sally", "Jo" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-494-9000",
+        "use": "home"
+      }, {
+        "system": "email",
+        "value": "iadanza@ohsu.edu",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "1986-09-30",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "1234 NO WAY" ],
+        "city": "TUALATIN",
+        "district": "WASHINGTON",
+        "state": "OR",
+        "postalCode": "97062",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "1234 NO WAY" ],
+        "city": "TUALATIN",
+        "district": "WASHINGTON",
+        "state": "OR",
+        "postalCode": "97062",
+        "country": "US"
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+        "type": "Practitioner",
+        "display": "David Dorr, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/e7d2db47-d331-4044-b189-7192da6ba31d"
+    }
+  }, {
+    "fullUrl": "Patient/5806e210-771a-4986-ae48-e88ae3e82997",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "5806e210-771a-4986-ae48-e88ae3e82997",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "code": "UNK",
+            "display": "Unknown"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "male",
+            "display": "male"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "male",
+            "display": "male"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "M"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O12VPFC2FTL8FC5"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "value": "OHX2GT7754Z6T2V"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E3765175"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4445925"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "Tl06vB3BRcks57eyOMElCHqrKNTZNd0MqX50was.bN2oB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "5806e210-771a-4986-ae48-e88ae3e82997"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4445925"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "ANDREW"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03103303"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1356753"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Andrew Fhir",
+        "family": "Fhir",
+        "given": [ "Andrew" ]
+      }, {
+        "use": "usual",
+        "text": "Andrew Fhir",
+        "family": "Fhir",
+        "given": [ "Andrew" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-494-9000",
+        "use": "home",
+        "rank": 1
+      }, {
+        "system": "email",
+        "value": "iadanza@ohsu.edu",
+        "rank": 1
+      } ],
+      "gender": "male",
+      "birthDate": "1981-09-15",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "1234 NO WAY" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97206",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "1234 NO WAY" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97206",
+        "country": "US"
+      } ],
+      "contact": [ {
+        "relationship": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.827665.1000",
+            "code": "23",
+            "display": "Grandmother"
+          } ],
+          "text": "Grandmother"
+        } ],
+        "name": {
+          "use": "usual",
+          "text": "Granny FHIR"
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "503-494-9000",
+          "use": "work"
+        } ]
+      }, {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "E",
+            "display": "Employer"
+          } ]
+        } ],
+        "address": {
+          "use": "work",
+          "city": "Beaverton",
+          "state": "OR"
+        },
+        "organization": {
+          "display": "Nike"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+        "type": "Practitioner",
+        "display": "David Dorr, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/5806e210-771a-4986-ae48-e88ae3e82997"
+    }
+  }, {
+    "fullUrl": "Patient/25324d1b-fe59-4d31-8ec9-c7e48ac4d05b",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "25324d1b-fe59-4d31-8ec9-c7e48ac4d05b",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "code": "UNK",
+            "display": "Unknown"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Buttercup Marigold Fhir",
+        "family": "Fhir",
+        "given": [ "Buttercup", "Marigold" ]
+      }, {
+        "use": "usual",
+        "text": "Reeses Marigold Fhir",
+        "family": "Fhir",
+        "given": [ "Reeses", "Marigold" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/25324d1b-fe59-4d31-8ec9-c7e48ac4d05b"
+    }
+  }, {
+    "fullUrl": "Patient/52517574-7eb7-4e34-afc6-3c273eafdac5",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "52517574-7eb7-4e34-afc6-3c273eafdac5",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2076-8",
+            "display": "Native Hawaiian or Other Pacific Islander"
+          }
+        }, {
+          "url": "detailed",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2500-7",
+            "display": "Other Pacific Islander"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Other Pacific Islander"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "male",
+            "display": "male"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "male",
+            "display": "male"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "M"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O123BWJ4CL3X77B"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "value": "OHX6TC505R7GVXN"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E3764680"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4445927"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TayYskoi3ipn0L3K0ZBI6TZqkVXqJ6RwM6ajZXA3XlSwB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "52517574-7eb7-4e34-afc6-3c273eafdac5"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4445927"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "CHRYSFHIR"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03102840"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1357026"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Chrysanthemum Amaryllis Fhir",
+        "family": "Fhir",
+        "given": [ "Chrysanthemum", "Amaryllis" ]
+      }, {
+        "use": "usual",
+        "text": "Chrys Amaryllis Fhir",
+        "family": "Fhir",
+        "given": [ "Chrys", "Amaryllis" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-555-1234",
+        "use": "home",
+        "rank": 1
+      }, {
+        "system": "phone",
+        "value": "503-555-6543",
+        "use": "mobile",
+        "rank": 2
+      } ],
+      "gender": "male",
+      "birthDate": "2005-02-17",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "123 MAIN STREET" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97209",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "123 MAIN STREET" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97209",
+        "country": "US"
+      } ],
+      "contact": [ {
+        "relationship": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.827665.1000",
+            "code": "21",
+            "display": "Mother"
+          } ],
+          "text": "Mother"
+        } ],
+        "name": {
+          "use": "usual",
+          "text": "FHIR Mom"
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "503-494-9000",
+          "use": "work"
+        } ]
+      }, {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "E",
+            "display": "Employer"
+          } ]
+        } ],
+        "address": {
+          "use": "work",
+          "city": "Portland",
+          "state": "OR"
+        },
+        "organization": {
+          "display": "Adidas"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/94ffb3bf-6e2a-424b-90cf-4047760fcb1f",
+        "type": "Practitioner",
+        "display": "Adam B King, PA-C"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/52517574-7eb7-4e34-afc6-3c273eafdac5"
+    }
+  }, {
+    "fullUrl": "Patient/ba740111-131f-4630-9378-07aa7df59628",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "ba740111-131f-4630-9378-07aa7df59628",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2054-5",
+            "display": "Black or African American"
+          }
+        }, {
+          "url": "detailed",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2056-0",
+            "display": "Black"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Black/African American"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O12FTLT75PWNPR7"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "value": "OHXNVZB1DBKDSFZ"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E3765177"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4445928"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TDYhGYHb-hZefjZ5F14H5Djai5Fv9kmXlEJyj.6t9hIQB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "ba740111-131f-4630-9378-07aa7df59628"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4445928"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "FANNYMAE"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03103305"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1356738"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Fanny Mae Fhir",
+        "family": "Fhir",
+        "given": [ "Fanny", "Mae" ]
+      }, {
+        "use": "usual",
+        "text": "Fanny Mae Fhir",
+        "family": "Fhir",
+        "given": [ "Fanny", "Mae" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "iadanza@ohsu.edu",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "1942-10-01",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "1234 NO WAY" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97201",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "1234 NO WAY" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97201",
+        "country": "US"
+      } ],
+      "contact": [ {
+        "relationship": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.827665.1000",
+            "code": "3",
+            "display": "Son/Daughter"
+          } ],
+          "text": "Son/Daughter"
+        } ],
+        "name": {
+          "use": "usual",
+          "text": "Freddy FHIR"
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "503-494-9000",
+          "use": "mobile"
+        } ]
+      }, {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "E",
+            "display": "Employer"
+          } ]
+        } ],
+        "organization": {
+          "display": "None"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+        "type": "Practitioner",
+        "display": "David Dorr, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/ba740111-131f-4630-9378-07aa7df59628"
+    }
+  }, {
+    "fullUrl": "Patient/2c4cd18f-e081-44d8-966f-44a673486998",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "2c4cd18f-e081-44d8-966f-44a673486998",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "1002-5",
+            "display": "American Indian or Alaska Native"
+          }
+        }, {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2106-3",
+            "display": "White"
+          }
+        }, {
+          "url": "text",
+          "valueString": "American Indian/Alaska Native, White"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "male",
+            "display": "male"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://hl7.org/fhir/gender-identity",
+            "code": "male",
+            "display": "male"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "male",
+            "display": "male"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "M"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O12RCP86L9JSQ4G"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E3765110"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4445929"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TXr-UAyqANODRPY.rnlMWjJIStm1O0h.PCIbrgnOMgQkB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "2c4cd18f-e081-44d8-966f-44a673486998"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4445929"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03103250"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Jimmy John Fhir",
+        "family": "Fhir",
+        "given": [ "Jimmy", "John" ]
+      }, {
+        "use": "usual",
+        "text": "Jimmy John Fhir",
+        "family": "Fhir",
+        "given": [ "Jimmy", "John" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-494-8311",
+        "use": "work"
+      }, {
+        "system": "email",
+        "value": "iadanza@ohsu.edu",
+        "rank": 1
+      } ],
+      "gender": "male",
+      "birthDate": "1981-04-25",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "1234 NO WAY" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97201",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "1234 NO WAY" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97201",
+        "country": "US"
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+        "type": "Practitioner",
+        "display": "David Dorr, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/2c4cd18f-e081-44d8-966f-44a673486998"
+    }
+  }, {
+    "fullUrl": "Patient/da58610f-373f-4cae-81c3-611ec6a757cf",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "da58610f-373f-4cae-81c3-611ec6a757cf",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2054-5",
+            "display": "Black or African American"
+          }
+        }, {
+          "url": "detailed",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2056-0",
+            "display": "Black"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Black/African American"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "male",
+            "display": "male"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "male",
+            "display": "male"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "M"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O1296DR3S4J4Q3H"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E3765176"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4445930"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TA.qBsHcWcKtWL83sQ1u8Yww0vX2Mh.5Zj6NnxqP0fBoB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "da58610f-373f-4cae-81c3-611ec6a757cf"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4445930"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03103304"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Johnny Bill Fhir",
+        "family": "Fhir",
+        "given": [ "Johnny", "Bill" ]
+      }, {
+        "use": "usual",
+        "text": "Johnny Bill Fhir",
+        "family": "Fhir",
+        "given": [ "Johnny", "Bill" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "iadanza@ohsu.edu",
+        "rank": 1
+      } ],
+      "gender": "male",
+      "birthDate": "1966-10-01",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "1234 NO WAY" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97201",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "1234 NO WAY" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97201",
+        "country": "US"
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+        "type": "Practitioner",
+        "display": "David Dorr, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/da58610f-373f-4cae-81c3-611ec6a757cf"
+    }
+  }, {
+    "fullUrl": "Patient/d4c5220f-9265-40d6-9977-9b2183147ff6",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "d4c5220f-9265-40d6-9977-9b2183147ff6",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2106-3",
+            "display": "White"
+          }
+        }, {
+          "url": "text",
+          "valueString": "White"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2186-5",
+            "display": "Not Hispanic or Latino"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Not Hispanic or Latino"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://hl7.org/fhir/gender-identity",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O12HS423N7PGQNJ"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "value": "OHXV4CF0NB4HL24"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E3764679"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4445931"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "Tf7nx-bx-VxJbaa4SL2bIzZM8M0wlr6Co-uaR84YlojAB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "d4c5220f-9265-40d6-9977-9b2183147ff6"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4445931"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "LILLYFHIR"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03102839"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1356779"
+      }, {
+        "use": "usual",
+        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+        "value": "123456789"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Lilly Day Fhir",
+        "family": "Fhir",
+        "given": [ "Lilly", "Day" ]
+      }, {
+        "use": "usual",
+        "text": "Lilly Day Fhir",
+        "family": "Fhir",
+        "given": [ "Lilly", "Day" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-555-9876",
+        "use": "home",
+        "rank": 1
+      }, {
+        "system": "phone",
+        "value": "503-555-9876",
+        "use": "mobile",
+        "rank": 2
+      }, {
+        "system": "email",
+        "value": "iadanza@ohsu.edu",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "2000-11-04",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "987 FIRST AVENUE" ],
+        "city": "BEAVERTON",
+        "district": "WASHINGTON",
+        "state": "OR",
+        "postalCode": "97006",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "987 FIRST AVENUE" ],
+        "city": "BEAVERTON",
+        "district": "WASHINGTON",
+        "state": "OR",
+        "postalCode": "97006",
+        "country": "US"
+      } ],
+      "contact": [ {
+        "relationship": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.827665.1000",
+            "code": "21",
+            "display": "Mother"
+          } ],
+          "text": "Mother"
+        } ],
+        "name": {
+          "use": "usual",
+          "text": "House FHIR"
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "503-494-9000",
+          "use": "work"
+        } ]
+      }, {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "E",
+            "display": "Employer"
+          } ]
+        } ],
+        "organization": {
+          "display": "None"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/bc94d034-b5d2-4b1d-bd88-1deba48659f9",
+        "type": "Practitioner",
+        "display": "Daisuke Yamashita, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/d4c5220f-9265-40d6-9977-9b2183147ff6"
+    }
+  }, {
+    "fullUrl": "Patient/6509c2d1-1dc1-4f0c-8aaf-5c529edc3ae8",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "6509c2d1-1dc1-4f0c-8aaf-5c529edc3ae8",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2106-3",
+            "display": "White"
+          }
+        }, {
+          "url": "text",
+          "valueString": "White"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O12V3LB2KCF5SJR"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E4370162"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4449072"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TZImF9WGwieyEd7PvL7icxb7VfqzCZjwdclPLks2MS9AB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "6509c2d1-1dc1-4f0c-8aaf-5c529edc3ae8"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4449072"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "MYCHARTHAZEL"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03001103"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1357089"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Hazel Fhir",
+        "family": "Fhir",
+        "given": [ "Hazel" ]
+      }, {
+        "use": "usual",
+        "text": "Hazel Fhir",
+        "family": "Fhir",
+        "given": [ "Hazel" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "703-303-8726",
+        "use": "home"
+      }, {
+        "system": "email",
+        "value": "martchr@ohsu.edu",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "1978-07-03",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "123 Newberry Wat" ],
+        "city": "Hillsboro",
+        "state": "OR",
+        "postalCode": "97124",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "123 Newberry Way" ],
+        "city": "Hillsboro",
+        "district": "WASHINGTON",
+        "state": "OR",
+        "postalCode": "97124",
+        "country": "US"
+      } ],
+      "contact": [ {
+        "relationship": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.827665.1000",
+            "code": "25",
+            "display": "Caregiver"
+          } ],
+          "text": "Caregiver"
+        } ],
+        "name": {
+          "use": "usual",
+          "text": "Judy Jetson"
+        }
+      }, {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "E",
+            "display": "Employer"
+          } ]
+        } ],
+        "organization": {
+          "display": "12th And Maple Wine Co"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/3dd6b1e9-dcb3-40a1-ac59-ff62ebbb4f94",
+        "type": "Practitioner",
+        "display": "Mustaquim F Chowdhury, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/6509c2d1-1dc1-4f0c-8aaf-5c529edc3ae8"
+    }
+  }, {
+    "fullUrl": "Patient/062c7408-a49f-4370-84b9-aa6c844e67c5",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "062c7408-a49f-4370-84b9-aa6c844e67c5",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2106-3",
+            "display": "White"
+          }
+        }, {
+          "url": "text",
+          "valueString": "White"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O122K2G4HVK8CX7"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E4370163"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4449073"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TYB1ZykJlq04P6iNXgmJUIed31uCOZLvEplEzZrfcENcB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "062c7408-a49f-4370-84b9-aa6c844e67c5"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4449073"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03001104"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1357407"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Hazel Lee Fhir",
+        "family": "Fhir",
+        "given": [ "Hazel", "Lee" ]
+      }, {
+        "use": "usual",
+        "text": "Hazel Lee Fhir",
+        "family": "Fhir",
+        "given": [ "Hazel", "Lee" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "703-303-8726",
+        "use": "home"
+      }, {
+        "system": "email",
+        "value": "martchr@ohsu.edu",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "1977-07-03",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "123 Newberry Way" ],
+        "city": "Hillsboro",
+        "district": "WASHINGTON",
+        "state": "OR",
+        "postalCode": "97124",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "123 Newberry Way" ],
+        "city": "Hillsboro",
+        "district": "WASHINGTON",
+        "state": "OR",
+        "postalCode": "97124",
+        "country": "US"
+      } ],
+      "contact": [ {
+        "name": {
+          "use": "usual",
+          "text": "Judy"
+        }
+      }, {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "E",
+            "display": "Employer"
+          } ]
+        } ],
+        "address": {
+          "use": "work",
+          "city": "Gresham",
+          "state": "OR"
+        },
+        "organization": {
+          "display": "12 Mile Animal Clinic"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/af9ac452-d86b-4df8-8e06-d3cd893c8fdb",
+        "type": "Practitioner",
+        "display": "Reem Hasan, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/062c7408-a49f-4370-84b9-aa6c844e67c5"
+    }
+  }, {
+    "fullUrl": "Patient/b36d75d9-7125-4130-ba0a-37c81db6a434",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "b36d75d9-7125-4130-ba0a-37c81db6a434",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2054-5",
+            "display": "Black or African American"
+          }
+        }, {
+          "url": "detailed",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2056-0",
+            "display": "Black"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Black/African American"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O126CF62KHMWLSN"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E4371015"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4449925"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TfV7sz8hnxejSHnUVQSoZwrqGQRihhUe0JqZmrQYf2GYB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "b36d75d9-7125-4130-ba0a-37c81db6a434"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4449925"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "HAZEL1"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03002002"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1357188"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Hazel FHIR One",
+        "family": "FHIR One",
+        "given": [ "Hazel" ]
+      }, {
+        "use": "usual",
+        "text": "Hazel FHIR One",
+        "family": "FHIR One",
+        "given": [ "Hazel" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "432-987-4531",
+        "use": "home",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "1958-01-23",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "5435" ],
+        "city": "E westbase",
+        "district": "CLARK",
+        "state": "WA",
+        "postalCode": "98686",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "5435" ],
+        "city": "E westbase",
+        "district": "CLARK",
+        "state": "WA",
+        "postalCode": "98686",
+        "country": "US"
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+        "type": "Practitioner",
+        "display": "David Dorr, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/b36d75d9-7125-4130-ba0a-37c81db6a434"
+    }
+  }, {
+    "fullUrl": "Patient/93f4b427-64a8-4436-8098-80b2fb525856",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "93f4b427-64a8-4436-8098-80b2fb525856",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2054-5",
+            "display": "Black or African American"
+          }
+        }, {
+          "url": "detailed",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2056-0",
+            "display": "Black"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Black/African American"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.4.1",
+        "value": "259-87-7456"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O122J5N3CS4WHGV"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E4371016"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4449926"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TXhIK5bR5OtEEdL7f7v3KIgYw-6.q1kr8W0lVF20v-sMB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "93f4b427-64a8-4436-8098-80b2fb525856"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4449926"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "HAZEL2"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03002003"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1357186"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Hazel FHIR Two",
+        "family": "FHIR Two",
+        "given": [ "Hazel" ]
+      }, {
+        "use": "usual",
+        "text": "Hazel FHIR Two",
+        "family": "FHIR Two",
+        "given": [ "Hazel" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-985-6458",
+        "use": "home",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "1958-06-15",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "652 E Jones St" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97201",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "652 E Jones St" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97201",
+        "country": "US"
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+        "type": "Practitioner",
+        "display": "David Dorr, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/93f4b427-64a8-4436-8098-80b2fb525856"
+    }
+  }, {
+    "fullUrl": "Patient/0d13ec1d-3762-4544-acb6-0cfe3efcc764",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "0d13ec1d-3762-4544-acb6-0cfe3efcc764",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2054-5",
+            "display": "Black or African American"
+          }
+        }, {
+          "url": "detailed",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2056-0",
+            "display": "Black"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Black/African American"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.4.1",
+        "value": "415-87-9854"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O125HMG7CRS8Z45"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E4371017"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4449927"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TqqpF1yA8bXf.9PHixs8SomGua8iB2Xq4WBxa0vXEIJ4B"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "0d13ec1d-3762-4544-acb6-0cfe3efcc764"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4449927"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "HAZEL3"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03002004"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1357187"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Hazel FHIR three",
+        "family": "FHIR three",
+        "given": [ "Hazel" ]
+      }, {
+        "use": "usual",
+        "text": "Hazel FHIR three",
+        "family": "FHIR three",
+        "given": [ "Hazel" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-265-9856",
+        "use": "home",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "1958-11-02",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "6528 South Broadway" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97203",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "6528 South Broadway" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97203",
+        "country": "US"
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+        "type": "Practitioner",
+        "display": "David Dorr, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/0d13ec1d-3762-4544-acb6-0cfe3efcc764"
+    }
+  }, {
+    "fullUrl": "Patient/69f40723-7721-43df-b9c7-7d2ef54da816",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "69f40723-7721-43df-b9c7-7d2ef54da816",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "code": "UNK",
+            "display": "Unknown"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Addy AHPL FHIR",
+        "family": "FHIR",
+        "given": [ "Addy", "AHPL" ]
+      }, {
+        "use": "usual",
+        "text": "Addy AHPL FHIR",
+        "family": "FHIR",
+        "given": [ "Addy", "AHPL" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/69f40723-7721-43df-b9c7-7d2ef54da816"
+    }
+  }, {
+    "fullUrl": "Patient/da891ca4-aed6-4764-bdbb-ce8d1bb88091",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "da891ca4-aed6-4764-bdbb-ce8d1bb88091",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "code": "UNK",
+            "display": "Unknown"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Cindy AHPL FHIR",
+        "family": "FHIR",
+        "given": [ "Cindy", "AHPL" ]
+      }, {
+        "use": "usual",
+        "text": "Cindy AHPL FHIR",
+        "family": "FHIR",
+        "given": [ "Cindy", "AHPL" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/da891ca4-aed6-4764-bdbb-ce8d1bb88091"
+    }
+  }, {
+    "fullUrl": "Patient/01558841-72fe-4d7d-8349-7e19fea0665f",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "01558841-72fe-4d7d-8349-7e19fea0665f",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "code": "UNK",
+            "display": "Unknown"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O12VFTK2VT2JV95"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E4371584"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4450495"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "TiX29K6rDK5fnlrWax8sEFQmBbMXNcfYvX1Vuvx5z-ucB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "01558841-72fe-4d7d-8349-7e19fea0665f"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4450495"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "MYCHARTLOGIN"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.878082.110",
+        "value": "GRETCHEN"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03002566"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "WPRINTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.878082",
+        "value": "1357275"
+      }, {
+        "use": "usual",
+        "system": "https://open.epic.com/FHIR/StructureDefinition/PayerMemberId",
+        "value": "ABC123456789"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "official",
+        "text": "Gretchen FHIR",
+        "family": "FHIR",
+        "given": [ "Gretchen" ]
+      }, {
+        "use": "usual",
+        "text": "Gretchen FHIR",
+        "family": "FHIR",
+        "given": [ "Gretchen" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-494-9000",
+        "use": "home",
+        "rank": 1
+      } ],
+      "gender": "female",
+      "birthDate": "1976-05-18",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "1234 No Way" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97206",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "1234 No Way" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97206",
+        "country": "US"
+      } ],
+      "contact": [ {
+        "relationship": [ {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.827665.1000",
+            "code": "26",
+            "display": "Registered Domestic Partner"
+          } ],
+          "text": "Registered Domestic Partner"
+        } ],
+        "name": {
+          "use": "usual",
+          "text": "Ralph Parker"
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "503-494-8300",
+          "use": "work"
+        } ]
+      }, {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "E",
+            "display": "Employer"
+          } ]
+        } ],
+        "organization": {
+          "display": "None"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          } ],
+          "text": "English"
+        },
+        "preferred": true
+      } ],
+      "generalPractitioner": [ {
+        "reference": "Practitioner/eca33a59-e7ef-47eb-87cd-8d1ab4c63fdd",
+        "type": "Practitioner",
+        "display": "Timothy L Herrick, MD"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/01558841-72fe-4d7d-8349-7e19fea0665f"
+    }
+  }, {
+    "fullUrl": "Patient/f1d821e8-96fa-4bd4-911e-7c01ff230187",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "f1d821e8-96fa-4bd4-911e-7c01ff230187",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "code": "UNK",
+            "display": "Unknown"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Hmc Fhir",
+        "family": "Fhir",
+        "given": [ "Hmc" ]
+      }, {
+        "use": "usual",
+        "text": "Hmc Fhir",
+        "family": "Fhir",
+        "given": [ "Hmc" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/f1d821e8-96fa-4bd4-911e-7c01ff230187"
+    }
+  }, {
+    "fullUrl": "Patient/30c97984-ad65-4376-8eb4-326bc59ee9d2",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "30c97984-ad65-4376-8eb4-326bc59ee9d2",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "code": "UNK",
+            "display": "Unknown"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "McMc Fhir",
+        "family": "Fhir",
+        "given": [ "McMc" ]
+      }, {
+        "use": "usual",
+        "text": "McMc Fhir",
+        "family": "Fhir",
+        "given": [ "McMc" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/30c97984-ad65-4376-8eb4-326bc59ee9d2"
+    }
+  }, {
+    "fullUrl": "Patient/923e6d0d-5628-4d05-a32d-9c2d000d68ef",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "923e6d0d-5628-4d05-a32d-9c2d000d68ef",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "code": "UNK",
+            "display": "Unknown"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "Mary Sue Fhir",
+        "family": "Fhir",
+        "given": [ "Mary", "Sue" ]
+      }, {
+        "use": "usual",
+        "text": "Mary Sue Fhir",
+        "family": "Fhir",
+        "given": [ "Mary", "Sue" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/923e6d0d-5628-4d05-a32d-9c2d000d68ef"
+    }
+  }, {
+    "fullUrl": "Patient/5bc47138-8d1b-4891-b141-4d216e06e025",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "5bc47138-8d1b-4891-b141-4d216e06e025",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+        "extension": [ {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+            "code": "UNK",
+            "display": "Unknown"
+          }
+        }, {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+        "extension": [ {
+          "url": "text",
+          "valueString": "Unknown"
+        } ]
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.10.698084.130.657370.909258",
+            "code": "female",
+            "display": "female"
+          } ]
+        }
+      }, {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCode": "F"
+      } ],
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "CEID"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.3.688884.100",
+        "value": "O12QMQ92XWDSRGX"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPI"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.2.7.5.737384.0",
+        "value": "E4371994"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "Z4450910"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+        "value": "T38uXdjyY6A6s4pnhNOhtIPUNJA7mu5MAvAMhuKrS5fEB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "FHIR STU3"
+        },
+        "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+        "value": "5bc47138-8d1b-4891-b141-4d216e06e025"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.698084",
+        "value": "  Z4450910"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:2.16.840.1.113883.3.2076.2.100",
+        "value": "03002959"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "old",
+        "text": "SIMIPFCELLULITIS,HELEN",
+        "family": "Simipfcellulitis",
+        "given": [ "Helen" ]
+      }, {
+        "use": "official",
+        "text": "Helen Simipfcellulitis FHIR",
+        "family": "FHIR",
+        "given": [ "Helen", "Simipfcellulitis" ]
+      }, {
+        "use": "usual",
+        "text": "Helen Simipfcellulitis FHIR",
+        "family": "FHIR",
+        "given": [ "Helen", "Simipfcellulitis" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "503-555-5555",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1953-02-01",
+      "deceasedBoolean": false,
+      "address": [ {
+        "use": "old",
+        "line": [ "123 Main Street" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97227",
+        "country": "US"
+      }, {
+        "use": "home",
+        "line": [ "123 Main Street" ],
+        "city": "PORTLAND",
+        "district": "MULTNOMAH",
+        "state": "OR",
+        "postalCode": "97227",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Patient/5bc47138-8d1b-4891-b141-4d216e06e025"
+    }
+  } ]
+}
