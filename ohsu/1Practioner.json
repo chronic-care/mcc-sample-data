@@ -1,0 +1,5675 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [ {
+    "fullUrl": "Practitioner/59fe5abd-9c0b-4582-a1b6-8ba37349ee29",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "59fe5abd-9c0b-4582-a1b6-8ba37349ee29",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.53",
+        "value": "103432"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " SPRAGUEL"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "SPRAGUEL"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Lynn Sprague",
+        "family": "Sprague",
+        "given": [ "Lynn" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "spraguel@ohsu.edu"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/59fe5abd-9c0b-4582-a1b6-8ba37349ee29"
+    }
+  }, {
+    "fullUrl": "Practitioner/1e5a8da9-e472-4ca9-af2a-ebdad2aec9c7",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "1e5a8da9-e472-4ca9-af2a-ebdad2aec9c7",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598746166"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "  CHOOE"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "CHOOE"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "046302"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "046302"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1598746166"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6988969781001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207P00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "2874"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Emergency Medicine"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    2874"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "2874"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "ESTHER K CHOO, MD",
+        "family": "Choo",
+        "given": [ "Esther" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "chooe@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/1e5a8da9-e472-4ca9-af2a-ebdad2aec9c7"
+    }
+  }, {
+    "fullUrl": "Practitioner/61dd3548-9643-42e8-9f1e-e2b11c99bd34",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "61dd3548-9643-42e8-9f1e-e2b11c99bd34",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "  RADKE"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "RADKE"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "48285"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   48285"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "48285"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Jennifer Radke, PharmD",
+        "family": "Radke",
+        "given": [ "Jennifer" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "radke@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "65",
+            "display": "PharmD"
+          } ],
+          "text": "PharmD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/61dd3548-9643-42e8-9f1e-e2b11c99bd34"
+    }
+  }, {
+    "fullUrl": "Practitioner/91664691-82e9-4477-a560-cf093666d1fa",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "91664691-82e9-4477-a560-cf093666d1fa",
+      "name": [ {
+        "use": "usual",
+        "text": "Rn Nurse Care Manager Ohsu, RN",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "masked"
+          } ]
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/91664691-82e9-4477-a560-cf093666d1fa"
+    }
+  }, {
+    "fullUrl": "Practitioner/56c92e56-73b9-4729-8497-06a1b0c300a0",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "56c92e56-73b9-4729-8497-06a1b0c300a0",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093723520"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "text": "David Dorr, MD",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "masked"
+          } ]
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/56c92e56-73b9-4729-8497-06a1b0c300a0"
+    }
+  }, {
+    "fullUrl": "Practitioner/42280a01-e63e-4c3f-9df3-c791e67241b4",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "42280a01-e63e-4c3f-9df3-c791e67241b4",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497827158"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "text": "Lishiana S Shaffer, MD",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "masked"
+          } ]
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/42280a01-e63e-4c3f-9df3-c791e67241b4"
+    }
+  }, {
+    "fullUrl": "Practitioner/91be1bdf-1099-4211-81d9-7f8cfe9f2506",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "91be1bdf-1099-4211-81d9-7f8cfe9f2506",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699781146"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " HUNTERJ"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "HUNTERJ"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "033944"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "033944"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1699781146"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6031885521001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "208600000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "1003"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Surgery"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Gastrointestinal and General Surgery"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    1003"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "1003"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "JOHN HUNTER, MD",
+        "family": "Hunter",
+        "given": [ "John" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "hunterj@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/91be1bdf-1099-4211-81d9-7f8cfe9f2506"
+    }
+  }, {
+    "fullUrl": "Practitioner/ef1702a5-d115-47c2-bfd9-95ce26a41464",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "ef1702a5-d115-47c2-bfd9-95ce26a41464",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285698514"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " ADMEDG4MARCM"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "ADMEDG4MARCM"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "100966"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "100966"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1285698514"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207R00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "100966"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.124",
+        "value": "7603"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "  100966"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "100966"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Marc Moroye, MD",
+        "family": "Moroye",
+        "given": [ "Marc", "M" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "marc.moroye@ah.org"
+      } ],
+      "gender": "male",
+      "birthDate": "1966-07-16",
+      "photo": [ {
+        "contentType": "image/jpg",
+        "url": "https://www.adventisthealth.org/images/providers/Moroye-Marc-02-06.jpg"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/ef1702a5-d115-47c2-bfd9-95ce26a41464"
+    }
+  }, {
+    "fullUrl": "Practitioner/f8193173-98de-49b3-803e-0fadf15b5f5c",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "f8193173-98de-49b3-803e-0fadf15b5f5c",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " EMP1460"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "EMP1460"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "313"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "     313"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "313"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "OHSU, RN Nurse CMngr, RN",
+        "family": "Ohsu",
+        "given": [ "Rn", "Nurse Care Manager" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "donotreply@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "14",
+            "display": "RN"
+          } ],
+          "text": "RN"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/f8193173-98de-49b3-803e-0fadf15b5f5c"
+    }
+  }, {
+    "fullUrl": "Practitioner/83f095fd-db83-40d5-8f90-de4823c9d598",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "83f095fd-db83-40d5-8f90-de4823c9d598",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407823867"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " BENSCHIN"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "BENSCHIN"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "044849"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "044849"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1407823867"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6658952844001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207R00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "2744"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.124",
+        "value": "6604"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Internal Medicine and Geriatrics"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    2744"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "2744"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Katherine L Bensching, MD",
+        "family": "Bensching",
+        "given": [ "Katherine" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "benschin@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/83f095fd-db83-40d5-8f90-de4823c9d598"
+    }
+  }, {
+    "fullUrl": "Practitioner/f63f7d98-1f3d-4bba-9509-f56c89bbd4f5",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "f63f7d98-1f3d-4bba-9509-f56c89bbd4f5",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " EMP2775"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "EMP2775"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "74718"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   74718"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "74718"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Student Health RN, RN",
+        "family": "Health",
+        "given": [ "Student", "Rn" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "noreply@ohsu.edu"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "14",
+            "display": "RN"
+          } ],
+          "text": "RN"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/f63f7d98-1f3d-4bba-9509-f56c89bbd4f5"
+    }
+  }, {
+    "fullUrl": "Practitioner/cd0c5be1-c423-466d-8ea4-1570f62b2ebb",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "cd0c5be1-c423-466d-8ea4-1570f62b2ebb",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639512981"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "  EMPEY"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "EMPEY"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "853092"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "853092"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1639512981"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6093615832002"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "TEMP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "208000000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "32628"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Pediatrics"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "General Pediatrics"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   32628"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "32628"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Allison Empey, MD",
+        "family": "Empey",
+        "given": [ "Allison" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "empey@ohsu.edu"
+      } ],
+      "gender": "female",
+      "photo": [ {
+        "url": "https://www.ohsu.edu/apps/core/?action=people:pe.cmsProfileLowResolutionImage&sPersonID=42858FE8AFD04286BA4F269C9217956C"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/cd0c5be1-c423-466d-8ea4-1570f62b2ebb"
+    }
+  }, {
+    "fullUrl": "Practitioner/3204826a-23f5-46a2-853b-393776cd9979",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "3204826a-23f5-46a2-853b-393776cd9979",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275910051"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " CHUNGJIN"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "CHUNGJIN"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1275910051"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "4906979470004"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207N00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "48774"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Dermatology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   48774"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "48774"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Jina Chung, MD",
+        "family": "Chung",
+        "given": [ "Jina" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "chungjin@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/3204826a-23f5-46a2-853b-393776cd9979"
+    }
+  }, {
+    "fullUrl": "Practitioner/1f096ccb-675b-4f72-bf96-ef5cb286dbd1",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "1f096ccb-675b-4f72-bf96-ef5cb286dbd1",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083118053"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1083118053"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "68708"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   68708"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "68708"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Shuowen Chen, MD",
+        "family": "Chen",
+        "given": [ "Shuowen" ]
+      } ],
+      "gender": "male",
+      "photo": [ {
+        "url": "https://kyruus-app-static.kyruus.com/providermatch/adventist/photos/200/chen-shuowen-1083118053.jpg?1631222968887"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/1f096ccb-675b-4f72-bf96-ef5cb286dbd1"
+    }
+  }, {
+    "fullUrl": "Practitioner/a3a1548d-7305-49bb-a34f-ef2f6fd25235",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "a3a1548d-7305-49bb-a34f-ef2f6fd25235",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " RESMD1"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "RESMD1"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Doc Resident",
+        "family": "Resident",
+        "given": [ "Doc" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/a3a1548d-7305-49bb-a34f-ef2f6fd25235"
+    }
+  }, {
+    "fullUrl": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "710374dd-2801-4d83-8518-9a3a27173c56",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093723520"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "  DORRD"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "DORRD"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "041700"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "041700"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1093723520"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6041805774001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207R00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "2169"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Internal Medicine and Geriatrics"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    2169"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "2169"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "David Dorr, MD",
+        "family": "Dorr",
+        "given": [ "David" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "dorrd@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/710374dd-2801-4d83-8518-9a3a27173c56"
+    }
+  }, {
+    "fullUrl": "Practitioner/db6d0176-b572-4ff7-a4a0-360c5691caf0",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "db6d0176-b572-4ff7-a4a0-360c5691caf0",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255659801"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " ORWOLLB"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "ORWOLLB"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1255659801"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6350744333006"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "TEMP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "2080P0203X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "13793"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Pediatrics"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Critical Care"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   13793"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "13793"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Benjamin E Orwoll, MD",
+        "family": "Orwoll",
+        "given": [ "Benjamin", "E" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "orwollb@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/db6d0176-b572-4ff7-a4a0-360c5691caf0"
+    }
+  }, {
+    "fullUrl": "Practitioner/7c2d9a5f-8e54-4f86-a67d-642b264ca46f",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "7c2d9a5f-8e54-4f86-a67d-642b264ca46f",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760888739"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " QUACHA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "QUACHA"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1760888739"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "59383"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   59383"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "59383"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Andrew Quach, PharmD",
+        "family": "Quach",
+        "given": [ "Andrew" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "quacha@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "65",
+            "display": "PharmD"
+          } ],
+          "text": "PharmD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/7c2d9a5f-8e54-4f86-a67d-642b264ca46f"
+    }
+  }, {
+    "fullUrl": "Practitioner/f90aa1b7-16d6-4ddc-a979-e7d8b97e0227",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "f90aa1b7-16d6-4ddc-a979-e7d8b97e0227",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639184153"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " DOGANA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "DOGANA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "034126"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "034126"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1639184153"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6339278767001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207T00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "2700"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Neurological Surgery"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    2700"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "2700"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Aclan Dogan, MD",
+        "family": "Dogan",
+        "given": [ "Aclan" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "dogana@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/f90aa1b7-16d6-4ddc-a979-e7d8b97e0227"
+    }
+  }, {
+    "fullUrl": "Practitioner/eca33a59-e7ef-47eb-87cd-8d1ab4c63fdd",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "eca33a59-e7ef-47eb-87cd-8d1ab4c63fdd",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063697159"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " HERRICKT"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "HERRICKT"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "053449"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "053449"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1063697159"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6639353849003"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "4022"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207Q00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "4022"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Family Medicine"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    4022"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "4022"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Timothy L Herrick, MD",
+        "family": "Herrick",
+        "given": [ "Timothy", "L" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "herrickt@ohsu.edu"
+      } ],
+      "gender": "male",
+      "photo": [ {
+        "url": "https://www.ohsu.edu/apps/core/?action=people:pe.cmsProfileLowResolutionImage&sPersonID=5300FE85DEB248C0A1F99976B7F45BF3"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/eca33a59-e7ef-47eb-87cd-8d1ab4c63fdd"
+    }
+  }, {
+    "fullUrl": "Practitioner/28be91ce-c683-462f-877f-6843c5b749a0",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "28be91ce-c683-462f-877f-6843c5b749a0",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295833788"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " LEACHMAS"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "LEACHMAS"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "053508"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "053508"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1295833788"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6873604915010"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "4114"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207N00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "4114"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Dermatology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    4114"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "4114"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "SANCY A LEACHMAN, MD,PhD",
+        "family": "Leachman",
+        "given": [ "Sancy" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "leachmas@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "69",
+            "display": "MD,PhD"
+          } ],
+          "text": "MD,PhD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/28be91ce-c683-462f-877f-6843c5b749a0"
+    }
+  }, {
+    "fullUrl": "Practitioner/ae32372c-e2ad-4fc6-b482-6ae997ce27e4",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "ae32372c-e2ad-4fc6-b482-6ae997ce27e4",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912119603"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " MCMC4CHADCA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "MCMC4CHADCA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "154436"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "154436"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1912119603"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6221608097014"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207RI0011X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "154436"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "  154436"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "154436"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Chad L Carr, MD",
+        "family": "Carr",
+        "given": [ "Chad", "L" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "ChadCa@mcmc.net"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/ae32372c-e2ad-4fc6-b482-6ae997ce27e4"
+    }
+  }, {
+    "fullUrl": "Practitioner/8ffa5c12-d21f-40a4-baa5-8a2363fe389e",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "8ffa5c12-d21f-40a4-baa5-8a2363fe389e",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346506565"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " CHENGAN"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "CHENGAN"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "852786"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "852786"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1346506565"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6719997309001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "TEMP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207Q00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "32333"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.124",
+        "value": "2264"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Family Medicine"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   32333"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "32333"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Anthony M Cheng, MD",
+        "family": "Cheng",
+        "given": [ "Anthony", "M" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "chengan@ohsu.edu"
+      } ],
+      "gender": "male",
+      "photo": [ {
+        "contentType": "image/jpg",
+        "url": "https://www.ohsu.edu/sites/default/files/profile_photos/49B6B2F3CD2B477FB30FCF4F285E6DF7.jpg"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/8ffa5c12-d21f-40a4-baa5-8a2363fe389e"
+    }
+  }, {
+    "fullUrl": "Practitioner/7abcf82c-d74a-4b7d-8913-049b5f0b2cb7",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "7abcf82c-d74a-4b7d-8913-049b5f0b2cb7",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "  IPRN1"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "IPRN1"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Inpatient Nurse",
+        "family": "Nurse",
+        "given": [ "Inpatient" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/7abcf82c-d74a-4b7d-8913-049b5f0b2cb7"
+    }
+  }, {
+    "fullUrl": "Practitioner/b833f360-e764-4238-8c05-0f9edc648e43",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "b833f360-e764-4238-8c05-0f9edc648e43",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " STASHEKC"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "STASHEKC"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "7153"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    7153"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "7153"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "CHAD STASHEK, PharmD",
+        "family": "Stashek",
+        "given": [ "Chad" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "stashekc@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "65",
+            "display": "PharmD"
+          } ],
+          "text": "PharmD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/b833f360-e764-4238-8c05-0f9edc648e43"
+    }
+  }, {
+    "fullUrl": "Practitioner/34496907-b133-4c2e-b892-5a2155ad46bc",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "34496907-b133-4c2e-b892-5a2155ad46bc",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234512345"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " EMP1516"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "EMP1516"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1234512345"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "73477"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   73477"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "73477"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "AHPL, IPOP PROVIDER, MD",
+        "family": "Ahpl",
+        "given": [ "Ipop", "Provider" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "donotreply@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/34496907-b133-4c2e-b892-5a2155ad46bc"
+    }
+  }, {
+    "fullUrl": "Practitioner/5ab17c63-216d-45cc-b75b-99a80a3865fe",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "5ab17c63-216d-45cc-b75b-99a80a3865fe",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " TERNDRUP"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "TERNDRUP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1588907943"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6181507339004"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "TEMP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207R00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "12148"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Internal Medicine and Geriatrics"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   12148"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "12148"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Christopher P Terndrup, MD",
+        "family": "Terndrup",
+        "given": [ "Christopher" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "terndrup@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/5ab17c63-216d-45cc-b75b-99a80a3865fe"
+    }
+  }, {
+    "fullUrl": "Practitioner/17c2c50e-7f18-4bfe-b100-751769b44c0b",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "17c2c50e-7f18-4bfe-b100-751769b44c0b",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " EMP2775"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "EMP2775"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "74718"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   74718"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "74718"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Student Health RN, RN",
+        "family": "Health",
+        "given": [ "Student", "Rn" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "noreply@ohsu.edu"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "14",
+            "display": "RN"
+          } ],
+          "text": "RN"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/17c2c50e-7f18-4bfe-b100-751769b44c0b"
+    }
+  }, {
+    "fullUrl": "Practitioner/61ceba5e-dda1-4988-a24c-7457272e5864",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "61ceba5e-dda1-4988-a24c-7457272e5864",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497786743"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "text": "David Sibell, MD",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "masked"
+          } ]
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/61ceba5e-dda1-4988-a24c-7457272e5864"
+    }
+  }, {
+    "fullUrl": "Practitioner/7b5c6e18-6e31-4a29-ad21-6f7081735da3",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "7b5c6e18-6e31-4a29-ad21-6f7081735da3",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023104726"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " STECKERE"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "STECKERE"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "049042"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "049042"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1023104726"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6284019414001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207RC0001X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "3174"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.151",
+        "value": "STECER"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Cardiology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    3174"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "3174"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Eric C Stecker, MD",
+        "family": "Stecker",
+        "given": [ "Eric" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "steckere@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/7b5c6e18-6e31-4a29-ad21-6f7081735da3"
+    }
+  }, {
+    "fullUrl": "Practitioner/c522af06-d59b-4498-85a2-db0c636ea7eb",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "c522af06-d59b-4498-85a2-db0c636ea7eb",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558810234"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "  LABAR"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "LABAR"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1558810234"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "3496400232007"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "363AM0700X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "68705"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Hematology and Medical Oncology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   68705"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "68705"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Ashley M Labar, PA",
+        "family": "Labar",
+        "given": [ "Ashley", "M" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "labar@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "11",
+            "display": "PA"
+          } ],
+          "text": "PA"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/c522af06-d59b-4498-85a2-db0c636ea7eb"
+    }
+  }, {
+    "fullUrl": "Practitioner/8a0a153e-bc59-482a-bdde-6364cb9d9a1c",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "8a0a153e-bc59-482a-bdde-6364cb9d9a1c",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "510"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "     510"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "510"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "usual",
+        "text": "AHPL,IPOP PROVIDER, MD",
+        "family": "Ahpl",
+        "given": [ "Ipop", "Provider" ]
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/8a0a153e-bc59-482a-bdde-6364cb9d9a1c"
+    }
+  }, {
+    "fullUrl": "Practitioner/7a67a5ae-1531-4987-a8d4-41f8795945b8",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "7a67a5ae-1531-4987-a8d4-41f8795945b8",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851306351"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " HAYESLAT"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "HAYESLAT"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "039926"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "039926"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1851306351"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6469321916001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207RH0000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "1799"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Hematology and Medical Oncology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    1799"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "1799"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Brandon Hayes-Lattin, MD",
+        "family": "Hayes-Lattin",
+        "given": [ "Brandon" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "hayeslat@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/7a67a5ae-1531-4987-a8d4-41f8795945b8"
+    }
+  }, {
+    "fullUrl": "Practitioner/83ca1d82-1aa0-4a19-aa5f-03a4a42cf82f",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "83ca1d82-1aa0-4a19-aa5f-03a4a42cf82f",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.53",
+        "value": "97946"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " CORSOME"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "CORSOME"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Megan Corso",
+        "family": "Corso",
+        "given": [ "Megan" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "corsome@ohsu.edu"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/83ca1d82-1aa0-4a19-aa5f-03a4a42cf82f"
+    }
+  }, {
+    "fullUrl": "Practitioner/e38cdcf1-5e72-4551-9e2d-12b76171e14c",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "e38cdcf1-5e72-4551-9e2d-12b76171e14c",
+      "name": [ {
+        "use": "usual",
+        "text": "No Pcp Per Patient",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "masked"
+          } ]
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/e38cdcf1-5e72-4551-9e2d-12b76171e14c"
+    }
+  }, {
+    "fullUrl": "Practitioner/02405b77-a16c-403a-841a-bf7e06178e5b",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "02405b77-a16c-403a-841a-bf7e06178e5b",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144285511"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " ADMEDG4ANDREU"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "ADMEDG4ANDREU"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "103024"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "103024"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1144285511"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207RP1001X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "103024"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "  103024"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "103024"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Andrew Uri, MD",
+        "family": "Uri",
+        "given": [ "Andrew", "J" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "Andrew.Uri@ah.org"
+      } ],
+      "gender": "male",
+      "birthDate": "1955-11-07",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/02405b77-a16c-403a-841a-bf7e06178e5b"
+    }
+  }, {
+    "fullUrl": "Practitioner/62abb964-a54b-49e4-b02d-c220a0790fab",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "62abb964-a54b-49e4-b02d-c220a0790fab",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588907943"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " TERNDRUP"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "TERNDRUP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1588907943"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6181507339004"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "TEMP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207R00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "12148"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Internal Medicine and Geriatrics"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   12148"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "12148"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Christopher P Terndrup, MD",
+        "family": "Terndrup",
+        "given": [ "Christopher" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "terndrup@ohsu.edu"
+      } ],
+      "gender": "male",
+      "photo": [ {
+        "url": "Binary/ejEaGnOTNUV9Sytv4EFHIFA3"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/62abb964-a54b-49e4-b02d-c220a0790fab"
+    }
+  }, {
+    "fullUrl": "Practitioner/32925590-68f0-4ab5-a1d4-1775f4f482ff",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "32925590-68f0-4ab5-a1d4-1775f4f482ff",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "   9999"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "9999"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "usual",
+        "text": "User Ohsu",
+        "family": "Ohsu",
+        "given": [ "User" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/32925590-68f0-4ab5-a1d4-1775f4f482ff"
+    }
+  }, {
+    "fullUrl": "Practitioner/c1306395-7dc0-425b-80cc-5e67b50f64c4",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "c1306395-7dc0-425b-80cc-5e67b50f64c4",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.53",
+        "value": "90547"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "  LOTTL"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "LOTTL"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Lunette Lott",
+        "family": "Lott",
+        "given": [ "Lunette" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "lottl@ohsu.edu"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/c1306395-7dc0-425b-80cc-5e67b50f64c4"
+    }
+  }, {
+    "fullUrl": "Practitioner/419962d0-9001-487e-b73b-816fcd06132c",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "419962d0-9001-487e-b73b-816fcd06132c",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "    DVA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "DVA"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "60417"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   60417"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "60417"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "VAN DO, PharmD",
+        "family": "Do",
+        "given": [ "Van" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "dva@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "65",
+            "display": "PharmD"
+          } ],
+          "text": "PharmD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/419962d0-9001-487e-b73b-816fcd06132c"
+    }
+  }, {
+    "fullUrl": "Practitioner/61c971fe-d6b8-42fa-859e-ac4755d1c549",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "61c971fe-d6b8-42fa-859e-ac4755d1c549",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033526496"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1033526496"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6388988316002"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "TEMP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "2085R0202X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "6231"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Diagnostic Radiology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    6231"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "6231"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Chelsea J Pyle, MD",
+        "family": "Pyle",
+        "given": [ "Chelsea" ]
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/61c971fe-d6b8-42fa-859e-ac4755d1c549"
+    }
+  }, {
+    "fullUrl": "Practitioner/ac71f558-8863-4caf-80d9-bf1ac12c5389",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "ac71f558-8863-4caf-80d9-bf1ac12c5389",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033127584"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "  RYANC"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "RYANC"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "038504"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "038504"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1033127584"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6735780002001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207RX0202X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "1050"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Hematology and Medical Oncology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    1050"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "1050"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Christopher Ryan, MD",
+        "family": "Ryan",
+        "given": [ "Christopher" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "ryanc@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/ac71f558-8863-4caf-80d9-bf1ac12c5389"
+    }
+  }, {
+    "fullUrl": "Practitioner/161929fb-f5bc-4de0-8344-7afa62222e65",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "161929fb-f5bc-4de0-8344-7afa62222e65",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " RISDXTECH"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "RISDXTECH"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "usual",
+        "text": "Dx Tech Ris Radiology",
+        "family": "Ris Radiology",
+        "given": [ "Dx", "Tech" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/161929fb-f5bc-4de0-8344-7afa62222e65"
+    }
+  }, {
+    "fullUrl": "Practitioner/94ffb3bf-6e2a-424b-90cf-4047760fcb1f",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "94ffb3bf-6e2a-424b-90cf-4047760fcb1f",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821287608"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " KINGAD"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "KINGAD"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "047821"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "047821"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1821287608"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6862973438001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "363A00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "3056"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Student Health and Wellness Center"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    3056"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "3056"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Adam B King, PA-C",
+        "family": "King",
+        "given": [ "Adam", "B" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "kingad@ohsu.edu"
+      } ],
+      "gender": "male",
+      "photo": [ {
+        "url": "https://www.ohsu.edu/apps/core/?action=people:pe.cmsProfileLowResolutionImage&sPersonID=E70642DBB9D1441E9C6819AA49C0DD19"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "60",
+            "display": "PA-C"
+          } ],
+          "text": "PA-C"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/94ffb3bf-6e2a-424b-90cf-4047760fcb1f"
+    }
+  }, {
+    "fullUrl": "Practitioner/e818cf6d-662e-4315-b69a-704d3544f8b8",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "e818cf6d-662e-4315-b69a-704d3544f8b8",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962419895"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " SPENCERD"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "SPENCERD"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "029980"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "029980"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "148387"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1962419895"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6473124801001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "2084N0400X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "1549"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Neurology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    1549"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "1549"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "DAVID SPENCER, MD",
+        "family": "Spencer",
+        "given": [ "David" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "spencerd@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/e818cf6d-662e-4315-b69a-704d3544f8b8"
+    }
+  }, {
+    "fullUrl": "Practitioner/bb8a27b2-229c-4a48-901d-104ceab32f7b",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "bb8a27b2-229c-4a48-901d-104ceab32f7b",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164591079"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " JOSLINT"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "JOSLINT"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "046205"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "046205"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1164591079"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6227679068001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207Q00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "2879"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Family Medicine"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    2879"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "2879"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Timothy A Joslin JR, MD",
+        "family": "Joslin",
+        "given": [ "Timothy" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "joslint@ohsu.edu"
+      } ],
+      "gender": "male",
+      "photo": [ {
+        "url": "Binary/exoVWPh34Y6W0i67pil20iw3"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/bb8a27b2-229c-4a48-901d-104ceab32f7b"
+    }
+  }, {
+    "fullUrl": "Practitioner/40276e4b-c806-4838-9d65-42007accbee4",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "40276e4b-c806-4838-9d65-42007accbee4",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164788808"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " MCMC4ERINBO"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "MCMC4ERINBO"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1164788808"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6670036006002"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "TEMP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207RC0000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "6091"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    6091"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "6091"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Erin Boehm, MD",
+        "family": "Boehm",
+        "given": [ "Erin", "R" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "erinbo@mcmc.net"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/40276e4b-c806-4838-9d65-42007accbee4"
+    }
+  }, {
+    "fullUrl": "Practitioner/b4069307-99fd-4514-aeff-b10b093a75aa",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "b4069307-99fd-4514-aeff-b10b093a75aa",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " EMP1401"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "EMP1401"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "72450"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   72450"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "72450"
+      } ],
+      "active": false,
+      "name": [ {
+        "use": "usual",
+        "text": "AHPL,IPOP NURSE, RN",
+        "family": "Nurse",
+        "given": [ "Ahpl" ]
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "14",
+            "display": "RN"
+          } ],
+          "text": "RN"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/b4069307-99fd-4514-aeff-b10b093a75aa"
+    }
+  }, {
+    "fullUrl": "Practitioner/6ce0dedb-aaf1-4536-b8eb-161be5294715",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "6ce0dedb-aaf1-4536-b8eb-161be5294715",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427145473"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " GOLDJE"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "GOLDJE"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "042811"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "042811"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1427145473"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6756048834001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207RP1001X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "2532"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Pulmonary and Critical Care"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    2532"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "2532"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Jeffrey Gold, MD",
+        "family": "Gold",
+        "given": [ "Jeffrey", "A" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "goldje@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/6ce0dedb-aaf1-4536-b8eb-161be5294715"
+    }
+  }, {
+    "fullUrl": "Practitioner/1190fb59-f197-4559-a329-0070b0a50a78",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "1190fb59-f197-4559-a329-0070b0a50a78",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.53",
+        "value": "52811"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " IADANZA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "IADANZA"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Dena Iadanza",
+        "family": "Iadanza",
+        "given": [ "Dena" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "iadanza@ohsu.edu"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/1190fb59-f197-4559-a329-0070b0a50a78"
+    }
+  }, {
+    "fullUrl": "Practitioner/7d2cc6e5-83dc-40f5-9513-e5d860b3b0e1",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "7d2cc6e5-83dc-40f5-9513-e5d860b3b0e1",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326368184"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "text": "Steven Kassakian, MD",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "masked"
+          } ]
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/7d2cc6e5-83dc-40f5-9513-e5d860b3b0e1"
+    }
+  }, {
+    "fullUrl": "Practitioner/887faa3c-be3c-419a-b0ca-7618689e3f9f",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "887faa3c-be3c-419a-b0ca-7618689e3f9f",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326368184"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "text": "Steven Kassakian, MD",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "masked"
+          } ]
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/887faa3c-be3c-419a-b0ca-7618689e3f9f"
+    }
+  }, {
+    "fullUrl": "Practitioner/13b67dc0-0136-410f-9bda-a550f52efb1e",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "13b67dc0-0136-410f-9bda-a550f52efb1e",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326368184"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "text": "Steven Kassakian, MD",
+        "_family": {
+          "extension": [ {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "masked"
+          } ]
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/13b67dc0-0136-410f-9bda-a550f52efb1e"
+    }
+  }, {
+    "fullUrl": "Practitioner/bc94d034-b5d2-4b1d-bd88-1deba48659f9",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "bc94d034-b5d2-4b1d-bd88-1deba48659f9",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770782047"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " YAMASHID"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "YAMASHID"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "050024"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "050024"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1770782047"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6183381709002"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207Q00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "3315"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Family Medicine"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    3315"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "3315"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Daisuke Yamashita, MD",
+        "family": "Yamashita",
+        "given": [ "Daisuke" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "yamashid@ohsu.edu"
+      } ],
+      "gender": "male",
+      "photo": [ {
+        "contentType": "image/jpg",
+        "url": "https://www.ohsu.edu/sites/default/files/profile_photos/1C19FB5A197744089D1F2B6EDD863E21.jpg"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/bc94d034-b5d2-4b1d-bd88-1deba48659f9"
+    }
+  }, {
+    "fullUrl": "Practitioner/53bc7c25-60a3-4427-bfdd-bd0f589cd224",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "53bc7c25-60a3-4427-bfdd-bd0f589cd224",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588212989"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " WITKOWSA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "WITKOWSA"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1588212989"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "4011554740001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207N00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "44737"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Dermatology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   44737"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "44737"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Alexander Witkowski, MD,PhD",
+        "family": "Witkowski",
+        "given": [ "Alexander", "M" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "witkowsa@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "69",
+            "display": "MD,PhD"
+          } ],
+          "text": "MD,PhD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/53bc7c25-60a3-4427-bfdd-bd0f589cd224"
+    }
+  }, {
+    "fullUrl": "Practitioner/70638751-7196-4432-bd34-2aa140741fc1",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "70638751-7196-4432-bd34-2aa140741fc1",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811154602"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " MULLOWNE"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "MULLOWNE"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "052985"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "052985"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1811154602"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6634562560001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207R00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "3577"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Internal Medicine and Geriatrics"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    3577"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "3577"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Christine E Mullowney, MD",
+        "family": "Mullowney",
+        "given": [ "Christine" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "mullowne@ohsu.edu"
+      } ],
+      "gender": "female",
+      "photo": [ {
+        "contentType": "image/jpeg",
+        "url": "https://www.ohsu.edu/sites/default/files/profile-photos/mullowney_christine.jpeg"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/70638751-7196-4432-bd34-2aa140741fc1"
+    }
+  }, {
+    "fullUrl": "Practitioner/f97834d2-4739-47b7-a4cc-f52921c32762",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "f97834d2-4739-47b7-a4cc-f52921c32762",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295116499"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1295116499"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6478615316002"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "TEMP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207RC0000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "29468"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   29468"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "29468"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Tony Chen, MD",
+        "family": "Chen",
+        "given": [ "Tony" ]
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/f97834d2-4739-47b7-a4cc-f52921c32762"
+    }
+  }, {
+    "fullUrl": "Practitioner/af9ac452-d86b-4df8-8e06-d3cd893c8fdb",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "af9ac452-d86b-4df8-8e06-d3cd893c8fdb",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003109935"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " HASANR"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "HASANR"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1003109935"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6258541088003"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "TEMP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207R00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "7436"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Internal Medicine and Geriatrics"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    7436"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "7436"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Reem Hasan, MD",
+        "family": "Hasan",
+        "given": [ "Reem" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "hasanr@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/af9ac452-d86b-4df8-8e06-d3cd893c8fdb"
+    }
+  }, {
+    "fullUrl": "Practitioner/089152f4-87da-4085-862a-152d7b975e2a",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "089152f4-87da-4085-862a-152d7b975e2a",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326145103"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " SCANLANR"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "SCANLANR"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "033936"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "033936"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1326145103"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6932904082001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207ZP0102X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "1746"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Pathology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    1746"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "1746"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Richard Scanlan, MD",
+        "family": "Scanlan",
+        "given": [ "Richard" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "scanlanr@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/089152f4-87da-4085-862a-152d7b975e2a"
+    }
+  }, {
+    "fullUrl": "Practitioner/ef0b95d0-33cd-40f2-b280-c559dbecaa04",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "ef0b95d0-33cd-40f2-b280-c559dbecaa04",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "  GRAFA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "GRAFA"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "50987"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   50987"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "50987"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Alexis Graf, RN",
+        "family": "Graf",
+        "given": [ "Alexis" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "grafa@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "14",
+            "display": "RN"
+          } ],
+          "text": "RN"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/ef0b95d0-33cd-40f2-b280-c559dbecaa04"
+    }
+  }, {
+    "fullUrl": "Practitioner/549901b5-a3f5-4f99-bd28-ca4d02255e30",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "549901b5-a3f5-4f99-bd28-ca4d02255e30",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "40255"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   40255"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "40255"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "GENERIC EXTERNAL DATA PROVIDER",
+        "family": "Provider",
+        "given": [ "Generic", "External Data" ]
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/549901b5-a3f5-4f99-bd28-ca4d02255e30"
+    }
+  }, {
+    "fullUrl": "Practitioner/941108b7-e099-4d1a-8616-efbc948e668e",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "941108b7-e099-4d1a-8616-efbc948e668e",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952563819"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " GLIDDEN"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "GLIDDEN"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1952563819"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6336717668003"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.56",
+        "value": "TEMP"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "363LA2200X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "10929"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Internal Medicine and Geriatrics"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   10929"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "10929"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Diana G Glidden, ANP",
+        "family": "Glidden",
+        "given": [ "Diana" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "glidden@ohsu.edu"
+      } ],
+      "gender": "female",
+      "photo": [ {
+        "contentType": "image/jpeg",
+        "url": "https://www.ohsu.edu/sites/default/files/profile-photos/glidden_diana.jpeg"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "24",
+            "display": "ANP"
+          } ],
+          "text": "ANP"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/941108b7-e099-4d1a-8616-efbc948e668e"
+    }
+  }, {
+    "fullUrl": "Practitioner/955fa903-fb18-4f8a-a6f8-2837cf90c5a9",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "955fa903-fb18-4f8a-a6f8-2837cf90c5a9",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053304006"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1053304006"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "5100100"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": " 5100100"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "5100100"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "AHPL Physician, MD",
+        "family": "Physician",
+        "given": [ "Ahpl" ]
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/955fa903-fb18-4f8a-a6f8-2837cf90c5a9"
+    }
+  }, {
+    "fullUrl": "Practitioner/e662d1a0-ba74-425e-ad78-24386ee3216c",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "e662d1a0-ba74-425e-ad78-24386ee3216c",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " EMP1290"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "EMP1290"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "297"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "     297"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "297"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "OHSU,IPOP BEACON NP, NP",
+        "family": "Ohsu",
+        "given": [ "Ipop", "Beacon Np" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "donotreply@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "39",
+            "display": "NP"
+          } ],
+          "text": "NP"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/e662d1a0-ba74-425e-ad78-24386ee3216c"
+    }
+  }, {
+    "fullUrl": "Practitioner/6239d638-3226-4c73-82b4-c51eda216d90",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "6239d638-3226-4c73-82b4-c51eda216d90",
+      "identifier": [ {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.53",
+        "value": "31343"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " CHIENGH"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "CHIENGH"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Hangchua Chieng",
+        "family": "Chieng",
+        "given": [ "Hangchua" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "chiengh@ohsu.edu"
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/6239d638-3226-4c73-82b4-c51eda216d90"
+    }
+  }, {
+    "fullUrl": "Practitioner/55db867a-4d62-4317-b96a-f0e19174330a",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "55db867a-4d62-4317-b96a-f0e19174330a",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639144181"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " BIGGSK"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "BIGGSK"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "047678"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "047678"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1639144181"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6022749314001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "363A00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "3044"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Dermatology"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    3044"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "3044"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Kim Biggs Sanders, PA",
+        "family": "Sanders",
+        "given": [ "Kim", "Biggs" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "biggsk@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "11",
+            "display": "PA"
+          } ],
+          "text": "PA"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/55db867a-4d62-4317-b96a-f0e19174330a"
+    }
+  }, {
+    "fullUrl": "Practitioner/9d08aa49-41d4-4fff-bd6d-67780f18f0d7",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "9d08aa49-41d4-4fff-bd6d-67780f18f0d7",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881142388"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "    HJO"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "HJO"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1881142388"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "29797"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   29797"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "29797"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "John Ho, PharmD",
+        "family": "Ho",
+        "given": [ "John" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "hjo@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "65",
+            "display": "PharmD"
+          } ],
+          "text": "PharmD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/9d08aa49-41d4-4fff-bd6d-67780f18f0d7"
+    }
+  }, {
+    "fullUrl": "Practitioner/4518c0af-a2be-4663-90cb-3af99410282b",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "4518c0af-a2be-4663-90cb-3af99410282b",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326368184"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " KASSAKIA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "KASSAKIA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "155207"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "155207"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1326368184"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6340315632011"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207R00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "155207"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Internal Medicine and Geriatrics"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "  155207"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "155207"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Steven Kassakian, MD",
+        "family": "Kassakian",
+        "given": [ "Steven" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "kassakia@ohsu.edu"
+      } ],
+      "gender": "male",
+      "photo": [ {
+        "contentType": "image/jpg",
+        "url": "https://www.ohsu.edu/sites/default/files/profile_photos/24482E80F4C94A6E985D4BBCAF514F4D.jpg"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/4518c0af-a2be-4663-90cb-3af99410282b"
+    }
+  }, {
+    "fullUrl": "Practitioner/3dd6b1e9-dcb3-40a1-ac59-ff62ebbb4f94",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "3dd6b1e9-dcb3-40a1-ac59-ff62ebbb4f94",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033223656"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " CHOWDHUM"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "CHOWDHUM"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "103901"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "103901"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1033223656"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6379554879003"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207R00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "103901"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.124",
+        "value": "834"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "  103901"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "103901"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Mustaquim F Chowdhury, MD",
+        "family": "Chowdhury",
+        "given": [ "Mustaquim", "F" ]
+      } ],
+      "gender": "male",
+      "birthDate": "1963-12-10",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/3dd6b1e9-dcb3-40a1-ac59-ff62ebbb4f94"
+    }
+  }, {
+    "fullUrl": "Practitioner/e40b44a5-c85c-46d0-9fd8-65bb808cb520",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "e40b44a5-c85c-46d0-9fd8-65bb808cb520",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "  DORRD"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "DORRD"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "041700"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "041700"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1093723520"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6041805774001"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "207R00000X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "2169"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.239",
+        "value": "Medicine"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.246",
+        "value": "Internal Medicine and Geriatrics"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "    2169"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "2169"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "David Dorr, MD",
+        "family": "Dorr",
+        "given": [ "David" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "dorrd@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/e40b44a5-c85c-46d0-9fd8-65bb808cb520"
+    }
+  }, {
+    "fullUrl": "Practitioner/1b227356-efaa-43c4-b944-710d648a3bb9",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "1b227356-efaa-43c4-b944-710d648a3bb9",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "   LAUG"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "LAUG"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "61195"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   61195"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "61195"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Gary Lau, PharmD",
+        "family": "Lau",
+        "given": [ "Gary" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "laug@ohsu.edu"
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "65",
+            "display": "PharmD"
+          } ],
+          "text": "PharmD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/1b227356-efaa-43c4-b944-710d648a3bb9"
+    }
+  }, {
+    "fullUrl": "Practitioner/48c4ef36-7361-4858-9194-13b19c9b876f",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "48c4ef36-7361-4858-9194-13b19c9b876f",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " WHITRA"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "WHITRA"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "59631"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   59631"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "59631"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Rachel A White, RN",
+        "family": "White",
+        "given": [ "Rachel", "A" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "whitra@ohsu.edu"
+      } ],
+      "gender": "female",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "14",
+            "display": "RN"
+          } ],
+          "text": "RN"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/48c4ef36-7361-4858-9194-13b19c9b876f"
+    }
+  }, {
+    "fullUrl": "Practitioner/28aa8ed9-8e3c-4e7a-bc8f-9d942df5f314",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "28aa8ed9-8e3c-4e7a-bc8f-9d942df5f314",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831257286"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1831257286"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "29028"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "   29028"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "29028"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Joseph Condon, MD",
+        "family": "Condon",
+        "given": [ "Joseph" ]
+      } ],
+      "gender": "male",
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "5",
+            "display": "MD"
+          } ],
+          "text": "MD"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/28aa8ed9-8e3c-4e7a-bc8f-9d942df5f314"
+    }
+  }, {
+    "fullUrl": "Practitioner/77242316-c938-46ab-b3e3-4e24a193ccb1",
+    "resource": {
+      "resourceType": "Practitioner",
+      "id": "77242316-c938-46ab-b3e3-4e24a193ccb1",
+      "identifier": [ {
+        "use": "usual",
+        "type": {
+          "text": "NPI"
+        },
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497037675"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": " MCMC4BRITTANYF"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.697780",
+        "value": "MCMC4BRITTANYF"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.9",
+        "value": "143473"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "PA0"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.17",
+        "value": "143473"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.22",
+        "value": "1497037675"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EPIC"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.54",
+        "value": "6589830986003"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.66",
+        "value": "363LA2200X"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:2.16.840.1.113883.3.2076.3.100",
+        "value": "143473"
+      }, {
+        "use": "usual",
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.5.737384.151",
+        "value": "FALLBR"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "INTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "  143473"
+      }, {
+        "use": "usual",
+        "type": {
+          "text": "EXTERNAL"
+        },
+        "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.836982",
+        "value": "143473"
+      } ],
+      "active": true,
+      "name": [ {
+        "use": "usual",
+        "text": "Brittany E Fallon, ANP",
+        "family": "Fallon",
+        "given": [ "Brittany", "Ella" ]
+      } ],
+      "telecom": [ {
+        "system": "email",
+        "value": "brittanyf@mcmc.net"
+      } ],
+      "gender": "female",
+      "photo": [ {
+        "contentType": "image/jpg",
+        "url": "https://www.mcmc.net/images/physicians/Brittany_Fallon-web.jpg"
+      } ],
+      "qualification": [ {
+        "code": {
+          "coding": [ {
+            "system": "urn:oid:1.2.840.114350.1.13.135.3.7.4.836982.6000",
+            "code": "24",
+            "display": "ANP"
+          } ],
+          "text": "ANP"
+        }
+      } ]
+    },
+    "request": {
+      "method": "PUT",
+      "url": "Practitioner/77242316-c938-46ab-b3e3-4e24a193ccb1"
+    }
+  } ]
+}
