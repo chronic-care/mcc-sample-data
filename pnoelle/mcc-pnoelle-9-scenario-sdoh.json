@@ -322,7 +322,7 @@
             "reference": "Practitioner/mcc-prac-johnson-sam",
             "display": "Sam Johnson"
           },
-          "recordedDate" : "2022-08-15T17:15:07-08:00",
+          "recordedDate" : "2021-08-15T17:15:07-08:00",
           "evidence": [
             {
               "detail": [
@@ -363,7 +363,7 @@
             ],
             "text": "In Progress"
           },
-          "startDate": "2022-08-22",
+          "startDate": "2021-08-22",
           "description" : {
             "text" : "Home delivery of prepared food 3 times per week."
           },
