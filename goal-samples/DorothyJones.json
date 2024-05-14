@@ -428,10 +428,10 @@
             {
               "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
               "code": "2550740",
-              "display": "Aleve Arthritis Pain 1 % Topical Gel"
+              "display": "Aleve Arthritis Pain Topical Gel"
             }
           ],
-          "text": "Aleve Arthritis Pain 1 % Topical Gel"
+          "text": "Aleve Arthritis Pain Topical Gel"
         },
         "subject": {
           "display" : "Dorothy Jones",
