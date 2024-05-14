@@ -126,7 +126,7 @@
             "code" : {
               "coding" : [
                 {
-                  "code" : "nowRating",
+                  "code" : "now-rating",
                   "display" : "Now Rating",
                   "system" : "http://mtnlotus.com/fhir/CodeSystem/reflection"
                 }
@@ -138,7 +138,7 @@
             "code" : {
               "coding" : [
                 {
-                  "code" : "futureRating",
+                  "code" : "future-rating",
                   "display" : "Future Rating",
                   "system" : "http://mtnlotus.com/fhir/CodeSystem/reflection"
                 }
@@ -224,6 +224,113 @@
         "target" : [
           {
             "dueDate" : "2024-09-30"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://ncqa.org/fhir/StructureDefinition/goal-outcome",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code" : "gas-much-better-than-expected",
+                      "display" : "Much better than expected",
+                      "system" : "http://loinc.org"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "outcome",
+                "valueString": "Walk my dog every day and visit with friends in the park"
+              }
+            ]
+          },
+          {
+            "url": "http://ncqa.org/fhir/StructureDefinition/goal-outcome",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code" : "gas-better-than-expected",
+                      "display" : "Better than expected",
+                      "system" : "http://loinc.org"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "outcome",
+                "valueString": "Walk my dog every day"
+              }
+            ]
+          },
+          {
+            "url": "http://ncqa.org/fhir/StructureDefinition/goal-outcome",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code" : "gas-expected-outcome",
+                      "display" : "Expected outcome",
+                      "system" : "http://loinc.org"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "outcome",
+                "valueString": "Walk my dog 5 times per week in the park"
+              }
+            ]
+          },
+          {
+            "url": "http://ncqa.org/fhir/StructureDefinition/goal-outcome",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code" : "gas-less-than-expected",
+                      "display" : "Less than expected",
+                      "system" : "http://loinc.org"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "outcome",
+                "valueString": "Walk my dog less than 5 times per week or not in the park"
+              }
+            ]
+          },
+          {
+            "url": "http://ncqa.org/fhir/StructureDefinition/goal-outcome",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "code" : "gas-much-less-than-expected",
+                      "display" : "Much less than expected",
+                      "system" : "http://loinc.org"
+                    }
+                  ]
+                }
+              },
+              {
+                "url": "outcome",
+                "valueString": "Cannot walk my dog"
+              }
+            ]
           }
         ]
       }
