@@ -1,0 +1,51 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Patient/sds-djones"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "sds-djones",
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Dorothy Jones",
+                        "family": "Jones",
+                        "given": [
+                            "Dorothy"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1957-11-25"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Linkage/sds-djones-linkage"
+            },
+            "resource": {
+                "resourceType": "Linkage",
+                "item": [
+                    {
+                        "type": "source",
+                        "resource": {
+                            "reference": "Patient/sds-djones"
+                        }
+                    },
+                    {
+                        "type": "alternate",
+                        "resource": {
+                            "reference": "Patient/dorothy-jones"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

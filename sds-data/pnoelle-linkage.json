@@ -1,0 +1,51 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Patient/sds-pnoelle"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "sds-pnoelle",
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Patricia Noelle",
+                        "family": "Noelle",
+                        "given": [
+                            "Patricia"
+                        ]
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1957-11-07"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Linkage/sds-pnoelle-linkage"
+            },
+            "resource": {
+                "resourceType": "Linkage",
+                "item": [
+                    {
+                        "type": "source",
+                        "resource": {
+                            "reference": "Patient/sds-pnoelle"
+                        }
+                    },
+                    {
+                        "type": "alternate",
+                        "resource": {
+                            "reference": "Patient/mcc-pat-pnoelle"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

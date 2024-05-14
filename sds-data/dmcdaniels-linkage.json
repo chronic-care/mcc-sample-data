@@ -1,0 +1,51 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Patient/sds-dmcdaniels"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "sds-dmcdaniels",
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Patricia Noelle",
+                        "family": "Noelle",
+                        "given": [
+                            "Patricia"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1952-10-07"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "url": "Linkage/sds-dmcdaniels-linkage"
+            },
+            "resource": {
+                "resourceType": "Linkage",
+                "item": [
+                    {
+                        "type": "source",
+                        "resource": {
+                            "reference": "Patient/sds-dmcdaniels"
+                        }
+                    },
+                    {
+                        "type": "alternate",
+                        "resource": {
+                            "reference": "Patient/va-pat-dan"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
