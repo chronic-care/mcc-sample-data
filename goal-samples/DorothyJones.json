@@ -117,7 +117,7 @@
             {
               "code" : "physical-function",
               "display" : "Physical Function",
-              "system" : "http://mtnlotus.com/fhir/CodeSystem/NCQAGoalDomain"
+              "system" : "http://ncqa.org/fhir/CodeSystem/goal-domain"
             }
           ]
         },
@@ -188,6 +188,27 @@
           {
             "display" : "Physical Function",
             "reference" : "Observation/djones-obs-physical-function"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://ncqa.org/fhir/CodeSystem/goal-domain",
+                "code": "physical-function",
+                "display" : "Physical Function"
+              },
+              {
+                "system": "http://patientprioritiescare.org/fhir/CodeSystem/patient-value",
+                "code": "functioning",
+                "display" : "Functioning"
+              },
+              {
+                "system": "http://va.gov/fhir/CodeSystem/circle-of-health",
+                "code": "moving-the-body",
+                "display" : "Moving the Body"
+              }
+            ]
           }
         ],
         "description" : {
