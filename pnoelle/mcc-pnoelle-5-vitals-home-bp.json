@@ -1,0 +1,281 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "request" : {
+        "method" : "PUT",
+        "url" : "Provenance/mcc-obs-pnoelle-home-bp-prov"
+      },
+      "resource" : {
+        "agent" : [
+          {
+            "type" : {
+              "coding" : [
+                {
+                  "code" : "author",
+                  "display" : "Author",
+                  "system" : "http://terminology.hl7.org/CodeSystem/provenance-participant-type"
+                }
+              ]
+            },
+            "who" : {
+              "reference": "Patient/mcc-pat-pnoelle",
+              "display": "Patricia Noelle"
+            }
+          },
+          {
+            "type" : {
+              "coding" : [
+                {
+                  "code" : "transmitter",
+                  "display" : "Transmitter",
+                  "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-provenance-participant-type"
+                }
+              ]
+            },
+            "who" : {
+              "display" : "Dallas Medical Center"
+            }
+          }
+        ],
+        "recorded" : "2024-07-18T17:03:13.247933983-06:00",
+        "resourceType" : "Provenance",
+        "target" : [
+          {
+            "reference" : "Observation/mcc-obs-pnoelle-home-sysbp-1"
+          },
+          {
+            "reference" : "Observation/mcc-obs-pnoelle-home-diasbp-1"
+          },
+          {
+            "reference" : "Observation/mcc-obs-pnoelle-home-sysbp-2"
+          },
+          {
+            "reference" : "Observation/mcc-obs-pnoelle-home-diasbp-2"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Observation/mcc-obs-pnoelle-home-sysbp-1"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "id": "mcc-obs-pnoelle-home-sysbp-1",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.707679",
+              "code": "7585",
+              "display": "Blood Pressure - Systolic"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "72076-3"
+            }
+          ],
+          "text": "Blood Pressure - Systolic"
+        },
+        "effectiveDateTime": "2024-04-24T17:43:25Z",
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle"
+        },
+        "performer": [
+          {
+            "reference": "Patient/mcc-pat-pnoelle",
+            "display": "Patricia Noelle"
+          }
+        ],
+        "valueQuantity": {
+          "value": 188
+        },
+        "note": [
+          {
+            "text": "Abnormal, larger than maximum normal value 180"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Observation/mcc-obs-pnoelle-home-diasbp-1"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "id": "mcc-obs-pnoelle-home-diasbp-1",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.707679",
+              "code": "7586",
+              "display": "Blood Pressure - Diastolic"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "72076-3"
+            }
+          ],
+          "text": "Blood Pressure - Diastolic"
+        },
+        "effectiveDateTime": "2024-04-24T17:43:25Z",
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle"
+        },
+        "performer": [
+          {
+            "reference": "Patient/mcc-pat-pnoelle",
+            "display": "Patricia Noelle"
+          }
+        ],
+        "valueQuantity": {
+          "value": 243
+        },
+        "note": [
+          {
+            "text": "Abnormal, larger than maximum normal value 100"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Observation/mcc-obs-pnoelle-home-sysbp-2"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "id": "mcc-obs-pnoelle-home-sysbp-2",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.707679",
+              "code": "7585",
+              "display": "Blood Pressure - Systolic"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "72076-3"
+            }
+          ],
+          "text": "Blood Pressure - Systolic"
+        },
+        "effectiveDateTime": "2024-04-24T17:40:25Z",
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle"
+        },
+        "performer": [
+          {
+            "reference": "Patient/mcc-pat-pnoelle",
+            "display": "Patricia Noelle"
+          }
+        ],
+        "valueQuantity": {
+          "value": 241
+        },
+        "note": [
+          {
+            "text": "Abnormal, larger than maximum normal value 180"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "Observation/mcc-obs-pnoelle-home-diasbp-2"
+      },
+      "resource": {
+        "resourceType": "Observation",
+        "id": "mcc-obs-pnoelle-home-diasbp-2",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:oid:1.2.840.114350.1.13.135.3.7.2.707679",
+              "code": "7586",
+              "display": "Blood Pressure - Diastolic"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "72076-3"
+            }
+          ],
+          "text": "Blood Pressure - Diastolic"
+        },
+        "effectiveDateTime": "2024-04-24T17:40:25Z",
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle"
+        },
+        "performer": [
+          {
+            "reference": "Patient/mcc-pat-pnoelle",
+            "display": "Patricia Noelle"
+          }
+        ],
+        "valueQuantity": {
+          "value": 159
+        },
+        "note": [
+          {
+            "text": "Abnormal, larger than maximum normal value 100"
+          }
+        ]
+      }
+    }
+  ]
+}
