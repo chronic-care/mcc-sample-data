@@ -221,6 +221,15 @@
             "reference": "Condition/mcc-cond-pnoelle-ckd"
           }
         ],
+        "reasonCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "247803002",
+              "display": "SAD - Seasonal affective disorder"
+            }
+          ]
+        },
         "note": [
           {
             "text": "When kidneys fail, their ability to activate vitamin D is lost. Without the activated vitamin D to control calcium and phosphorus levels in the blood, parathyroid hormone (PTH) will try to overcompensate and go out of range."

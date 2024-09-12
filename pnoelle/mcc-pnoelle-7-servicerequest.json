@@ -9,7 +9,7 @@
       },
       "resource":  {
         "resourceType": "ServiceRequest",
-        "id": "di",
+        "id": "mcc-servicerequest-pnoelle-1",
         "text": {
           "status": "generated",
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;di&quot; </p></div><p><b>status</b>: active</p><p><b>intent</b>: original-order</p><p><b>code</b>: Chest CT <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#24627-2)</span></p><p><b>subject</b>: <a href=\"patient-dicom.html\">Patient/dicom</a> &quot; MINT_TEST&quot;</p><p><b>occurrence</b>: 2013-05-08T09:33:27+07:00</p><p><b>requester</b>: <a href=\"practitioner-example.html\">Practitioner/example: Dr. Adam Careful</a> &quot;Adam CAREFUL&quot;</p><p><b>reasonCode</b>: Check for metastatic disease <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></div>"
@@ -28,7 +28,7 @@
         "subject": {
           "reference": "Patient/mcc-pat-pnoelle"
         },
-        "occurrenceDateTime": "2013-05-08T09:33:27+07:00",
+        "authoredOn": "2022-05-08T09:33:27+07:00",
         "requester": {
           "reference": "Practitioner/mcc-prac-jones-vince",
           "display": "Dr. Vince Jones, MD"
@@ -38,6 +38,51 @@
             "text": "Check for metastatic disease"
           }
         ]
+      }
+    },
+    {
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/mcc-servicerequest-pnoelle-toenail"
+      },
+      "resource":  {
+        "resourceType": "ServiceRequest",
+        "id": "mcc-servicerequest-pnoelle-toenail",
+        "status": "active",
+        "intent": "original-order",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "11730",
+              "display": "REMOVAL OF NAIL PLATE"
+            }
+          ],
+          "text": "REMOVAL OF NAIL PLATE"
+        },
+        "subject": {
+          "reference": "Patient/mcc-pat-pnoelle"
+        },
+        "authoredOn": "2024-08-24T09:33:27+07:00",
+        "requester": {
+          "reference": "Practitioner/mcc-prac-carlson-john",
+          "display": "Dr. John Carlson, MD"
+        },
+        "reasonCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "400097005",
+              "display": "Ingrowing nail (disorder)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-9-cm",
+              "code": "703.0",
+              "display": "Ingrowing nail"
+            }
+          ],
+          "text": "Ingrowing nail"
+        }
       }
     }
   ]
